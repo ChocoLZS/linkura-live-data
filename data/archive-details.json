@@ -1,4 +1,75 @@
 {
+  "9a6bdd83-5b31-4532-9043-22e39f0f9269": {
+    "chapters": [
+      {
+        "is_extra": false,
+        "name": "本編開始",
+        "play_time_second": 589
+      },
+      {
+        "is_extra": true,
+        "name": "With×MEETS AFTER 開場",
+        "play_time_second": 2520
+      },
+      {
+        "is_extra": true,
+        "name": "With×MEETS AFTER 開演",
+        "play_time_second": 2569
+      }
+    ],
+    "characters": [
+      {
+        "character_id": 1043,
+        "is_guest": false
+      },
+      {
+        "character_id": 1031,
+        "is_guest": false
+      },
+      {
+        "character_id": 1032,
+        "is_guest": false
+      },
+      {
+        "character_id": 1033,
+        "is_guest": false
+      }
+    ],
+    "content_code": 999,
+    "costume_ids": [
+      1002
+    ],
+    "current_play_time_second": 0,
+    "description": "はろはろ〜姫芽です〜\n今日は、今日は、ななななんとるりちゃんせんぱいの生誕祭配信〜！\n全力でお祝いしたいので、みんなも溢れんばかりのコメントくださ〜いo(｀ω´ )o",
+    "enquetes": [],
+    "gift_pt_rankings": [],
+    "gift_star_reward_segments": [
+      10000,
+      30000,
+      60000,
+      100000
+    ],
+    "gift_stars_threshold_for_extra_admission": 1,
+    "has_extra": true,
+    "has_extra_admission": false,
+    "is_archive_published": true,
+    "is_horizontal": true,
+    "live_location_id": 3,
+    "live_start_time": "2025-09-01T11:30:00Z",
+    "timeline_ids": [],
+    "timelines": [],
+    "title": "大沢瑠璃乃生誕祭 ~18歳編~",
+    "total_gift_pt": "779,414,100",
+    "total_play_time_second_including_extra": 3125,
+    "total_play_time_second_without_extra": 2520,
+    "unixtime_live_rec_started": 1756725600,
+    "user_gift_pt_including_archive": 0,
+    "user_gift_pt_ranking": 0,
+    "user_gift_pt_without_archive": 0,
+    "user_icon_parts_info": "",
+    "video_url": "/archive/hls/9a6bdd83-5b31-4532-9043-22e39f0f9269/2025-09-01T2020/hls/index.m3u8",
+    "viewer_count": 0
+  },
   "2fd5361e-75a5-4442-a006-3cd83f6e20cf": {
     "archive_url": "/archive/alst/20250829195100-80511478-c4e8-4e1f-b2eb-b5e95e85d1e9/811c9dc5c44e9.md",
     "chapters": [
