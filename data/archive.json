@@ -1229,7 +1229,11 @@
     "total_playing_time_second": 1860,
     "trailer_end_time": "2025-05-19T11:20:00.95Z",
     "trailer_start_time": "2025-05-15T11:40:00Z",
-    "video_url": "/archive/hls/20250519-2nd/index.m3u8"
+    "video_url": "/archive/hls/20250519-2nd/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 3.1.0 || >= 3.1.0 && <= 4.0.0",
+      "message": "Client version needs to be between 3.1.0 and 4.0.0"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -2079,7 +2083,7 @@
     "description": "大沢瑠璃乃だよ！\n今日はアンケート機能を使って、めぐちゃんと\n真・剣・勝・負！したいと思いやす！\nたとえめぐちゃん相手でも負けないぞ～！",
     "earned_star_count": 0,
     "end_time": "2999-01-01T00:00:00Z",
-    "external_link": "",
+    "external_link": "/archive/mrs/yyflll/20250303/archive_1448993859_20250303201956-265176.iarc",
     "gift_stars_threshold_for_extra_admission": 1,
     "has_extra": true,
     "has_extra_admission": false,
@@ -2099,7 +2103,11 @@
     "total_playing_time_second": 1800,
     "trailer_end_time": "2025-03-03T11:19:56.108Z",
     "trailer_start_time": "2025-02-24T11:40:00Z",
-    "video_url": "/archive/hls/20250303/index.m3u8"
+    "video_url": "/archive/hls/20250303/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 3.1.0",
+      "message": "Client version needs to be between 3.1.10"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -2109,7 +2117,7 @@
     "description": "村野さやかです\n本日は、小鈴さんのお誕生日です\nこれからも大きく成長していく小鈴さんのお誕生日を、一緒にお祝いしましょう",
     "earned_star_count": 0,
     "end_time": "2999-01-01T00:00:00Z",
-    "external_link": "",
+    "external_link": "/archive/mrs/yyflll/20250228/archive_243281975_20250228202000-900245.iarc",
     "gift_stars_threshold_for_extra_admission": 1,
     "has_extra": true,
     "has_extra_admission": false,
@@ -2129,7 +2137,11 @@
     "total_playing_time_second": 1980,
     "trailer_end_time": "2025-02-28T11:20:00.851Z",
     "trailer_start_time": "2025-02-22T11:40:00Z",
-    "video_url": "/archive/hls/20250228/index.m3u8"
+    "video_url": "/archive/hls/20250228/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 3.1.0",
+      "message": "Client version needs to be between 3.1.10"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -2169,7 +2181,7 @@
     "description": "大沢瑠璃乃だよ☆\nめぐちゃんとは幼馴染だけど、蓮ノ空女学院に入ってからも思い出いっぱい！\nたくさん振り返るぞ〜！",
     "earned_star_count": 0,
     "end_time": "2999-01-01T00:00:00Z",
-    "external_link": "",
+    "external_link": "/archive/mrs/yyflll/20250222/archive_1602958846_20250222202001-080472.iarc",
     "gift_stars_threshold_for_extra_admission": 1,
     "has_extra": true,
     "has_extra_admission": false,
@@ -2189,7 +2201,11 @@
     "total_playing_time_second": 1860,
     "trailer_end_time": "2025-02-22T11:20:00.996Z",
     "trailer_start_time": "2025-02-15T11:40:00Z",
-    "video_url": "/archive/hls/20250222/index.m3u8"
+    "video_url": "/archive/hls/20250222/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 3.1.0",
+      "message": "Client version needs to be between 3.1.10"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -2199,7 +2215,7 @@
     "description": "はろはろ〜姫芽だよ〜\n大三角の大先輩たちが卒業しちゃう・・・前に！\n色々学ばせていただきます＿φ(￣ー￣ )",
     "earned_star_count": 0,
     "end_time": "2999-01-01T00:00:00Z",
-    "external_link": "",
+    "external_link": "/archive/mrs/yyflll/20250220/archive_2088114655_20250220202000-629239.iarc",
     "gift_stars_threshold_for_extra_admission": 1,
     "has_extra": true,
     "has_extra_admission": false,
@@ -2219,7 +2235,11 @@
     "total_playing_time_second": 1620,
     "trailer_end_time": "2025-02-20T11:20:00.583Z",
     "trailer_start_time": "2025-02-13T11:40:00Z",
-    "video_url": "/archive/hls/20250220/index.m3u8"
+    "video_url": "/archive/hls/20250220/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 3.1.0",
+      "message": "Client version needs to be between 3.1.10"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -2229,7 +2249,7 @@
     "description": "花帆だよ！\nいよいよセンパイたちの卒業が近づいてきちゃった・・・！\nさやかちゃんと綴理センパイに続いて、梢センパイの振り返り配信をしちゃいます！",
     "earned_star_count": 0,
     "end_time": "2999-01-01T00:00:00Z",
-    "external_link": "",
+    "external_link": "/archive/mrs/yyflll/20250215/archive_367353972_20250215202001-107625.iarc",
     "gift_stars_threshold_for_extra_admission": 1,
     "has_extra": true,
     "has_extra_admission": false,
@@ -2249,7 +2269,11 @@
     "total_playing_time_second": 1620,
     "trailer_end_time": "2025-02-15T11:20:01.056Z",
     "trailer_start_time": "2025-02-10T11:40:00Z",
-    "video_url": "/archive/hls/20250215/index.m3u8"
+    "video_url": "/archive/hls/20250215/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 3.1.0",
+      "message": "Client version needs to be between 3.1.10"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -2289,7 +2313,7 @@
     "description": "百生吟子です。\n先日のラブライブ！では沢山の応援をありがとうございました。\nおかげで、先輩達と一緒に優勝することができました。\n今日は祝勝会を兼ねまして、以前からやりたいと話にあがっていたカラオケ配信をさせていただきたいと思います。",
     "earned_star_count": 0,
     "end_time": "2999-01-01T00:00:00Z",
-    "external_link": "",
+    "external_link": "/archive/mrs/yyflll/20250210/archive_1943266784_20250210202012-874039.iarc",
     "gift_stars_threshold_for_extra_admission": 1,
     "has_extra": true,
     "has_extra_admission": false,
@@ -2309,7 +2333,11 @@
     "total_playing_time_second": 1680,
     "trailer_end_time": "2025-02-10T11:20:12.823Z",
     "trailer_start_time": "2025-02-06T11:40:00Z",
-    "video_url": "/archive/hls/20250210/index.m3u8"
+    "video_url": "/archive/hls/20250210/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 3.1.0",
+      "message": "Client version needs to be between 3.1.10"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -2319,7 +2347,7 @@
     "description": "村野さやかです\n綴理先輩と出会ってから2年という月日が経とうとしています\n今日は綴理先輩のこれまでを一緒に振り返っていこうと思います",
     "earned_star_count": 0,
     "end_time": "2999-01-01T00:00:00Z",
-    "external_link": "",
+    "external_link": "/archive/mrs/yyflll/20250208/archive_1839675282_20250208202000-780867.iarc",
     "gift_stars_threshold_for_extra_admission": 1,
     "has_extra": true,
     "has_extra_admission": false,
@@ -2339,7 +2367,11 @@
     "total_playing_time_second": 1560,
     "trailer_end_time": "2025-02-08T11:20:00.736Z",
     "trailer_start_time": "2025-01-29T11:40:00Z",
-    "video_url": "/archive/hls/20250208/index.m3u8"
+    "video_url": "/archive/hls/20250208/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 3.1.0",
+      "message": "Client version needs to be between 3.1.10"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -2349,7 +2381,7 @@
     "description": "大沢瑠璃乃だよ☆\n祝！ラブライブ！優勝だ〜〜〜！！\n応援してくれたみんなと一緒にお祝いしたいな！\n※スペシャルなゲストも登場！？",
     "earned_star_count": 0,
     "end_time": "2999-01-01T00:00:00Z",
-    "external_link": "",
+    "external_link": "/archive/mrs/yyflll/20250206/archive_1963100012_20250206202000-932365.iarc",
     "gift_stars_threshold_for_extra_admission": 1,
     "has_extra": true,
     "has_extra_admission": false,
@@ -2369,7 +2401,11 @@
     "total_playing_time_second": 1680,
     "trailer_end_time": "2025-02-06T11:20:00.868Z",
     "trailer_start_time": "2025-01-27T09:00:00Z",
-    "video_url": "/archive/hls/20250206/index.m3u8"
+    "video_url": "/archive/hls/20250206/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 3.1.0",
+      "message": "Client version needs to be between 3.1.10"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -2379,7 +2415,7 @@
     "description": "乙宗 梢です。\n私たち蓮ノ空女学院スクールアイドルクラブは、この度ラブライブ！にて優勝することができました。\nその喜びと感謝を、配信を通じて改めてお伝えさせてください。",
     "earned_star_count": 0,
     "end_time": "2999-01-01T00:00:00Z",
-    "external_link": "",
+    "external_link": "/archive/mrs/yyflll/20250129/archive_1511912342_20250129202001-420660.iarc",
     "gift_stars_threshold_for_extra_admission": 1,
     "has_extra": true,
     "has_extra_admission": false,
@@ -2399,7 +2435,11 @@
     "total_playing_time_second": 1620,
     "trailer_end_time": "2025-01-29T11:20:01.372Z",
     "trailer_start_time": "2025-01-27T09:00:00Z",
-    "video_url": "/archive/hls/20250129/index.m3u8"
+    "video_url": "/archive/hls/20250129/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 2.4.30 || >= 2.3.0 && <= 3.1.10",
+      "message": "Client version needs to be between 2.3.0 and 3.1.10"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -2409,7 +2449,7 @@
     "description": "今回のFes×LIVEは2枠ありますが、どちらに参加いただいても\n1つのFes×LIVEプライズをプレゼントボックスに後日お送りいたします。\n\nラブライブ！決勝大会プレーオフの優勝校、\n蓮ノ空女学院スクールアイドルクラブによる\nエキシビションライブ開催！\n\n出演者：\n蓮ノ空女学院スクールアイドルクラブ\n■スリーズブーケ\n乙宗 梢（蓮ノ空女学院 3年）\n日野下 花帆（蓮ノ空女学院 2年）\n百生 吟子（蓮ノ空女学院 1年）\n\n■DOLLCHESTRA\n夕霧 綴理（蓮ノ空女学院 3年）\n村野 さやか（蓮ノ空女学院 2年）\n徒町 小鈴（蓮ノ空女学院 1年）\n\n■みらくらぱーく！\n藤島 慈（蓮ノ空女学院 3年）\n大沢 瑠璃乃（蓮ノ空女学院 2年）\n安養寺 姫芽（蓮ノ空女学院 1年）",
     "earned_star_count": 0,
     "end_time": "2999-01-01T00:00:00Z",
-    "external_link": "",
+    "external_link": "/archive/mrs/yyflll/20250126204501-698173282a99e322a226c94082687fff/archive_63455343_20250126204501-360196.iarc",
     "gift_stars_threshold_for_extra_admission": 0,
     "has_extra": true,
     "has_extra_admission": false,
@@ -2429,7 +2469,11 @@
     "total_playing_time_second": 2292,
     "trailer_end_time": "2025-01-26T11:45:01.315Z",
     "trailer_start_time": "2025-01-21T06:00:00Z",
-    "video_url": "/archive/hls/20250126-2nd/index.m3u8"
+    "video_url": "/archive/hls/20250126-2nd/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 2.4.30",
+      "message": "Recommend to use client version 2.4.30"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -2439,7 +2483,7 @@
     "description": "今回のFes×LIVEは2枠ありますが、どちらに参加いただいても\n1つのFes×LIVEプライズをプレゼントボックスに後日お送りいたします。\n\n出演者：\n蓮ノ空女学院スクールアイドルクラブ\n■スリーズブーケ\n乙宗 梢（蓮ノ空女学院 3年）\n日野下 花帆（蓮ノ空女学院 2年）\n百生 吟子（蓮ノ空女学院 1年）\n\n■DOLLCHESTRA\n夕霧 綴理（蓮ノ空女学院 3年）\n村野 さやか（蓮ノ空女学院 2年）\n徒町 小鈴（蓮ノ空女学院 1年）\n\n■みらくらぱーく！\n藤島 慈（蓮ノ空女学院 3年）\n大沢 瑠璃乃（蓮ノ空女学院 2年）\n安養寺 姫芽（蓮ノ空女学院 1年）\n\n瑞河女子高等学校スクールアイドル部\n■Edel Note\n桂城 泉（瑞河女子高等学校 1年）\nセラス 柳田 リリエンフェルト（瑞河女子高等学校附属中学校 3年）",
     "earned_star_count": 0,
     "end_time": "2999-01-01T00:00:00Z",
-    "external_link": "",
+    "external_link": "/archive/mrs/yyflll/20250126195000-de8c751a5bf8c6587081d573c745e210/archive_1632942133_20250126195000-671916.iarc",
     "gift_stars_threshold_for_extra_admission": 0,
     "has_extra": false,
     "has_extra_admission": false,
@@ -2459,7 +2503,11 @@
     "total_playing_time_second": 1680,
     "trailer_end_time": "2025-01-26T10:50:00.616Z",
     "trailer_start_time": "2025-01-21T06:00:00Z",
-    "video_url": "/archive/hls/20250126-5th/index.m3u8"
+    "video_url": "/archive/hls/20250126-5th/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 2.4.30",
+      "message": "Recommend to use client version 2.4.30"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -2469,7 +2517,7 @@
     "description": "村野さやかです\nついにプレーオフが目前に迫ってきました\n全力で、最高のパフォーマンスをお届けします\nなにとぞご声援のほどよろしくお願いいたします！",
     "earned_star_count": 0,
     "end_time": "2999-01-01T00:00:00Z",
-    "external_link": "",
+    "external_link": "/archive/mrs/yyflll/20250124/archive_1020256848_20250124205000-375376.iarc",
     "gift_stars_threshold_for_extra_admission": 1,
     "has_extra": true,
     "has_extra_admission": false,
@@ -2489,7 +2537,11 @@
     "total_playing_time_second": 1440,
     "trailer_end_time": "2025-01-24T11:50:00.33Z",
     "trailer_start_time": "2025-01-19T06:00:00Z",
-    "video_url": "/archive/hls/20250124/index.m3u8"
+    "video_url": "/archive/hls/20250124/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 3.1.0",
+      "message": "Client version needs to be between 3.1.10"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -2499,7 +2551,7 @@
     "description": "花帆です！\nタイトルの通りなんだけど・・・今日はみんなにお願いしたいことがあるんだ！\n聞いてくれたら、嬉しいな！",
     "earned_star_count": 0,
     "end_time": "2999-01-01T00:00:00Z",
-    "external_link": "",
+    "external_link": "/archive/mrs/yyflll/20250120/archive_877253344_20250120202001-074862.iarc",
     "gift_stars_threshold_for_extra_admission": 0,
     "has_extra": false,
     "has_extra_admission": true,
@@ -2519,7 +2571,11 @@
     "total_playing_time_second": 780,
     "trailer_end_time": "2025-01-20T11:20:01.019Z",
     "trailer_start_time": "2025-01-16T11:40:00Z",
-    "video_url": "/archive/hls/20250120/index.m3u8"
+    "video_url": "/archive/hls/20250120/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 3.1.0",
+      "message": "Client version needs to be between 3.1.10"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -2529,7 +2585,7 @@
     "description": "おめおめ〜姫芽です〜\n新しい年が始まっちゃいましたね〜\nみらくらぱーく！から新年のご挨拶、しちゃいますよ〜(￣▽￣)",
     "earned_star_count": 0,
     "end_time": "2999-01-01T00:00:00Z",
-    "external_link": "",
+    "external_link": "/archive/mrs/yyflll/20250118/archive_387287976_20250118205000-574275.iarc",
     "gift_stars_threshold_for_extra_admission": 1,
     "has_extra": true,
     "has_extra_admission": false,
@@ -2549,7 +2605,11 @@
     "total_playing_time_second": 1680,
     "trailer_end_time": "2025-01-18T11:50:00.523Z",
     "trailer_start_time": "2025-01-13T11:40:00Z",
-    "video_url": "/archive/hls/20250118/index.m3u8"
+    "video_url": "/archive/hls/20250118/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 3.1.0",
+      "message": "Client version needs to be between 3.1.10"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -2559,7 +2619,7 @@
     "description": "あけましておめでとうございます、百生吟子です。\n今日はスリーズブーケから新年のご挨拶をさせていただきたいと思います。",
     "earned_star_count": 0,
     "end_time": "2999-01-01T00:00:00Z",
-    "external_link": "",
+    "external_link": "/archive/mrs/yyflll/20250116/archive_1892825709_20250116201959-846543.iarc",
     "gift_stars_threshold_for_extra_admission": 1,
     "has_extra": true,
     "has_extra_admission": false,
@@ -2579,7 +2639,11 @@
     "total_playing_time_second": 1800,
     "trailer_end_time": "2025-01-16T11:19:59.809Z",
     "trailer_start_time": "2024-12-30T06:08:00Z",
-    "video_url": "/archive/hls/20250116/index.m3u8"
+    "video_url": "/archive/hls/20250116/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 3.1.0",
+      "message": "Client version needs to be between 3.1.10"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -2589,7 +2653,7 @@
     "description": "綴理だよ。\n今年もさやの誕生日がやってきたね。\nいっぱい準備してきたから、喜んでもらえたらいいな。\nみんなで一緒にさやを祝おうね。",
     "earned_star_count": 0,
     "end_time": "2999-01-01T00:00:00Z",
-    "external_link": "",
+    "external_link": "/archive/mrs/yyflll/20250113/archive_322345697_20250113202001-300575.iarc",
     "gift_stars_threshold_for_extra_admission": 1,
     "has_extra": true,
     "has_extra_admission": false,
@@ -2609,7 +2673,11 @@
     "total_playing_time_second": 1620,
     "trailer_end_time": "2025-01-13T11:20:01.249Z",
     "trailer_start_time": "2024-12-30T06:08:00Z",
-    "video_url": "/archive/hls/20250113/index.m3u8"
+    "video_url": "/archive/hls/20250113/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 3.1.0",
+      "message": "Client version needs to be between 3.1.10"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -2619,7 +2687,7 @@
     "description": "綴理だよ。\n今日はこずとめぐと、振り返ったり、意気込んだりするんだ。\nみんな、良いお年を〜。ぺこり。",
     "earned_star_count": 0,
     "end_time": "2999-01-01T00:00:00Z",
-    "external_link": "",
+    "external_link": "/archive/mrs/yyflll/20241230/archive_1703508640_20241230142034-705144.iarc",
     "gift_stars_threshold_for_extra_admission": 0,
     "has_extra": false,
     "has_extra_admission": true,
@@ -2639,7 +2707,11 @@
     "total_playing_time_second": 1140,
     "trailer_end_time": "2024-12-30T05:20:34.618Z",
     "trailer_start_time": "2024-12-25T11:40:00Z",
-    "video_url": "/archive/hls/20241230/index.m3u8"
+    "video_url": "/archive/hls/20241230/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 3.1.0",
+      "message": "Client version needs to be between 3.1.10"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -2649,7 +2721,7 @@
     "description": "花帆だよ！\n気がつけばもう年末だね・・・！\n今日は2年生ズでいっぱい歌って、今年を締めくくっちゃうよ♪",
     "earned_star_count": 0,
     "end_time": "2999-01-01T00:00:00Z",
-    "external_link": "",
+    "external_link": "/archive/mrs/yyflll/20241228/archive_05711215_20241228202001-209240.iarc",
     "gift_stars_threshold_for_extra_admission": 1,
     "has_extra": true,
     "has_extra_admission": false,
@@ -2669,7 +2741,11 @@
     "total_playing_time_second": 1800,
     "trailer_end_time": "2024-12-28T11:20:01.164Z",
     "trailer_start_time": "2024-12-18T11:40:00Z",
-    "video_url": "/archive/hls/20241228/index.m3u8"
+    "video_url": "/archive/hls/20241228/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 3.1.0",
+      "message": "Client version needs to be between 3.1.10"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -2739,7 +2815,7 @@
     "description": "花帆だよ！\nスリーズブーケも練習配信！やっちゃいます！\nいつもの練習も、配信しながらだとちょっと緊張するから、本番の対策になるかも？\nみんな、見守っててね！",
     "earned_star_count": 0,
     "end_time": "2999-01-01T00:00:00Z",
-    "external_link": "",
+    "external_link": "/archive/mrs/yyflll/20241216/archive_1927275760_20241216202000-182222.iarc",
     "gift_stars_threshold_for_extra_admission": 1,
     "has_extra": true,
     "has_extra_admission": false,
@@ -2759,7 +2835,11 @@
     "total_playing_time_second": 1380,
     "trailer_end_time": "2024-12-16T11:20:00.111Z",
     "trailer_start_time": "2024-12-12T11:40:00Z",
-    "video_url": "/archive/hls/20241216/index.m3u8"
+    "video_url": "/archive/hls/20241216/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 3.1.0",
+      "message": "Client version needs to be between 3.1.10"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -2769,7 +2849,7 @@
     "description": "大沢瑠璃乃だよ☆\nDOLLCHESTRAに続いて、みらくらぱーく！も練習配信しちゃうぞ！\n真剣に練習するから、応援よろしくね！",
     "earned_star_count": 0,
     "end_time": "2999-01-01T00:00:00Z",
-    "external_link": "",
+    "external_link": "/archive/mrs/yyflll/20241214/archive_875513233_20241214202000-600596.iarc",
     "gift_stars_threshold_for_extra_admission": 1,
     "has_extra": true,
     "has_extra_admission": false,
@@ -2789,7 +2869,11 @@
     "total_playing_time_second": 1260,
     "trailer_end_time": "2024-12-14T11:20:00.557Z",
     "trailer_start_time": "2024-12-09T12:10:00Z",
-    "video_url": "/archive/hls/20241214/index.m3u8"
+    "video_url": "/archive/hls/20241214/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 3.1.0",
+      "message": "Client version needs to be between 3.1.10"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -2799,7 +2883,7 @@
     "description": "村野さやかです\n現在、蓮ノ空女学院スクールアイドルクラブは北陸大会へ向けて練習に励んでいます\n本日の配信はその様子をお届けしたいと思います",
     "earned_star_count": 0,
     "end_time": "2999-01-01T00:00:00Z",
-    "external_link": "",
+    "external_link": "/archive/mrs/yyflll/20241212/archive_2099520324_20241212202000-963477.iarc",
     "gift_stars_threshold_for_extra_admission": 1,
     "has_extra": true,
     "has_extra_admission": false,
@@ -2819,7 +2903,11 @@
     "total_playing_time_second": 1260,
     "trailer_end_time": "2024-12-12T11:20:00.913Z",
     "trailer_start_time": "2024-12-07T12:10:00Z",
-    "video_url": "/archive/hls/20241212/index.m3u8"
+    "video_url": "/archive/hls/20241212/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 3.1.0",
+      "message": "Client version needs to be between 3.1.10"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -2829,7 +2917,7 @@
     "description": "はろはろ〜姫芽です〜\n今日はこずえせんぱいとの雑談配信になります〜\nせっかくだから、めぐちゃんせんぱいのこといっぱい聞いちゃおうかなって企んでいるのです\\(¯∀¯)/",
     "earned_star_count": 0,
     "end_time": "2999-01-01T00:00:00Z",
-    "external_link": "",
+    "external_link": "/archive/mrs/yyflll/20241209/archive_1746629305_20241209205000-934365.iarc",
     "gift_stars_threshold_for_extra_admission": 1,
     "has_extra": true,
     "has_extra_admission": false,
@@ -2849,7 +2937,11 @@
     "total_playing_time_second": 1680,
     "trailer_end_time": "2024-12-09T11:50:00.899Z",
     "trailer_start_time": "2024-12-05T11:40:00Z",
-    "video_url": "/archive/hls/20241209/index.m3u8"
+    "video_url": "/archive/hls/20241209/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 3.1.0 || >= 2.3.0 && <= 3.1.10",
+      "message": "Client version needs to be between 2.3.0 and 3.1.10"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -2859,7 +2951,7 @@
     "description": "百生吟子です。\n期末テストも無事に終わり、ようやくスクールアイドルクラブの活動に専念できそうです。\n今日は何やら姫芽から企画の提案があるのだとか。\n協力型のミニゲームらしいので、成功できるように頑張ります。",
     "earned_star_count": 0,
     "end_time": "2999-01-01T00:00:00Z",
-    "external_link": "",
+    "external_link": "/archive/mrs/yyflll/20241207/archive_213579497_20241207205001-152061.iarc",
     "gift_stars_threshold_for_extra_admission": 1,
     "has_extra": true,
     "has_extra_admission": false,
@@ -2879,7 +2971,11 @@
     "total_playing_time_second": 1620,
     "trailer_end_time": "2024-12-07T11:50:01.112Z",
     "trailer_start_time": "2024-12-02T11:40:00Z",
-    "video_url": "/archive/hls/20241207/index.m3u8"
+    "video_url": "/archive/hls/20241207/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 3.1.0 || >= 2.3.0 && <= 3.1.10",
+      "message": "Client version needs to be between 2.3.0 and 3.1.10"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -2949,7 +3045,7 @@
     "description": "みんなは何月生まれかな？ボクは11月生まれだよ。\nひめは9月生まれなんだ。\nお楽しみに。",
     "earned_star_count": 0,
     "end_time": "2999-01-01T00:00:00Z",
-    "external_link": "",
+    "external_link": "/archive/mrs/yyflll/20241130/archive_1765989017_20241130202001-692305.iarc",
     "gift_stars_threshold_for_extra_admission": 1,
     "has_extra": true,
     "has_extra_admission": false,
@@ -2969,7 +3065,11 @@
     "total_playing_time_second": 1980,
     "trailer_end_time": "2024-11-30T11:20:01.618Z",
     "trailer_start_time": "2024-11-25T11:40:00Z",
-    "video_url": "/archive/hls/20241130/index.m3u8"
+    "video_url": "/archive/hls/20241130/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 3.1.0 || >= 2.3.0 && <= 3.1.10",
+      "message": "Client version needs to be between 2.3.0 and 3.1.10"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -2979,7 +3079,7 @@
     "description": "花帆だよ！\nついにやってきました、この企画！\nみんなからもらった「叫びたいこと」を、あたしたちがビッグボイスしちゃいます！\nこの声、みんなのところまで届け〜！",
     "earned_star_count": 0,
     "end_time": "2999-01-01T00:00:00Z",
-    "external_link": "",
+    "external_link": "/archive/mrs/yyflll/20241128/archive_1776377853_20241128201959-795710.iarc",
     "gift_stars_threshold_for_extra_admission": 1,
     "has_extra": true,
     "has_extra_admission": false,
@@ -2999,7 +3099,11 @@
     "total_playing_time_second": 1620,
     "trailer_end_time": "2024-11-28T11:19:59.715Z",
     "trailer_start_time": "2024-11-23T05:10:00Z",
-    "video_url": "/archive/hls/20241128/index.m3u8"
+    "video_url": "/archive/hls/20241128/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 3.1.0 || >= 2.3.0 && <= 3.1.10",
+      "message": "Client version needs to be between 2.3.0 and 3.1.10"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -3009,7 +3113,7 @@
     "description": "百生吟子です。\nスクコネのクイズ機能を使って、金沢にまつわるクイズを出題する企画を考えてきました。\nクイズを通して金沢のことをもっと知ってもらえたら幸いです。",
     "earned_star_count": 0,
     "end_time": "2999-01-01T00:00:00Z",
-    "external_link": "",
+    "external_link": "/archive/mrs/yyflll/20241125/archive_1732122779_20241125202000-749742.iarc",
     "gift_stars_threshold_for_extra_admission": 1,
     "has_extra": true,
     "has_extra_admission": false,
@@ -3029,7 +3133,11 @@
     "total_playing_time_second": 1860,
     "trailer_end_time": "2024-11-25T11:20:00.678Z",
     "trailer_start_time": "2024-11-21T11:40:00Z",
-    "video_url": "/archive/hls/20241125/index.m3u8"
+    "video_url": "/archive/hls/20241125/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 3.1.0 || >= 2.3.0 && <= 3.1.10",
+      "message": "Client version needs to be between 2.3.0 and 3.1.10"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -3039,7 +3147,7 @@
     "description": "百生吟子です。\n今日は瑠璃乃先輩との雑談配信になります。\n珍しい組み合わせかもですが・・・瑠璃乃先輩とは意外と気が合うところが多いんです。\n楽しい時間を過ごせたらなと思います。",
     "earned_star_count": 0,
     "end_time": "2999-01-01T00:00:00Z",
-    "external_link": "",
+    "external_link": "/archive/mrs/yyflll/20241123/archive_1910665315_20241123135000-686990.iarc",
     "gift_stars_threshold_for_extra_admission": 1,
     "has_extra": true,
     "has_extra_admission": false,
@@ -3059,7 +3167,11 @@
     "total_playing_time_second": 1860,
     "trailer_end_time": "2024-11-23T04:50:00.636Z",
     "trailer_start_time": "2024-11-17T11:40:00Z",
-    "video_url": "/archive/hls/20241123/index.m3u8"
+    "video_url": "/archive/hls/20241123/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 3.1.0 || >= 2.3.0 && <= 3.1.10",
+      "message": "Client version needs to be between 2.3.0 and 3.1.10"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -3069,7 +3181,7 @@
     "description": "今回のラジオは姫芽さんをゲストにお迎えしています\nこれでメンバー全員をゲストに呼ぶことができました\n姫芽さんとのラジオも何卒よろしくお願いします",
     "earned_star_count": 0,
     "end_time": "2999-01-01T00:00:00Z",
-    "external_link": "",
+    "external_link": "/archive/mrs/yyflll/20241121/archive_799774601_20241121202000-181409.iarc",
     "gift_stars_threshold_for_extra_admission": 1,
     "has_extra": true,
     "has_extra_admission": false,
@@ -3089,7 +3201,11 @@
     "total_playing_time_second": 1920,
     "trailer_end_time": "2024-11-21T11:20:00.106Z",
     "trailer_start_time": "2024-11-14T11:40:00Z",
-    "video_url": "/archive/hls/20241121/index.m3u8"
+    "video_url": "/archive/hls/20241121/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 3.1.0 || >= 2.3.0 && <= 3.1.10",
+      "message": "Client version needs to be between 2.3.0 and 3.1.10"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -3129,7 +3245,7 @@
     "description": "この度概要文を務めさせていただく徒町です！\n梢先輩のご趣味が心理テストということで・・・なんと今回は徒町に心理テストをしていただけることになりました！\n徒町も知らない徒町が明らかになるのでしょうか・・・！？",
     "earned_star_count": 0,
     "end_time": "2999-01-01T00:00:00Z",
-    "external_link": "",
+    "external_link": "/archive/mrs/yyflll/20241114/archive_589934182_20241114202000-210947.iarc",
     "gift_stars_threshold_for_extra_admission": 1,
     "has_extra": true,
     "has_extra_admission": false,
@@ -3149,7 +3265,11 @@
     "total_playing_time_second": 1800,
     "trailer_end_time": "2024-11-14T11:20:00.151Z",
     "trailer_start_time": "2024-11-09T11:40:00Z",
-    "video_url": "/archive/hls/20241114/index.m3u8"
+    "video_url": "/archive/hls/20241114/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 3.1.0 || >= 2.3.0 && <= 3.1.10",
+      "message": "Client version needs to be between 2.3.0 and 3.1.10"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -3219,7 +3339,7 @@
     "description": "花帆だよ！\n今日は吟子ちゃんとの読書トークを姫芽ちゃんに聞いてもらうんだ！\n姫芽ちゃんに本の良さがいっぱい伝わりますように・・・！",
     "earned_star_count": 0,
     "end_time": "2999-01-01T00:00:00Z",
-    "external_link": "",
+    "external_link": "/archive/mrs/yyflll/20241107/archive_2027456004_20241107202002-063280.iarc",
     "gift_stars_threshold_for_extra_admission": 1,
     "has_extra": true,
     "has_extra_admission": false,
@@ -3239,7 +3359,11 @@
     "total_playing_time_second": 2100,
     "trailer_end_time": "2024-11-07T11:20:02.004Z",
     "trailer_start_time": "2024-11-02T11:40:00Z",
-    "video_url": "/archive/hls/20241107/index.m3u8"
+    "video_url": "/archive/hls/20241107/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 3.1.0 || >= 2.3.0 && <= 3.1.10",
+      "message": "Client version needs to be between 2.3.0 and 3.1.10"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -3249,7 +3373,7 @@
     "description": "ハロめぐ〜！\n前に募集したショートメール、みんな送ってくれたかな？\n限られた文字数の中でめぐ党さんたちは何を伝えてくれるのか・・・！？\n乞うご期待♡",
     "earned_star_count": 0,
     "end_time": "2999-01-01T00:00:00Z",
-    "external_link": "",
+    "external_link": "/archive/mrs/yyflll/20241104/archive_385387448_20241104202000-520645.iarc",
     "gift_stars_threshold_for_extra_admission": 1,
     "has_extra": true,
     "has_extra_admission": false,
@@ -3269,7 +3393,11 @@
     "total_playing_time_second": 1680,
     "trailer_end_time": "2024-11-04T11:20:00.465Z",
     "trailer_start_time": "2024-10-31T11:40:00Z",
-    "video_url": "/archive/hls/20241104/index.m3u8"
+    "video_url": "/archive/hls/20241104/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 3.1.0 || >= 2.3.0 && <= 3.1.10",
+      "message": "Client version needs to be between 2.3.0 and 3.1.10"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -3279,7 +3407,7 @@
     "description": "みなさんこんばんは\n今日は村長ではなく、村野さやかとしての個人配信です\nみなさんとのんびりお話ができればと思います",
     "earned_star_count": 0,
     "end_time": "2999-01-01T00:00:00Z",
-    "external_link": "",
+    "external_link": "/archive/mrs/yyflll/20241102/archive_2083200577_20241102202002-350935.iarc",
     "gift_stars_threshold_for_extra_admission": 1,
     "has_extra": true,
     "has_extra_admission": false,
@@ -3299,7 +3427,11 @@
     "total_playing_time_second": 1500,
     "trailer_end_time": "2024-11-02T11:20:02.291Z",
     "trailer_start_time": "2024-10-31T11:40:00Z",
-    "video_url": "/archive/hls/20241102-2/index.m3u8"
+    "video_url": "/archive/hls/20241102-2/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 3.1.0 || >= 2.3.0 && <= 3.1.10",
+      "message": "Client version needs to be between 2.3.0 and 3.1.10"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -3339,7 +3471,7 @@
     "description": "今回のFes×LIVEは2枠ありますが、どちらに参加いただいても\n1つのFes×LIVEプライズをプレゼントボックスに後日お送りいたします。\n\n出演者：\n■スリーズブーケ\n乙宗 梢（蓮ノ空女学院 3年）\n日野下 花帆（蓮ノ空女学院 2年）\n百生 吟子（蓮ノ空女学院 1年）\n\n■DOLLCHESTRA\n夕霧 綴理（蓮ノ空女学院 3年）\n村野 さやか（蓮ノ空女学院 2年）\n徒町 小鈴（蓮ノ空女学院 1年）\n\n■みらくらぱーく！\n藤島 慈（蓮ノ空女学院 3年）\n大沢 瑠璃乃（蓮ノ空女学院 2年）\n安養寺 姫芽（蓮ノ空女学院 1年）\n\nライブプロデュース：\n蓮ノ空女学院 スクールアイドルクラブ\n\nwith you…",
     "earned_star_count": 0,
     "end_time": "2999-01-01T00:00:00Z",
-    "external_link": "",
+    "external_link": "/archive/mrs/yyflll/20241028204500-330009ec34fd3570a58ecee1b94a4c59/archive_1806429982_20241028204500-795771.iarc",
     "gift_stars_threshold_for_extra_admission": 0,
     "has_extra": true,
     "has_extra_admission": false,
@@ -3359,7 +3491,11 @@
     "total_playing_time_second": 1080,
     "trailer_end_time": "2024-10-28T11:45:00.743Z",
     "trailer_start_time": "2024-10-25T06:00:00Z",
-    "video_url": "/archive/hls/20241028-2nd/index.m3u8"
+    "video_url": "/archive/hls/20241028-2nd/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 2.4.30 || >= 2.3.35 && <= 2.4.30",
+      "message": "Client version needs to be between 2.3.35 and 2.4.30"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -3369,7 +3505,7 @@
     "description": "今回のFes×LIVEは2枠ありますが、どちらに参加いただいても\n1つのFes×LIVEプライズをプレゼントボックスに後日お送りいたします。\n\n出演者：\n■スリーズブーケ\n乙宗 梢（蓮ノ空女学院 3年）\n日野下 花帆（蓮ノ空女学院 2年）\n百生 吟子（蓮ノ空女学院 1年）\n\n■DOLLCHESTRA\n夕霧 綴理（蓮ノ空女学院 3年）\n村野 さやか（蓮ノ空女学院 2年）\n徒町 小鈴（蓮ノ空女学院 1年）\n\n■みらくらぱーく！\n藤島 慈（蓮ノ空女学院 3年）\n大沢 瑠璃乃（蓮ノ空女学院 2年）\n安養寺 姫芽（蓮ノ空女学院 1年）\n\nライブプロデュース：\n蓮ノ空女学院 スクールアイドルクラブ\n\nwith you…",
     "earned_star_count": 0,
     "end_time": "2999-01-01T00:00:00Z",
-    "external_link": "",
+    "external_link": "/archive/mrs/yyflll/20241028195001-74c04eda740505f41fda9dfd08cc634e/archive_327334386_20241028195001-033296.iarc",
     "gift_stars_threshold_for_extra_admission": 0,
     "has_extra": false,
     "has_extra_admission": false,
@@ -3389,7 +3525,11 @@
     "total_playing_time_second": 1860,
     "trailer_end_time": "2024-10-28T10:50:00.964Z",
     "trailer_start_time": "2024-10-25T06:00:00Z",
-    "video_url": "/archive/hls/20241028/index.m3u8"
+    "video_url": "/archive/hls/20241028/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 2.4.30 || >= 2.3.35 && <= 2.4.30",
+      "message": "Client version needs to be between 2.3.35 and 2.4.30"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -4359,7 +4499,7 @@
     "description": "出演者：\n■スリーズブーケ\n乙宗 梢（蓮ノ空女学院 3年）\n日野下 花帆（蓮ノ空女学院 2年）\n百生 吟子（蓮ノ空女学院 1年）\n\n■DOLLCHESTRA\n夕霧 綴理（蓮ノ空女学院 3年）\n村野 さやか（蓮ノ空女学院 2年）\n徒町 小鈴（蓮ノ空女学院 1年）\n\n■みらくらぱーく！\n藤島 慈（蓮ノ空女学院 3年）\n大沢 瑠璃乃（蓮ノ空女学院 2年）\n安養寺 姫芽（蓮ノ空女学院 1年）\n\nライブプロデュース：\n蓮ノ空女学院 スクールアイドルクラブ\n\nwith you…",
     "earned_star_count": 0,
     "end_time": "2999-01-01T00:00:00Z",
-    "external_link": "",
+    "external_link": "/archive/mrs/case/20240731195057-2940812e126b393586a8f71b2f2c9e62/archive_394124401_20240731195057-039371.iarc",
     "gift_stars_threshold_for_extra_admission": 0,
     "has_extra": true,
     "has_extra_admission": false,
@@ -4379,7 +4519,11 @@
     "total_playing_time_second": 3450,
     "trailer_end_time": "2024-07-31T10:50:56.976Z",
     "trailer_start_time": "2024-07-27T11:40:00Z",
-    "video_url": "/archive/hls/20240731/index.m3u8"
+    "video_url": "/archive/hls/20240731/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 2.3.0",
+      "message": "Client version needs to be 2.3.0"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -5409,7 +5553,7 @@
     "description": "この度概要文を務めさせていただく徒町です！\n先日のFes×LIVEを見てくださったみなさん、本当にありがとうございました！\n今日は104期生の3人で振り返りをさせていただきます！\n・・・あと何を書けばいいんでしょうか！とりあえず、ちぇすとー！",
     "earned_star_count": 0,
     "end_time": "2999-01-01T00:00:00Z",
-    "external_link": "",
+    "external_link": "/archive/mrs/case/20240502202003-c04693cd16db9d141d4fe3e8bf91c6e8/archive_688925876_20240502202003-928299.iarc",
     "gift_stars_threshold_for_extra_admission": 1,
     "has_extra": true,
     "has_extra_admission": false,
@@ -5429,7 +5573,11 @@
     "total_playing_time_second": 2100,
     "trailer_end_time": "2024-05-02T11:20:03.809Z",
     "trailer_start_time": "2024-04-27T11:40:00Z",
-    "video_url": "/archive/hls/20240502/index.m3u8"
+    "video_url": "/archive/hls/20240502/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 2.1.10 || > 2.1.10 && < 2.3.0",
+      "message": "Client version needs to be 2.1.0 ≤ v < 2.3.0"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -5439,7 +5587,7 @@
     "description": "出演者：\n■スリーズブーケ\n乙宗 梢（蓮ノ空女学院 3年）\n日野下 花帆（蓮ノ空女学院 2年）\n百生 吟子（蓮ノ空女学院 1年）\n\n■DOLLCHESTRA\n夕霧 綴理（蓮ノ空女学院 3年）\n村野 さやか（蓮ノ空女学院 2年）\n徒町 小鈴（蓮ノ空女学院 1年）\n\n■みらくらぱーく！\n藤島 慈（蓮ノ空女学院 3年）\n大沢 瑠璃乃（蓮ノ空女学院 2年）\n安養寺 姫芽（蓮ノ空女学院 1年）\n\nライブプロデュース：\n蓮ノ空女学院 スクールアイドルクラブ\n\nwith you…",
     "earned_star_count": 0,
     "end_time": "2999-01-01T00:00:00Z",
-    "external_link": "",
+    "external_link": "/archive/mrs/case/20240429200005-38e1af730cf4380608e7d21daf2d6c98/archive_2007818627_20240429200005-433786.iarc",
     "gift_stars_threshold_for_extra_admission": 0,
     "has_extra": true,
     "has_extra_admission": false,
@@ -5459,7 +5607,11 @@
     "total_playing_time_second": 3895,
     "trailer_end_time": "2024-04-29T11:00:05.379Z",
     "trailer_start_time": "2024-04-25T12:10:00Z",
-    "video_url": "/archive/hls/20240429/index.m3u8"
+    "video_url": "/archive/hls/20240429/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 2.1.10 || == 2.3.0 || > 2.1.10 && <= 2.3.0",
+      "message": "Client version needs to be 2.1.0 ≤ v ≤ 2.3.0"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -5469,7 +5621,7 @@
     "description": "花帆だよ！\n今日はアタシが吟子ちゃんをインタビューするんだ♪\nそれと、みんなに報告したいこともあるから、お楽しみに！",
     "earned_star_count": 0,
     "end_time": "2999-01-01T00:00:00Z",
-    "external_link": "",
+    "external_link": "/archive/mrs/case/20240427202000-abc3c95c2a05deb77a01b686329cbb36/archive_434528710_20240427202000-587172.iarc",
     "gift_stars_threshold_for_extra_admission": 1,
     "has_extra": true,
     "has_extra_admission": false,
@@ -5489,7 +5641,11 @@
     "total_playing_time_second": 1680,
     "trailer_end_time": "2024-04-27T11:20:00.546Z",
     "trailer_start_time": "2024-04-24T11:40:00Z",
-    "video_url": "/archive/hls/20240427/index.m3u8"
+    "video_url": "/archive/hls/20240427/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 2.1.10 || >= 2.1.0 && < 2.3.0",
+      "message": "Client version needs to be 2.1.0 ≤ v < 2.3.0"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -5769,7 +5925,7 @@
     "description": "乙宗 梢と申します。3月度Fes×LIVEもご観覧くださり、誠にありがとうございました。\nそして、本日は今年度最後のWith×MEETSとなります。\n配信も、私たち蓮ノ空女学院スクールアイドルクラブの大事な活動の一つ。\n来年度もご視聴の程、何卒よろしくお願いいたします。",
     "earned_star_count": 0,
     "end_time": "2999-01-01T00:00:00Z",
-    "external_link": "",
+    "external_link": "/archive/mrs/case/20240330205001-3dd008a76dab78e675a199c79af8cff9/archive_797527074_20240330205001-738357.iarc",
     "gift_stars_threshold_for_extra_admission": 1,
     "has_extra": true,
     "has_extra_admission": false,
@@ -5789,7 +5945,11 @@
     "total_playing_time_second": 1860,
     "trailer_end_time": "2024-03-30T11:50:01.662Z",
     "trailer_start_time": "2024-03-25T11:40:00Z",
-    "video_url": "/archive/hls/20240330/index.m3u8"
+    "video_url": "/archive/hls/20240330/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 1.11.0",
+      "message": "Client version needs to be 1.11.0"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -5799,7 +5959,7 @@
     "description": "出演者：\n■スリーズブーケ\n乙宗 梢（蓮ノ空女学院 2年）\n日野下 花帆（蓮ノ空女学院 1年）\n\n■DOLLCHESTRA\n夕霧 綴理（蓮ノ空女学院 2年）\n村野 さやか（蓮ノ空女学院 1年）\n\n■みらくらぱーく！\n藤島 慈（蓮ノ空女学院 2年）\n大沢 瑠璃乃（蓮ノ空女学院 1年）\n\nライブプロデュース：\n蓮ノ空女学院 スクールアイドルクラブ\n\nwith you…",
     "earned_star_count": 0,
     "end_time": "2999-01-01T00:00:00Z",
-    "external_link": "",
+    "external_link": "/archive/mrs/case/20240328195024-98e1e70f435c985267da1e23aae04b14/archive_946096826_20240328195024-067892.iarc",
     "gift_stars_threshold_for_extra_admission": 0,
     "has_extra": true,
     "has_extra_admission": false,
@@ -5819,7 +5979,11 @@
     "total_playing_time_second": 2100,
     "trailer_end_time": "2024-03-28T10:50:24.01Z",
     "trailer_start_time": "2024-03-25T11:40:00Z",
-    "video_url": "/archive/hls/20240328/index.m3u8"
+    "video_url": "/archive/hls/20240328/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 2.1.10 || >= 1.11.0 && < 2.1.10",
+      "message": "Client version needs to be 2.1.10 or between 1.11.0 and 2.1.10"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -6069,7 +6233,7 @@
     "description": "乙宗 梢と申します。\n2月度Fes×LIVEもご観覧くださり、誠にありがとうございました。\n初となる試みだった、シャッフルユニットでのFes×LIVE。\nみなさんからの感想も、とても楽しみです。",
     "earned_star_count": 0,
     "end_time": "2999-01-01T00:00:00Z",
-    "external_link": "",
+    "external_link": "/archive/mrs/case/20240302202006-efeee85bf055f99ccc7867b729dd76b5/archive_681564069_20240302202006-749633.iarc",
     "gift_stars_threshold_for_extra_admission": 1,
     "has_extra": true,
     "has_extra_admission": false,
@@ -6089,7 +6253,11 @@
     "total_playing_time_second": 1860,
     "trailer_end_time": "2024-03-02T11:20:06.709Z",
     "trailer_start_time": "2024-02-25T12:10:00Z",
-    "video_url": "/archive/hls/20240302/index.m3u8"
+    "video_url": "/archive/hls/20240302/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 1.10.50",
+      "message": "Client version needs to be 1.10.50"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -6099,7 +6267,7 @@
     "description": "出演者：\n■スリーズブーケ\n乙宗 梢（蓮ノ空女学院 2年）\n日野下 花帆（蓮ノ空女学院 1年）\n\n■DOLLCHESTRA\n夕霧 綴理（蓮ノ空女学院 2年）\n村野 さやか（蓮ノ空女学院 1年）\n\n■みらくらぱーく！\n藤島 慈（蓮ノ空女学院 2年）\n大沢 瑠璃乃（蓮ノ空女学院 1年）\n\nライブプロデュース：\n蓮ノ空女学院 スクールアイドルクラブ\n\nwith you…",
     "earned_star_count": 0,
     "end_time": "2999-01-01T00:00:00Z",
-    "external_link": "",
+    "external_link": "/archive/mrs/case/20240229201005-7fd631235555e0b9bd840635dd052eb9/archive_471087133_20240229201005-221958.iarc",
     "gift_stars_threshold_for_extra_admission": 0,
     "has_extra": true,
     "has_extra_admission": false,
@@ -6119,7 +6287,11 @@
     "total_playing_time_second": 2520,
     "trailer_end_time": "2024-02-29T11:10:05.16Z",
     "trailer_start_time": "2024-02-24T12:10:00Z",
-    "video_url": "/archive/hls/20240229/index.m3u8"
+    "video_url": "/archive/hls/20240229/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 1.10.50",
+      "message": "Client version needs to be 1.10.50"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -6429,7 +6601,7 @@
     "description": "出演者：\n■スリーズブーケ\n乙宗 梢（蓮ノ空女学院 2年）\n日野下 花帆（蓮ノ空女学院 1年）\n\n■DOLLCHESTRA\n夕霧 綴理（蓮ノ空女学院 2年）\n村野 さやか（蓮ノ空女学院 1年）\n\n■みらくらぱーく！\n藤島 慈（蓮ノ空女学院 2年）\n大沢 瑠璃乃（蓮ノ空女学院 1年）\n\nライブプロデュース：\n蓮ノ空女学院 スクールアイドルクラブ\n\nwith you…",
     "earned_star_count": 0,
     "end_time": "2999-01-01T00:00:00Z",
-    "external_link": "",
+    "external_link": "/archive/mrs/case/20240131195002-a62f3795c1a4a1c14573583c32c27b3d/archive_2141747917_20240131195002-154690.iarc",
     "gift_stars_threshold_for_extra_admission": 0,
     "has_extra": true,
     "has_extra_admission": false,
@@ -6449,7 +6621,11 @@
     "total_playing_time_second": 2580,
     "trailer_end_time": "2024-01-31T10:50:02.112Z",
     "trailer_start_time": "2024-01-29T11:40:00Z",
-    "video_url": "/archive/hls/20240131/index.m3u8"
+    "video_url": "/archive/hls/20240131/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 1.10.30",
+      "message": "Client version needs to be 1.10.30"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -6699,7 +6875,7 @@
     "description": "みんな久しぶり、花帆だよ！\n色々気になることもあると思うんだけど、配信で伝えさせてもらうね！",
     "earned_star_count": 0,
     "end_time": "2999-01-01T00:00:00Z",
-    "external_link": "",
+    "external_link": "/archive/mrs/case/20231231135105-ac3b4d9f30f98c57cc4a56bc12ce8b17/archive_1844586835_20231231135105-406709.iarc",
     "gift_stars_threshold_for_extra_admission": 0,
     "has_extra": false,
     "has_extra_admission": true,
@@ -6719,7 +6895,11 @@
     "total_playing_time_second": 1590,
     "trailer_end_time": "2023-12-31T04:51:05.359Z",
     "trailer_start_time": "2023-12-29T09:00:00Z",
-    "video_url": "/archive/hls/20231231/index.m3u8"
+    "video_url": "/archive/hls/20231231/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 1.9.10 || > 1.9.10 && <= 1.10.0",
+      "message": "Client version needs to be between 1.9.10 and 1.10.0"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -6729,7 +6909,7 @@
     "description": "出演者：\n■スリーズブーケ\n乙宗 梢（蓮ノ空女学院 2年）\n日野下 花帆（蓮ノ空女学院 1年）\n\n■DOLLCHESTRA\n夕霧 綴理（蓮ノ空女学院 2年）\n村野 さやか（蓮ノ空女学院 1年）\n\n■みらくらぱーく！\n藤島 慈（蓮ノ空女学院 2年）\n大沢 瑠璃乃（蓮ノ空女学院 1年）\n\nライブプロデュース：\n蓮ノ空女学院 スクールアイドルクラブ\n\nwith you…\n",
     "earned_star_count": 0,
     "end_time": "2999-01-01T00:00:00Z",
-    "external_link": "",
+    "external_link": "/archive/mrs/case/20231228195000-558ce83903fa00c294037fd2c25eb37f/archive_1071901217_20231228195000-337683.iarc",
     "gift_stars_threshold_for_extra_admission": 0,
     "has_extra": true,
     "has_extra_admission": false,
@@ -6749,7 +6929,11 @@
     "total_playing_time_second": 1690,
     "trailer_end_time": "2023-12-28T10:50:00.289Z",
     "trailer_start_time": "2023-12-26T01:59:00Z",
-    "video_url": "/archive/hls/20231228/index.m3u8"
+    "video_url": "/archive/hls/20231228/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 0.0.0",
+      "message": "Can't be played on any client version collected."
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -6969,7 +7153,7 @@
     "description": "乙宗 梢と申します。\n11月度Fes×LIVEもご観覧くださり、誠にありがとうございました。\n前回同様、皆様からのメールをご紹介しつつ、ライブを振り返っていこうかと思います。",
     "earned_star_count": 0,
     "end_time": "2999-01-01T00:00:00Z",
-    "external_link": "",
+    "external_link": "/archive/mrs/case/20231130202007-8f9c37fb07b928d18fe5851631e11e9f/archive_2001328086_20231130202007-116581.iarc",
     "gift_stars_threshold_for_extra_admission": 1,
     "has_extra": true,
     "has_extra_admission": false,
@@ -6989,7 +7173,11 @@
     "total_playing_time_second": 1800,
     "trailer_end_time": "2023-11-30T11:20:07.043Z",
     "trailer_start_time": "2023-11-29T12:05:00Z",
-    "video_url": "/archive/hls/20231130/index.m3u8"
+    "video_url": "/archive/hls/20231130/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 1.9.10 || >= 1.8.10 && <= 1.10.0",
+      "message": "Client version needs to be between 1.8.10 and 1.10.0"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -6999,7 +7187,7 @@
     "description": "出演者：\n■スリーズブーケ\n乙宗 梢（蓮ノ空女学院 2年）\n日野下 花帆（蓮ノ空女学院 1年）\n\n■DOLLCHESTRA\n夕霧 綴理（蓮ノ空女学院 2年）\n村野 さやか（蓮ノ空女学院 1年）\n\n■みらくらぱーく！\n藤島 慈（蓮ノ空女学院 2年）\n大沢 瑠璃乃（蓮ノ空女学院 1年）\n\nライブプロデュース：\n蓮ノ空女学院 スクールアイドルクラブ\n\nwith you…",
     "earned_star_count": 0,
     "end_time": "2999-01-01T00:00:00Z",
-    "external_link": "",
+    "external_link": "/archive/mrs/case/20231129195000-68fa08a506832672f6aebd963df8021f/archive_369019502_20231129195000-240948.iarc",
     "gift_stars_threshold_for_extra_admission": 0,
     "has_extra": true,
     "has_extra_admission": false,
@@ -7019,7 +7207,11 @@
     "total_playing_time_second": 2820,
     "trailer_end_time": "2023-11-29T10:50:00.198Z",
     "trailer_start_time": "2023-11-23T11:40:00Z",
-    "video_url": "/archive/hls/20231129/index.m3u8"
+    "video_url": "/archive/hls/20231129/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 1.9.10 || > 1.9.10 && <= 1.10.0",
+      "message": "Client version needs to be between 1.9.10 and 1.10.0"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -7089,7 +7281,7 @@
     "description": "村野さやかです\n綴理先輩のお誕生日は明日なのですが、東京でのライブの都合で、本日お祝い配信をしたいと思います\nみなさんもたくさん綴理先輩をお祝いしていただけたら嬉しいです",
     "earned_star_count": 0,
     "end_time": "2999-01-01T00:00:00Z",
-    "external_link": "",
+    "external_link": "/archive/mrs/case/20231116202007-08931e14097d0c6390b6dbcab4a68afc/archive_390571023_20231116202007-917933.iarc",
     "gift_stars_threshold_for_extra_admission": 1,
     "has_extra": true,
     "has_extra_admission": false,
@@ -7109,7 +7301,11 @@
     "total_playing_time_second": 1920,
     "trailer_end_time": "2023-11-16T11:20:07.868Z",
     "trailer_start_time": "2023-11-11T11:40:00Z",
-    "video_url": "/archive/hls/20231116/index.m3u8"
+    "video_url": "/archive/hls/20231116/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 1.9.10 || == 1.8.10",
+      "message": "Client version needs to be 1.8.10 or 1.9.10"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -7269,7 +7465,7 @@
     "description": "みんな、竜胆祭のステージを見てくれて本当にありがとう！ラブライブ！地区予選の結果についてご報告するね...！",
     "earned_star_count": 0,
     "end_time": "2999-01-01T00:00:00Z",
-    "external_link": "",
+    "external_link": "/archive/mrs/case/20231102205004-db99b719ac8aed2286a740152edd264c/archive_891435460_20231102205004-048392.iarc",
     "gift_stars_threshold_for_extra_admission": 1,
     "has_extra": true,
     "has_extra_admission": false,
@@ -7289,7 +7485,11 @@
     "total_playing_time_second": 2100,
     "trailer_end_time": "2023-11-02T11:50:04.001Z",
     "trailer_start_time": "2023-10-30T11:50:00Z",
-    "video_url": "/archive/hls/20231102/index.m3u8"
+    "video_url": "/archive/hls/20231102/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 1.9.10 || == 1.8.10",
+      "message": "Client version needs to be 1.8.10 or 1.9.10"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -7299,7 +7499,7 @@
     "description": "出演者：\n■スリーズブーケ\n乙宗 梢（蓮ノ空女学院 2年）\n日野下 花帆（蓮ノ空女学院 1年）\n\n■DOLLCHESTRA\n夕霧 綴理（蓮ノ空女学院 2年）\n村野 さやか（蓮ノ空女学院 1年）\n\n■みらくらぱーく！\n藤島 慈（蓮ノ空女学院 2年）\n大沢 瑠璃乃（蓮ノ空女学院 1年）\n\nライブプロデュース：\n蓮ノ空女学院 スクールアイドルクラブ\n\nwith you…",
     "earned_star_count": 0,
     "end_time": "2999-01-01T00:00:00Z",
-    "external_link": "",
+    "external_link": "/archive/mrs/case/20231030202002-7cd7e886aae154056a1bcd5d91356edc/archive_1194174351_20231030202002-162100.iarc",
     "gift_stars_threshold_for_extra_admission": 0,
     "has_extra": false,
     "has_extra_admission": false,
@@ -7319,7 +7519,11 @@
     "total_playing_time_second": 990,
     "trailer_end_time": "2023-10-30T11:20:02.115Z",
     "trailer_start_time": "2023-10-26T11:40:00Z",
-    "video_url": "/archive/hls/20231030-2nd/index.m3u8"
+    "video_url": "/archive/hls/20231030-2nd/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 1.9.10 || == 1.8.10",
+      "message": "Client version needs to be 1.8.10 or 1.9.10"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -7329,7 +7533,7 @@
     "description": "出演者：\n■スリーズブーケ\n乙宗 梢（蓮ノ空女学院 2年）\n日野下 花帆（蓮ノ空女学院 1年）\n\n■DOLLCHESTRA\n夕霧 綴理（蓮ノ空女学院 2年）\n村野 さやか（蓮ノ空女学院 1年）\n\n■みらくらぱーく！\n藤島 慈（蓮ノ空女学院 2年）\n大沢 瑠璃乃（蓮ノ空女学院 1年）\n\nライブプロデュース：\n蓮ノ空女学院 スクールアイドルクラブ\n\nwith you…",
     "earned_star_count": 0,
     "end_time": "2999-01-01T00:00:00Z",
-    "external_link": "",
+    "external_link": "/archive/mrs/case/20231030185004-0c8d06ed4d5a18cb6d88ff93f7821efd/archive_1170966227_20231030185004-824879.iarc",
     "gift_stars_threshold_for_extra_admission": 0,
     "has_extra": true,
     "has_extra_admission": false,
@@ -7349,7 +7553,11 @@
     "total_playing_time_second": 3480,
     "trailer_end_time": "2023-10-30T09:50:04.753Z",
     "trailer_start_time": "2023-10-26T11:40:00Z",
-    "video_url": "/archive/hls/20231030-1st/index.m3u8"
+    "video_url": "/archive/hls/20231030-1st/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 1.9.10 || == 1.8.10",
+      "message": "Client version needs to be 1.8.10 or 1.9.10"
+    }
   },
   {
     "archive_video_size_in_byte": 1,

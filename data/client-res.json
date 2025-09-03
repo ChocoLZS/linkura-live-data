@@ -183,12 +183,13 @@
     "R2404040@iDg1ALpOGomrYtDtoOOB8MDGKw=="
   ],
   "2.1.0": [
-    "R2404000@6aNd5H4TVuDfnEQmEv52TtDXJg==",
-    "R2404010@N9hKcuYDzZDF29RN0dCvG/CXKg==",
     "R2404015@eEjcH43fmKbRHM6MluIxVpCYKg==",
     "R2404020@jz/xPIutBbAwokoGcuxGhJC9Kg=="
   ],
-  "2.0.0": [],
+  "2.0.0": [
+    "R2404000@6aNd5H4TVuDfnEQmEv52TtDXJg==",
+    "R2404010@N9hKcuYDzZDF29RN0dCvG/CXKg=="
+  ],
   "1.11.0": [
     "R2403021@AR6kdyG0n0f0kCY8b3DKxIC0Ig==",
     "R2403040@C8B3mT7Er6t6BOg7fPu69LDkIg=="
