@@ -1263,7 +1263,11 @@
     "total_playing_time_second": 1860,
     "trailer_end_time": "2025-05-17T11:50:01.637Z",
     "trailer_start_time": "2025-05-12T11:40:00Z",
-    "video_url": "/archive/hls/20250517/index.m3u8"
+    "video_url": "/archive/hls/20250517/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 3.1.0 || >= 3.1.0 && <= 4.0.0",
+      "message": "Client version needs to be between 3.1.0 and 4.0.0"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -1293,7 +1297,11 @@
     "total_playing_time_second": 2100,
     "trailer_end_time": "2025-05-15T11:20:00.748Z",
     "trailer_start_time": "2025-05-10T05:10:00Z",
-    "video_url": "/archive/hls/20250515/index.m3u8"
+    "video_url": "/archive/hls/20250515/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 3.1.0 || >= 3.1.0 && <= 4.0.0",
+      "message": "Client version needs to be between 3.1.0 and 4.0.0"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -1323,7 +1331,11 @@
     "total_playing_time_second": 2040,
     "trailer_end_time": "2025-05-12T11:20:00.638Z",
     "trailer_start_time": "2025-05-08T11:40:00Z",
-    "video_url": "/archive/hls/20250512/index.m3u8"
+    "video_url": "/archive/hls/20250512/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 3.1.0 || >= 3.1.0 && <= 4.0.0",
+      "message": "Client version needs to be between 3.1.0 and 4.0.0"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -1353,7 +1365,11 @@
     "total_playing_time_second": 2100,
     "trailer_end_time": "2025-05-10T04:50:00.947Z",
     "trailer_start_time": "2025-05-05T11:40:00Z",
-    "video_url": "/archive/hls/20250510/index.m3u8"
+    "video_url": "/archive/hls/20250510/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 3.1.0 || >= 3.1.0 && <= 4.0.0",
+      "message": "Client version needs to be between 3.1.0 and 4.0.0"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -1413,7 +1429,11 @@
     "total_playing_time_second": 1800,
     "trailer_end_time": "2025-05-05T11:20:00.024Z",
     "trailer_start_time": "2025-05-01T11:40:00Z",
-    "video_url": "/archive/hls/20250505/index.m3u8"
+    "video_url": "/archive/hls/20250505/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 3.1.0 || >= 3.1.0 && <= 4.0.0",
+      "message": "Client version needs to be between 3.1.0 and 4.0.0"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -1443,7 +1463,11 @@
     "total_playing_time_second": 1800,
     "trailer_end_time": "2025-05-03T04:50:00.568Z",
     "trailer_start_time": "2025-05-01T09:00:00Z",
-    "video_url": "/archive/hls/20250503/index.m3u8"
+    "video_url": "/archive/hls/20250503/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 3.1.0 || >= 3.1.0 && <= 4.0.0",
+      "message": "Client version needs to be between 3.1.0 and 4.0.0"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -1473,7 +1497,11 @@
     "total_playing_time_second": 1920,
     "trailer_end_time": "2025-05-01T11:20:00.879Z",
     "trailer_start_time": "2025-04-30T11:20:00Z",
-    "video_url": "/archive/hls/20250501/index.m3u8"
+    "video_url": "/archive/hls/20250501/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 3.1.0 || >= 3.1.0 && <= 4.0.0",
+      "message": "Client version needs to be between 3.1.0 and 4.0.0"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -1503,7 +1531,11 @@
     "total_playing_time_second": 4380,
     "trailer_end_time": "2025-04-30T10:50:00.838Z",
     "trailer_start_time": "2025-04-23T11:40:00Z",
-    "video_url": "/archive/hls/20250430/index.m3u8"
+    "video_url": "/archive/hls/20250430/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 3.1.0 || >= 3.1.0 && <= 4.0.0",
+      "message": "Client version needs to be between 3.1.0 and 4.0.0"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -1533,7 +1565,11 @@
     "total_playing_time_second": 1920,
     "trailer_end_time": "2025-04-23T11:20:00.364Z",
     "trailer_start_time": "2025-04-19T05:10:00Z",
-    "video_url": "/archive/hls/20250423/index.m3u8"
+    "video_url": "/archive/hls/20250423/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 3.1.0 || >= 3.1.0 && <= 4.0.0",
+      "message": "Client version needs to be between 3.1.0 and 4.0.0"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -1563,7 +1599,11 @@
     "total_playing_time_second": 1800,
     "trailer_end_time": "2025-04-21T11:20:03.95Z",
     "trailer_start_time": "2025-04-17T11:40:00Z",
-    "video_url": "/archive/hls/20250421/index.m3u8"
+    "video_url": "/archive/hls/20250421/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 3.1.0 || >= 3.1.0 && <= 4.0.0",
+      "message": "Client version needs to be between 3.1.0 and 4.0.0"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -1593,7 +1633,11 @@
     "total_playing_time_second": 1620,
     "trailer_end_time": "2025-04-19T04:50:01.618Z",
     "trailer_start_time": "2025-04-17T03:10:00Z",
-    "video_url": "/archive/hls/20250419/index.m3u8"
+    "video_url": "/archive/hls/20250419/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 3.1.0 || >= 3.1.0 && <= 4.0.0",
+      "message": "Client version needs to be between 3.1.0 and 4.0.0"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -1623,7 +1667,11 @@
     "total_playing_time_second": 1740,
     "trailer_end_time": "2025-04-17T11:20:00.4Z",
     "trailer_start_time": "2025-04-10T12:10:00Z",
-    "video_url": "/archive/hls/20250417/index.m3u8"
+    "video_url": "/archive/hls/20250417/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 3.1.0 || >= 3.1.0 && <= 4.0.0",
+      "message": "Client version needs to be between 3.1.0 and 4.0.0"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -1653,7 +1701,11 @@
     "total_playing_time_second": 1620,
     "trailer_end_time": "2025-04-12T11:50:00.598Z",
     "trailer_start_time": "2025-04-10T12:10:00Z",
-    "video_url": "/archive/hls/20250412/index.m3u8"
+    "video_url": "/archive/hls/20250412/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 3.1.0 || >= 3.1.0 && <= 4.0.0",
+      "message": "Client version needs to be between 3.1.0 and 4.0.0"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -1713,7 +1765,11 @@
     "total_playing_time_second": 1560,
     "trailer_end_time": "2025-04-07T11:20:00.606Z",
     "trailer_start_time": "2025-04-03T11:40:00Z",
-    "video_url": "/archive/hls/20250407/index.m3u8"
+    "video_url": "/archive/hls/20250407/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 3.1.0 || >= 3.1.0 && <= 4.0.0",
+      "message": "Client version needs to be between 3.1.0 and 4.0.0"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -1743,7 +1799,11 @@
     "total_playing_time_second": 1800,
     "trailer_end_time": "2025-04-05T11:50:00.232Z",
     "trailer_start_time": "2025-04-01T09:00:00Z",
-    "video_url": "/archive/hls/20250405/index.m3u8"
+    "video_url": "/archive/hls/20250405/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 3.1.0 || >= 3.1.0 && <= 4.0.0",
+      "message": "Client version needs to be between 3.1.0 and 4.0.0"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -1773,7 +1833,11 @@
     "total_playing_time_second": 1560,
     "trailer_end_time": "2025-04-03T11:20:00.411Z",
     "trailer_start_time": "2025-04-01T09:00:00Z",
-    "video_url": "/archive/hls/20250403/index.m3u8"
+    "video_url": "/archive/hls/20250403/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 3.1.0 || >= 3.1.0 && <= 4.0.0",
+      "message": "Client version needs to be between 3.1.0 and 4.0.0"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -1803,7 +1867,11 @@
     "total_playing_time_second": 3960,
     "trailer_end_time": "2025-03-30T10:50:00.733Z",
     "trailer_start_time": "2025-03-24T11:40:00Z",
-    "video_url": "/archive/hls/20250330/index.m3u8"
+    "video_url": "/archive/hls/20250330/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 3.1.0 || >= 3.1.0 && <= 4.0.0",
+      "message": "Client version needs to be between 3.1.0 and 4.0.0"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -1863,7 +1931,11 @@
     "total_playing_time_second": 1920,
     "trailer_end_time": "2025-03-24T11:20:00.938Z",
     "trailer_start_time": "2025-03-20T11:40:00Z",
-    "video_url": "/archive/hls/20250324/index.m3u8"
+    "video_url": "/archive/hls/20250324/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 3.1.0 || >= 3.1.0 && <= 4.0.0",
+      "message": "Client version needs to be between 3.1.0 and 4.0.0"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -1893,7 +1965,11 @@
     "total_playing_time_second": 2040,
     "trailer_end_time": "2025-03-22T11:50:00.637Z",
     "trailer_start_time": "2025-03-17T11:40:00Z",
-    "video_url": "/archive/hls/20250322/index.m3u8"
+    "video_url": "/archive/hls/20250322/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 3.1.0 || >= 3.1.0 && <= 4.0.0",
+      "message": "Client version needs to be between 3.1.0 and 4.0.0"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -1923,7 +1999,11 @@
     "total_playing_time_second": 1860,
     "trailer_end_time": "2025-03-20T11:20:00.2Z",
     "trailer_start_time": "2025-03-13T11:40:00Z",
-    "video_url": "/archive/hls/20250320/index.m3u8"
+    "video_url": "/archive/hls/20250320/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 3.1.0 || >= 3.1.0 && <= 4.0.0",
+      "message": "Client version needs to be between 3.1.0 and 4.0.0"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -1953,7 +2033,11 @@
     "total_playing_time_second": 2340,
     "trailer_end_time": "2025-03-17T11:19:59.981Z",
     "trailer_start_time": "2025-03-10T11:40:00Z",
-    "video_url": "/archive/hls/20250317/index.m3u8"
+    "video_url": "/archive/hls/20250317/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 3.1.0 || >= 3.1.0 && <= 4.0.0",
+      "message": "Client version needs to be between 3.1.0 and 4.0.0"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -1983,7 +2067,11 @@
     "total_playing_time_second": 2280,
     "trailer_end_time": "2025-03-13T11:20:00.606Z",
     "trailer_start_time": "2025-03-08T12:10:00Z",
-    "video_url": "/archive/hls/20250313/index.m3u8"
+    "video_url": "/archive/hls/20250313/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 3.1.0 || >= 3.1.0 && <= 4.0.0",
+      "message": "Client version needs to be between 3.1.0 and 4.0.0"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -2013,7 +2101,11 @@
     "total_playing_time_second": 1800,
     "trailer_end_time": "2025-03-10T11:20:00.702Z",
     "trailer_start_time": "2025-03-06T11:40:00Z",
-    "video_url": "/archive/hls/20250310/index.m3u8"
+    "video_url": "/archive/hls/20250310/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 3.1.0 || >= 3.1.0 && <= 4.0.0",
+      "message": "Client version needs to be between 3.1.0 and 4.0.0"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -2043,7 +2135,11 @@
     "total_playing_time_second": 1860,
     "trailer_end_time": "2025-03-08T11:50:00.643Z",
     "trailer_start_time": "2025-03-03T11:40:00Z",
-    "video_url": "/archive/hls/20250308/index.m3u8"
+    "video_url": "/archive/hls/20250308/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 3.1.0 || >= 3.1.0 && <= 4.0.0",
+      "message": "Client version needs to be between 3.1.0 and 4.0.0"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
