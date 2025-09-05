@@ -87,7 +87,11 @@
     "total_playing_time_second": 3300,
     "trailer_end_time": "2025-08-29T10:51:00.726Z",
     "trailer_start_time": "2025-08-25T11:40:00Z",
-    "video_url": "/archive/hls/20250829/index.m3u8"
+    "video_url": "/archive/hls/20250829/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 4.6.0 || >= 4.6.0",
+      "message": "Client version needs to be 4.6.0 or higher"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
@@ -839,7 +843,11 @@
     "total_playing_time_second": 3959,
     "trailer_end_time": "2025-06-29T10:50:01.111Z",
     "trailer_start_time": "2025-06-26T11:40:00Z",
-    "video_url": "/archive/hls/20250629/index.m3u8"
+    "video_url": "/archive/hls/20250629/index.m3u8",
+    "version_compatibility": {
+      "rule": "== 4.5.0 || >= 4.2.0 && <= 4.5.0",
+      "message": "Client version needs to be between 4.2.0 and 4.5.0"
+    }
   },
   {
     "archive_video_size_in_byte": 1,
