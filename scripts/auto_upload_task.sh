@@ -11,7 +11,7 @@ DATA_DIR="$PROJECT_ROOT/data"
 ARCHIVE_JSON="$DATA_DIR/archive.json"
 
 # Tool configuration
-TOOL_URL="https://github.com/ChocoLZS/linkura-cli/releases/download/linkura-downloader-cli-v0.0.3/linkura-downloader-cli-x86_64-unknown-linux-musl.tar.gz"
+TOOL_URL="https://github.com/ChocoLZS/linkura-cli/releases/download/linkura-motion-cli-v1.1.0/linkura-motion-cli-x86_64-unknown-linux-musl.tar.gz"
 TOOL_NAME="linkura-downloader-cli"
 
 echo "Starting auto upload task..."
