@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Auto upload task script for linkura-downloader-cli
-# This script downloads linkura-downloader-cli and syncs/uploads external_link changes
+# Auto upload task script for linkura-motion-cli
+# This script downloads linkura-motion-cli and syncs/uploads external_link changes
 
 set -e  # Exit on any error
 
@@ -12,7 +12,7 @@ ARCHIVE_JSON="$DATA_DIR/archive.json"
 
 # Tool configuration
 TOOL_URL="https://github.com/ChocoLZS/linkura-cli/releases/download/linkura-motion-cli-v1.1.0/linkura-motion-cli-x86_64-unknown-linux-musl.tar.gz"
-TOOL_NAME="linkura-downloader-cli"
+TOOL_NAME="linkura-motion-cli"
 
 echo "Starting auto upload task..."
 
@@ -26,11 +26,11 @@ fi
 # Create temporary directory for tool
 TEMP_DIR=$(mktemp -d)
 
-echo "Downloading linkura-downloader-cli..."
-curl -L "$TOOL_URL" -o "$TEMP_DIR/linkura-downloader-cli.tar.gz"
+echo "Downloading linkura-motion-cli..."
+curl -L "$TOOL_URL" -o "$TEMP_DIR/linkura-motion-cli.tar.gz"
 
-echo "Extracting linkura-downloader-cli..."
-tar -xzf "$TEMP_DIR/linkura-downloader-cli.tar.gz" -C "$TEMP_DIR"
+echo "Extracting linkura-motion-cli..."
+tar -xzf "$TEMP_DIR/linkura-motion-cli.tar.gz" -C "$TEMP_DIR"
 
 # Make the tool executable
 chmod +x "$TEMP_DIR/$TOOL_NAME"
