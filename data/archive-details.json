@@ -1,4 +1,67 @@
 {
+  "d9acb1de-e800-4360-93b4-8e951d1e239d": {
+    "archive_url": "/archive/alst/20250908202000-0f8f524b-17ab-434b-ba25-813c2ca73a77/811c9dc573143.md",
+    "chapters": [
+      {
+        "is_extra": false,
+        "name": "本編開始",
+        "play_time_second": 591
+      },
+      {
+        "is_extra": true,
+        "name": "With×MEETS AFTER 開場",
+        "play_time_second": 1620
+      },
+      {
+        "is_extra": true,
+        "name": "With×MEETS AFTER 開演",
+        "play_time_second": 1671
+      }
+    ],
+    "characters": [
+      {
+        "character_id": 1042,
+        "is_guest": false
+      },
+      {
+        "character_id": 1031,
+        "is_guest": false
+      }
+    ],
+    "content_code": 999,
+    "costume_ids": [
+      1002
+    ],
+    "current_play_time_second": 0,
+    "description": "※日野下 花帆は出演しませんが、獲得したWith Starは割り振ることができます。\n\n徒町です！\n魔法の布があれば、どんな場所にだっていけるらしいです・・・！\nみなさん、スクリーンショットのほどよろしくお願いします！",
+    "enquetes": [],
+    "gift_pt_rankings": [],
+    "gift_star_reward_segments": [
+      10000,
+      30000,
+      60000,
+      100000
+    ],
+    "gift_stars_threshold_for_extra_admission": 1,
+    "has_extra": true,
+    "has_extra_admission": false,
+    "is_archive_published": true,
+    "is_horizontal": true,
+    "live_location_id": 3,
+    "live_start_time": "2025-09-08T11:30:00Z",
+    "timeline_ids": [],
+    "timelines": [],
+    "title": "魔法の布が存在するらしいです・・・！",
+    "total_gift_pt": "416,497,270",
+    "total_play_time_second_including_extra": 2100,
+    "total_play_time_second_without_extra": 1620,
+    "unixtime_live_rec_started": 1757330400,
+    "user_gift_pt_including_archive": 0,
+    "user_gift_pt_ranking": 0,
+    "user_gift_pt_without_archive": 0,
+    "user_icon_parts_info": "",
+    "viewer_count": 0
+  },
   "5e5bacb7-69f2-4c6c-a1af-8b1fe8cd38a3": {
     "archive_url": "/archive/alst/20250906135000-a2b861d6-3dd4-4baf-b5fe-0d8a6420c9c0/811c9dc5b633f.md",
     "chapters": [
