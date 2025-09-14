@@ -142,8 +142,8 @@ fi
 web_client_version=$(echo "$apple_html" | grep -o '\\"versionDisplay\\":\\"[0-9]\+\.[0-9]\+\.[0-9]\+\\"' | sed 's/.*\\"versionDisplay\\":\\"\([^\\]*\)\\".*/\1/' | head -1)
 
 if [ -z "$web_client_version" ]; then
-    echo "警告: 无法从Apple网页提取客户端版本，使用默认版本"
-    web_client_version="4.5.0"
+    echo "错误: 无法从Apple网页提取客户端版本"
+    exit 1
 else
     echo "从Apple网页获取到客户端版本: $web_client_version"
 fi
