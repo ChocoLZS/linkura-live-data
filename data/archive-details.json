@@ -1,4 +1,67 @@
 {
+  "a1a28d06-846f-4b05-82d5-3f317d9a057a": {
+    "archive_url": "/archive/alst/20250920135001-f341e4a7-63d4-468c-b105-e6c05126f850/811c9dc571cb2.md",
+    "chapters": [
+      {
+        "is_extra": false,
+        "name": "本編開始",
+        "play_time_second": 590
+      },
+      {
+        "is_extra": true,
+        "name": "With×MEETS AFTER 開場",
+        "play_time_second": 1860
+      },
+      {
+        "is_extra": true,
+        "name": "With×MEETS AFTER 開演",
+        "play_time_second": 1970
+      },
+      {
+        "is_extra": true,
+        "name": "With×MEETS AFTER 再開",
+        "play_time_second": 2278
+      }
+    ],
+    "characters": [
+      {
+        "character_id": 1041,
+        "is_guest": false
+      }
+    ],
+    "content_code": 999,
+    "costume_ids": [
+      1001
+    ],
+    "current_play_time_second": 0,
+    "description": "百生吟子です。\nこれまでの配信でもたまに言っていたのですが...私、コーヒーが好きなんです。\nみなさんはどんな時にコーヒーを飲みますか？",
+    "enquetes": [],
+    "gift_pt_rankings": [],
+    "gift_star_reward_segments": [
+      10000,
+      30000,
+      60000,
+      100000
+    ],
+    "gift_stars_threshold_for_extra_admission": 1,
+    "has_extra": true,
+    "has_extra_admission": false,
+    "is_archive_published": true,
+    "live_location_id": 27,
+    "live_start_time": "2025-09-20T05:00:00Z",
+    "timeline_ids": [],
+    "timelines": [],
+    "title": "コーヒーについて。",
+    "total_gift_pt": "307,366,680",
+    "total_play_time_second_including_extra": 2639,
+    "total_play_time_second_without_extra": 1860,
+    "unixtime_live_rec_started": 1758343801,
+    "user_gift_pt_including_archive": 0,
+    "user_gift_pt_ranking": 0,
+    "user_gift_pt_without_archive": 0,
+    "user_icon_parts_info": "",
+    "viewer_count": 0
+  },
   "6b1a615b-15e1-4f8c-981f-eb2f8afd55f3": {
     "archive_url": "/archive/alst/20250918202001-135dc84f-c133-4e00-8d28-e748bc81582a/811c9dc539505.md",
     "chapters": [
