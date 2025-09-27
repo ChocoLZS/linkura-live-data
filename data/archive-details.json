@@ -1,4 +1,75 @@
 {
+  "52f69040-d53e-472e-8c1a-cfe4975a9034": {
+    "archive_url": "/archive/alst/20250927135001-b5b9d99c-9ef6-4974-8330-2f63907853f3/811c9dc5e6154.md",
+    "chapters": [
+      {
+        "is_extra": false,
+        "name": "本編開始",
+        "play_time_second": 589
+      },
+      {
+        "is_extra": true,
+        "name": "With×MEETS AFTER 開場",
+        "play_time_second": 1800
+      },
+      {
+        "is_extra": true,
+        "name": "With×MEETS AFTER 開演",
+        "play_time_second": 1849
+      }
+    ],
+    "characters": [
+      {
+        "character_id": 1052,
+        "is_guest": false
+      },
+      {
+        "character_id": 1042,
+        "is_guest": false
+      },
+      {
+        "character_id": 1032,
+        "is_guest": false
+      },
+      {
+        "character_id": 1033,
+        "is_guest": false
+      }
+    ],
+    "content_code": 999,
+    "costume_ids": [
+      1001
+    ],
+    "current_play_time_second": 0,
+    "description": "瑠璃乃だよ☆\nカラオケ蓮ノ空特別編ということで、Ruri&To(りとるりと)でカラオケやっちゃうよー！\nシャッフルユニットの時と同じノリで楽しめたらなーって、ルリ思う！ゆえにルリあり！\n\n...ルリって何回言った？",
+    "enquetes": [],
+    "gift_pt_rankings": [],
+    "gift_star_reward_segments": [
+      10000,
+      30000,
+      60000,
+      100000
+    ],
+    "gift_stars_threshold_for_extra_admission": 1,
+    "has_extra": true,
+    "has_extra_admission": false,
+    "is_archive_published": true,
+    "is_horizontal": true,
+    "live_location_id": 7,
+    "live_start_time": "2025-09-27T05:00:00Z",
+    "timeline_ids": [],
+    "timelines": [],
+    "title": "Ruri&Toでカラオケ蓮ノ空！",
+    "total_gift_pt": "404,284,310",
+    "total_play_time_second_including_extra": 2399,
+    "total_play_time_second_without_extra": 1800,
+    "unixtime_live_rec_started": 1758948601,
+    "user_gift_pt_including_archive": 0,
+    "user_gift_pt_ranking": 0,
+    "user_gift_pt_without_archive": 0,
+    "user_icon_parts_info": "",
+    "viewer_count": 0
+  },
   "fc5e44f5-93d8-447d-8d96-d411f38fedf0": {
     "chapters": [
       {
