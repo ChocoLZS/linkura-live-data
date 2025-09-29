@@ -1,4 +1,80 @@
 {
+  "ae632b37-2dc9-4ad7-80f1-ac6a01f0aaf9": {
+    "archive_url": "/archive/alst/20250929202000-73dc787b-5438-4ff6-bf04-6eefddddead4/811c9dc5baa2f.md",
+    "chapters": [
+      {
+        "is_extra": false,
+        "name": "本編開始",
+        "play_time_second": 590
+      },
+      {
+        "is_extra": false,
+        "name": "本編再開",
+        "play_time_second": 1159
+      },
+      {
+        "is_extra": true,
+        "name": "With×MEETS AFTER 開場",
+        "play_time_second": 1740
+      },
+      {
+        "is_extra": true,
+        "name": "With×MEETS AFTER 開演",
+        "play_time_second": 1791
+      }
+    ],
+    "characters": [
+      {
+        "character_id": 1051,
+        "is_guest": false
+      },
+      {
+        "character_id": 1041,
+        "is_guest": false
+      },
+      {
+        "character_id": 1043,
+        "is_guest": false
+      },
+      {
+        "character_id": 1031,
+        "is_guest": false
+      }
+    ],
+    "content_code": 999,
+    "costume_ids": [
+      1001
+    ],
+    "current_play_time_second": 0,
+    "description": "はろはろ〜姫芽だよ〜\nRuri&Toの次に登場するのは...我々、PRINCEε>ε>(プリンセス)！\nカラオケ蓮ノ空特別編の後半...精一杯務めさせていただくよ〜♪( ´▽｀)",
+    "enquetes": [],
+    "gift_pt_rankings": [],
+    "gift_star_reward_segments": [
+      10000,
+      30000,
+      60000,
+      100000
+    ],
+    "gift_stars_threshold_for_extra_admission": 1,
+    "has_extra": true,
+    "has_extra_admission": false,
+    "is_archive_published": true,
+    "is_horizontal": true,
+    "live_location_id": 7,
+    "live_start_time": "2025-09-29T11:30:00Z",
+    "timeline_ids": [],
+    "timelines": [],
+    "title": "PRINCEε>ε>でカラオケ蓮ノ空！",
+    "total_gift_pt": "460,055,830",
+    "total_play_time_second_including_extra": 2401,
+    "total_play_time_second_without_extra": 1740,
+    "unixtime_live_rec_started": 1759144800,
+    "user_gift_pt_including_archive": 0,
+    "user_gift_pt_ranking": 0,
+    "user_gift_pt_without_archive": 0,
+    "user_icon_parts_info": "",
+    "viewer_count": 0
+  },
   "52f69040-d53e-472e-8c1a-cfe4975a9034": {
     "archive_url": "/archive/alst/20250927135001-b5b9d99c-9ef6-4974-8330-2f63907853f3/811c9dc5e6154.md",
     "chapters": [
