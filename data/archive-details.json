@@ -1,4 +1,224 @@
 {
+  "f75e3f6a-950f-46b5-ac62-d246d3263406": {
+    "chapters": [
+      {
+        "is_available": true,
+        "is_extra": false,
+        "name": "本編開始",
+        "play_time_second": 763
+      },
+      {
+        "is_available": true,
+        "is_extra": false,
+        "name": "MC1",
+        "play_time_second": 885
+      },
+      {
+        "is_available": true,
+        "is_extra": false,
+        "name": "フルーツパンチ",
+        "play_time_second": 1215
+      },
+      {
+        "is_available": true,
+        "is_extra": false,
+        "name": "太陽であれ！",
+        "play_time_second": 1454
+      },
+      {
+        "is_available": true,
+        "is_extra": false,
+        "name": "ニャオシグニャル",
+        "play_time_second": 1659
+      },
+      {
+        "is_available": true,
+        "is_extra": false,
+        "name": "片翼のトリバガ",
+        "play_time_second": 1846
+      },
+      {
+        "is_available": true,
+        "is_extra": false,
+        "name": "MC2",
+        "play_time_second": 2118
+      },
+      {
+        "is_available": true,
+        "is_extra": false,
+        "name": "一生に夢が咲くように",
+        "play_time_second": 2710
+      }
+    ],
+    "characters": [
+      {
+        "character_id": 1052,
+        "is_guest": false
+      },
+      {
+        "character_id": 1051,
+        "is_guest": false
+      },
+      {
+        "character_id": 1041,
+        "is_guest": false
+      },
+      {
+        "character_id": 1042,
+        "is_guest": false
+      },
+      {
+        "character_id": 1043,
+        "is_guest": false
+      },
+      {
+        "character_id": 1031,
+        "is_guest": false
+      },
+      {
+        "character_id": 1032,
+        "is_guest": false
+      },
+      {
+        "character_id": 1033,
+        "is_guest": false
+      }
+    ],
+    "content_code": 999,
+    "costume_ids": [],
+    "current_camera_type": 1,
+    "current_play_time_second": 0,
+    "description": "本配信のFes×LIVE プライズではFan Lv. 経験値は獲得できません。\n出演者：\n■スリーズブーケ\n日野下 花帆（蓮ノ空女学院 3年）\n百生 吟子（蓮ノ空女学院 2年）\n\n■DOLLCHESTRA\n村野 さやか（蓮ノ空女学院 3年）\n徒町 小鈴（蓮ノ空女学院 2年）\n\n■みらくらぱーく！\n大沢 瑠璃乃（蓮ノ空女学院 3年）\n安養寺 姫芽（蓮ノ空女学院 2年）\n\n■Edel Note\n桂城 泉（蓮ノ空女学院 2年）\nセラス 柳田 リリエンフェルト（蓮ノ空女学院 1年）\n\nライブプロデュース：\n蓮ノ空女学院 スクールアイドルクラブ\n\nwith you…",
+    "gift_pt_rankings": [],
+    "has_extra_admission": false,
+    "live_location_id": 0,
+    "live_start_time": "2025-10-05T06:30:00Z",
+    "selectable_camera_types": [
+      1
+    ],
+    "ticket_rank": 1,
+    "timeline_ids": [],
+    "timelines": [],
+    "title": "Fes×ReC：LIVE Bloom Days Extra Day.2",
+    "total_gift_pt": "87,153,220",
+    "total_play_time_second": 3117,
+    "unixtime_live_rec_started": 1759645047,
+    "user_gift_pt": 0,
+    "user_gift_pt_ranking": 0,
+    "user_icon_parts_info": "",
+    "video_url": "/archive/hls/20251005-2nd/index.m3u8",
+    "viewer_count": 0
+  },
+  "18e74ccd-df14-4e60-b962-4f4f992ed348": {
+    "chapters": [
+      {
+        "is_available": true,
+        "is_extra": false,
+        "name": "本編開始\t",
+        "play_time_second": 763
+      },
+      {
+        "is_available": true,
+        "is_extra": false,
+        "name": "MC1\t",
+        "play_time_second": 885
+      },
+      {
+        "is_available": true,
+        "is_extra": false,
+        "name": "フルーツパンチ\t",
+        "play_time_second": 1212
+      },
+      {
+        "is_available": true,
+        "is_extra": false,
+        "name": "太陽であれ！\t",
+        "play_time_second": 1453
+      },
+      {
+        "is_available": true,
+        "is_extra": false,
+        "name": "ニャオシグニャル\t",
+        "play_time_second": 1659
+      },
+      {
+        "is_available": true,
+        "is_extra": false,
+        "name": "片翼のトリバガ",
+        "play_time_second": 1846
+      },
+      {
+        "is_available": true,
+        "is_extra": false,
+        "name": "MC2",
+        "play_time_second": 2118
+      },
+      {
+        "is_available": true,
+        "is_extra": false,
+        "name": "一生に夢が咲くように\t",
+        "play_time_second": 2710
+      }
+    ],
+    "characters": [
+      {
+        "character_id": 1052,
+        "is_guest": false
+      },
+      {
+        "character_id": 1051,
+        "is_guest": false
+      },
+      {
+        "character_id": 1041,
+        "is_guest": false
+      },
+      {
+        "character_id": 1042,
+        "is_guest": false
+      },
+      {
+        "character_id": 1043,
+        "is_guest": false
+      },
+      {
+        "character_id": 1031,
+        "is_guest": false
+      },
+      {
+        "character_id": 1032,
+        "is_guest": false
+      },
+      {
+        "character_id": 1033,
+        "is_guest": false
+      }
+    ],
+    "content_code": 999,
+    "costume_ids": [],
+    "current_camera_type": 1,
+    "current_play_time_second": 0,
+    "description": "本配信のFes×LIVE プライズではFan Lv. 経験値は獲得できません。\n出演者：\n■スリーズブーケ\n日野下 花帆（蓮ノ空女学院 3年）\n百生 吟子（蓮ノ空女学院 2年）\n\n■DOLLCHESTRA\n村野 さやか（蓮ノ空女学院 3年）\n徒町 小鈴（蓮ノ空女学院 2年）\n\n■みらくらぱーく！\n大沢 瑠璃乃（蓮ノ空女学院 3年）\n安養寺 姫芽（蓮ノ空女学院 2年）\n\n■Edel Note\n桂城 泉（蓮ノ空女学院 2年）\nセラス 柳田 リリエンフェルト（蓮ノ空女学院 1年）\n\nライブプロデュース：\n蓮ノ空女学院 スクールアイドルクラブ\n\nwith you…",
+    "gift_pt_rankings": [],
+    "has_extra_admission": false,
+    "live_location_id": 0,
+    "live_start_time": "2025-10-04T08:00:00Z",
+    "selectable_camera_types": [
+      1
+    ],
+    "ticket_rank": 1,
+    "timeline_ids": [],
+    "timelines": [],
+    "title": "Fes×ReC：LIVE Bloom Days Extra Day.1",
+    "total_gift_pt": "135,430,240",
+    "total_play_time_second": 3240,
+    "unixtime_live_rec_started": 1759564047,
+    "user_gift_pt": 0,
+    "user_gift_pt_ranking": 0,
+    "user_icon_parts_info": "",
+    "video_url": "/archive/hls/20251004/index.m3u8",
+    "viewer_count": 0
+  },
   "1785f09e-6884-4969-8c65-ff3821a1ed76": {
     "archive_url": "/archive/alst/20251001202001-838f99b2-7bf3-42cf-9337-9e91fff26356/811c9dc5332e0.md",
     "chapters": [
