@@ -1388,7 +1388,8 @@
     "total_playing_time_second": 2707,
     "trailer_end_time": "2025-06-21T04:50:01.205Z",
     "trailer_start_time": "2025-06-16T12:10:00Z",
-    "video_url": "/archive/hls/05c97aa3-5dc3-4ea0-a291-d6d9f0be75e5/2025-06-21T1348/hls/index.m3u8"
+    "video_url": "/archive/hls/05c97aa3-5dc3-4ea0-a291-d6d9f0be75e5/2025-06-21T1348/hls/index.m3u8",
+    "external_fix_link": "/archive/alst/20250621-fix/index.md"
   },
   {
     "archive_video_size_in_byte": 1,
@@ -1508,7 +1509,8 @@
     "total_playing_time_second": 2577,
     "trailer_end_time": "2025-06-12T11:20:00.683Z",
     "trailer_start_time": "2025-06-04T11:40:00Z",
-    "video_url": "/archive/hls/7bee4cd9-64e5-4f3a-a1f9-3cae5bd82820/2025-06-12T2018/hls/index.m3u8"
+    "video_url": "/archive/hls/7bee4cd9-64e5-4f3a-a1f9-3cae5bd82820/2025-06-12T2018/hls/index.m3u8",
+    "external_fix_link": "/archive/alst/20250612-fix/index.md"
   },
   {
     "archive_video_size_in_byte": 1,
