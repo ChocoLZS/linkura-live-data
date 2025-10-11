@@ -1,4 +1,62 @@
 {
+  "eebbcbb9-bd8b-4c5d-8892-d6e3ad8c5576": {
+    "archive_url": "/archive/alst/20251011135000-716e7ec1-c52c-4209-aa68-e95cdda0f9db/811c9dc5c234d.md",
+    "chapters": [
+      {
+        "is_extra": false,
+        "name": "本編開始",
+        "play_time_second": 590
+      },
+      {
+        "is_extra": true,
+        "name": "With×MEETS AFTER 開場",
+        "play_time_second": 1800
+      },
+      {
+        "is_extra": true,
+        "name": "With×MEETS AFTER 開演",
+        "play_time_second": 1850
+      }
+    ],
+    "characters": [
+      {
+        "character_id": 1042,
+        "is_guest": false
+      }
+    ],
+    "content_code": 999,
+    "costume_ids": [
+      1001
+    ],
+    "current_play_time_second": 0,
+    "description": "徒町です！\n突然ですがみなさんはこれまでどんなチャレンジをしてきましたか？\n\n本日は徒町のこれまでのチャレンジを紹介させていただきまして、\n是非皆さんのこれからのチャレンジの参考にしていただきたい、\nというチャレンジです！\n\n・・・なんだかややこしい文章になってしまいました！",
+    "enquetes": [],
+    "gift_pt_rankings": [],
+    "gift_star_reward_segments": [
+      10000,
+      30000,
+      60000,
+      100000
+    ],
+    "gift_stars_threshold_for_extra_admission": 1,
+    "has_extra": true,
+    "has_extra_admission": false,
+    "is_archive_published": true,
+    "live_location_id": 29,
+    "live_start_time": "2025-10-11T05:00:00Z",
+    "timeline_ids": [],
+    "timelines": [],
+    "title": "失敗から学ぼう！",
+    "total_gift_pt": "343,017,850",
+    "total_play_time_second_including_extra": 2399,
+    "total_play_time_second_without_extra": 1800,
+    "unixtime_live_rec_started": 1760158200,
+    "user_gift_pt_including_archive": 0,
+    "user_gift_pt_ranking": 0,
+    "user_gift_pt_without_archive": 0,
+    "user_icon_parts_info": "",
+    "viewer_count": 0
+  },
   "79e330db-7436-424e-a7ff-1e43c21ade23": {
     "archive_url": "/archive/alst/20251009202000-008bbdde-c528-46d4-b30e-eb6d8697b6a1/811c9dc57a00e.md",
     "chapters": [
