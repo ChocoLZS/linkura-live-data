@@ -1,4 +1,76 @@
 {
+  "8f202120-9ce9-450f-890a-393163c6d471": {
+    "chapters": [
+      {
+        "is_extra": false,
+        "name": "本編開始",
+        "play_time_second": 50
+      },
+      {
+        "is_extra": false,
+        "name": "本編再開1",
+        "play_time_second": 815
+      },
+      {
+        "is_extra": false,
+        "name": "本編再開2",
+        "play_time_second": 1392
+      },
+      {
+        "is_extra": true,
+        "name": "With×MEETS AFTER 開場",
+        "play_time_second": 1680
+      },
+      {
+        "is_extra": true,
+        "name": "With×MEETS AFTER 開演",
+        "play_time_second": 1730
+      }
+    ],
+    "characters": [
+      {
+        "character_id": 1041,
+        "is_guest": false
+      },
+      {
+        "character_id": 1033,
+        "is_guest": false
+      }
+    ],
+    "content_code": 999,
+    "costume_ids": [
+      1001
+    ],
+    "current_play_time_second": 0,
+    "description": "百生吟子です。\n私たちも、ショート動画風ダンス企画に挑戦させていただきます。\n\nお相手は瑠璃乃先輩です、\n緊張するけど・・・とっても楽しみ、です。",
+    "enquetes": [],
+    "gift_pt_rankings": [],
+    "gift_star_reward_segments": [
+      10000,
+      30000,
+      60000,
+      100000
+    ],
+    "gift_stars_threshold_for_extra_admission": 1,
+    "has_extra": true,
+    "has_extra_admission": false,
+    "is_archive_published": true,
+    "live_location_id": 3,
+    "live_start_time": "2025-10-18T05:00:00Z",
+    "timeline_ids": [],
+    "timelines": [],
+    "title": "いっぱい踊っちゃおう！吟子&瑠璃乃バージョン！",
+    "total_gift_pt": "386,368,000",
+    "total_play_time_second_including_extra": 2160,
+    "total_play_time_second_without_extra": 1680,
+    "unixtime_live_rec_started": 1760763540,
+    "user_gift_pt_including_archive": 0,
+    "user_gift_pt_ranking": 0,
+    "user_gift_pt_without_archive": 0,
+    "user_icon_parts_info": "",
+    "video_url": "/archive/hls/20251018/index.m3u8",
+    "viewer_count": 0
+  },
   "4905fec5-91ba-478a-b5c6-c646f6a3359d": {
     "archive_url": "/archive/alst/20251016202001-0a7c7e09-1d4a-4e85-9751-e46f232c0309/811c9dc523cc5.md",
     "chapters": [
