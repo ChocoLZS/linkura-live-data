@@ -1,4 +1,52 @@
 {
+  "ef074d9d-1728-4c1e-aaa3-06e789bc7b79": {
+    "chapters": [
+      {
+        "is_extra": false,
+        "name": "本編開始",
+        "play_time_second": 710
+      }
+    ],
+    "characters": [
+      {
+        "character_id": 1032,
+        "is_guest": false
+      }
+    ],
+    "content_code": 999,
+    "costume_ids": [
+      1001
+    ],
+    "current_play_time_second": 0,
+    "description": "村野さやかです\n本日は録画での配信ということで・・・一問一答企画をさせていただきます\n事前に質問を送ってくださった方、ありがとうございました\nたくさん回答させていただきますね",
+    "enquetes": [],
+    "gift_pt_rankings": [],
+    "gift_star_reward_segments": [
+      10000,
+      30000,
+      60000,
+      100000
+    ],
+    "gift_stars_threshold_for_extra_admission": 0,
+    "has_extra": false,
+    "has_extra_admission": true,
+    "is_archive_published": true,
+    "live_location_id": 9,
+    "live_start_time": "2025-10-23T12:00:00Z",
+    "timeline_ids": [],
+    "timelines": [],
+    "title": "一問一答です",
+    "total_gift_pt": "262,586,710",
+    "total_play_time_second_including_extra": 2165,
+    "total_play_time_second_without_extra": 2165,
+    "unixtime_live_rec_started": 1761220105,
+    "user_gift_pt_including_archive": 0,
+    "user_gift_pt_ranking": 0,
+    "user_gift_pt_without_archive": 0,
+    "user_icon_parts_info": "",
+    "video_url": "/archive/hls/ef074d9d-1728-4c1e-aaa3-06e789bc7b79/2025-10-23T2048/hls/index.m3u8",
+    "viewer_count": 0
+  },
   "2a34d8cb-a5a3-47b6-ba6d-4e27f2cf8063": {
     "archive_url": "/archive/alst/20251020202000-799c194e-301f-4f9d-bc1f-4db0a22b8e66/811c9dc5a771.md",
     "chapters": [
