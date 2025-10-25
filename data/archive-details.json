@@ -1,4 +1,62 @@
 {
+  "526b37eb-bc33-420c-8650-0796c72dff84": {
+    "archive_url": "/archive/alst/20251025135000-70a3f0df-220b-4085-8e7b-1bbbaf84882e/811c9dc5a9640.md",
+    "chapters": [
+      {
+        "is_extra": false,
+        "name": "本編開始",
+        "play_time_second": 591
+      },
+      {
+        "is_extra": true,
+        "name": "With×MEETS AFTER 開場",
+        "play_time_second": 1680
+      },
+      {
+        "is_extra": true,
+        "name": "With×MEETS AFTER 開演",
+        "play_time_second": 1731
+      }
+    ],
+    "characters": [
+      {
+        "character_id": 1051,
+        "is_guest": false
+      }
+    ],
+    "content_code": 999,
+    "costume_ids": [
+      1001
+    ],
+    "current_play_time_second": 0,
+    "description": "ごきげんよう、桂城 泉だ。\n今日も人間観察の結果を報告させてもらおうと思う。\nといっても今日は少し違って・・・\nメンバーの印象的だったことや、意外な一面に迫ろうと思う。",
+    "enquetes": [],
+    "gift_pt_rankings": [],
+    "gift_star_reward_segments": [
+      10000,
+      30000,
+      60000,
+      100000
+    ],
+    "gift_stars_threshold_for_extra_admission": 1,
+    "has_extra": true,
+    "has_extra_admission": false,
+    "is_archive_published": true,
+    "live_location_id": 32,
+    "live_start_time": "2025-10-25T05:00:00Z",
+    "timeline_ids": [],
+    "timelines": [],
+    "title": "観察結果を報告しよう",
+    "total_gift_pt": "269,634,090",
+    "total_play_time_second_including_extra": 2220,
+    "total_play_time_second_without_extra": 1680,
+    "unixtime_live_rec_started": 1761367800,
+    "user_gift_pt_including_archive": 0,
+    "user_gift_pt_ranking": 0,
+    "user_gift_pt_without_archive": 0,
+    "user_icon_parts_info": "",
+    "viewer_count": 0
+  },
   "ef074d9d-1728-4c1e-aaa3-06e789bc7b79": {
     "chapters": [
       {
