@@ -132,7 +132,7 @@ def create_notification_message(entry):
     return message_segments
 
 def send_notification(message_segments):
-    """Send notification via API"""
+    """Send notification via API using curl"""
     url = os.environ.get('QQ_BOT_URL')
     host = os.environ.get('QQ_BOT_HOST')
     group_id = os.environ.get('GROUP_ID')
@@ -147,17 +147,36 @@ def send_notification(message_segments):
         "message": message_segments
     }
     
-    headers = {
-        "Authorization": f"Bearer {token}",
-        "Content-Type": "application/json",
-        "Host": f"{host}"
-    }
+    # Convert payload to JSON string
+    payload_json = json.dumps(payload)
+    
+    # Use curl to send the request with SSL verification disabled
+    curl_cmd = [
+        'curl',
+        '-k',  # Disable SSL certificate verification
+        '-X', 'POST',
+        f'{url}/send_group_msg',
+        '-H', f'Authorization: Bearer {token}',
+        '-H', 'Content-Type: application/json',
+        '-H', f'Host: {host}',
+        '-d', payload_json,
+        '--max-time', '30'
+    ]
     
     try:
-        response = session.post(f"{url}/send_group_msg", json=payload, headers=headers, timeout=30)
-        response.raise_for_status()
-        print(f"Notification sent successfully: {response.status_code}")
-        return True
+        result = subprocess.run(curl_cmd, capture_output=True, text=True, timeout=35)
+        
+        if result.returncode == 0:
+            print(f"Notification sent successfully")
+            print(f"Response: {result.stdout}")
+            return True
+        else:
+            print(f"Error sending notification: curl returned code {result.returncode}")
+            print(f"stderr: {result.stderr}")
+            return False
+    except subprocess.TimeoutExpired:
+        print(f"Error sending notification: Request timeout")
+        return False
     except Exception as e:
         print(f"Error sending notification: {e}")
         return False
