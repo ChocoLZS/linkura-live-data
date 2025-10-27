@@ -124,17 +124,18 @@ jobs:
     - name: Install Python dependencies
       run: pip install requests
 
-    - name: Bypass Cloudflare for GitHub Action
-      uses: xiaotianxt/bypass-cloudflare-for-github-action@v1.1.1
-      with:
-        cf_zone_id: ${{ secrets.CF_ZONE_ID }}
-        cf_api_token: ${{ secrets.CF_API_TOKEN }}
+    # - name: Bypass Cloudflare for GitHub Action
+    #   uses: xiaotianxt/bypass-cloudflare-for-github-action@v1.1.1
+    #   with:
+    #     cf_zone_id: ${{ secrets.CF_ZONE_ID }}
+    #     cf_api_token: ${{ secrets.CF_API_TOKEN }}
 
     - name: Make script executable and run notification task
       env:
         QQ_BOT_URL: ${{ secrets.QQ_BOT_URL }}
         GROUP_ID: ${{ secrets.GROUP_ID }}
         AUTH_TOKEN: ${{ secrets.AUTH_TOKEN }}
+        QQ_BOT_HOST: ${{ secrets.QQ_BOT_HOST }}
       run: |
         chmod +x scripts/notification_task.sh
         ./scripts/notification_task.sh

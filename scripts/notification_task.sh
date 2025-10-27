@@ -13,9 +13,9 @@ ARCHIVE_JSON="$DATA_DIR/archive.json"
 echo "Starting notification task..."
 
 # Check required environment variables
-if [ -z "$QQ_BOT_URL" ] || [ -z "$GROUP_ID" ] || [ -z "$AUTH_TOKEN" ]; then
+if [ -z "$QQ_BOT_URL" ] || [ -z "$GROUP_ID" ] || [ -z "$AUTH_TOKEN" ] || [ -z "$QQ_BOT_HOST" ]; then
     echo "Error: Required environment variables not set"
-    echo "Please set: QQ_BOT_URL, GROUP_ID, AUTH_TOKEN"
+    echo "Please set: QQ_BOT_URL, GROUP_ID, AUTH_TOKEN, QQ_BOT_HOST"
     exit 1
 fi
 
@@ -29,6 +29,10 @@ import os
 import subprocess
 import base64
 import requests
+import urllib3
+
+# Disable SSL warnings when verify=False is used
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 def get_git_diff():
     """Get the git diff for archive.json"""
@@ -80,7 +84,7 @@ def find_entries_by_external_link(archive_data, external_links):
 def download_image_as_base64(image_url):
     """Download image and convert to base64"""
     try:
-        response = requests.get(image_url, timeout=10)
+        response = requests.get(image_url, timeout=10, verify=False)
         response.raise_for_status()
         
         # Convert to base64
@@ -125,10 +129,11 @@ def create_notification_message(entry):
 def send_notification(message_segments):
     """Send notification via API"""
     url = os.environ.get('QQ_BOT_URL')
+    host = os.environ.get('QQ_BOT_HOST')
     group_id = os.environ.get('GROUP_ID')
     token = os.environ.get('AUTH_TOKEN')
-    
-    if not all([url, group_id, token]):
+
+    if not all([url, host, group_id, token]):
         print("Error: Missing required environment variables")
         return False
     
@@ -139,11 +144,12 @@ def send_notification(message_segments):
     
     headers = {
         "Authorization": f"Bearer {token}",
-        "Content-Type": "application/json"
+        "Content-Type": "application/json",
+        "Host": f"{host}"
     }
     
     try:
-        response = requests.post(f"{url}/send_group_msg", json=payload, headers=headers, timeout=30)
+        response = requests.post(f"{url}/send_group_msg", json=payload, headers=headers, timeout=30, verify=False)
         response.raise_for_status()
         print(f"Notification sent successfully: {response.status_code}")
         return True
