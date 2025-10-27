@@ -28,8 +28,11 @@ import sys
 import os
 import subprocess
 import base64
+import requests
+import urllib3
 
-# No longer need requests, urllib3, or ssl since we're using curl
+# Disable SSL warnings when verify=False is used
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 def get_git_diff():
     """Get the git diff for archive.json"""
@@ -79,27 +82,14 @@ def find_entries_by_external_link(archive_data, external_links):
     return found_entries
 
 def download_image_as_base64(image_url):
-    """Download image and convert to base64 using curl"""
+    """Download image and convert to base64"""
     try:
-        # Use curl to download the image with SSL verification disabled
-        curl_cmd = [
-            'curl',
-            '-k',  # Disable SSL certificate verification
-            '-s',  # Silent mode
-            '-L',  # Follow redirects
-            '--max-time', '10',
-            image_url
-        ]
+        response = requests.get(image_url, timeout=10, verify=False)
+        response.raise_for_status()
         
-        result = subprocess.run(curl_cmd, capture_output=True, timeout=15)
-        
-        if result.returncode == 0 and result.stdout:
-            # Convert to base64
-            image_data = base64.b64encode(result.stdout).decode('utf-8')
-            return f"base64://{image_data}"
-        else:
-            print(f"Error downloading image: curl returned code {result.returncode}")
-            return None
+        # Convert to base64
+        image_data = base64.b64encode(response.content).decode('utf-8')
+        return f"base64://{image_data}"
     except Exception as e:
         print(f"Error downloading image {image_url}: {e}")
         return None
@@ -137,7 +127,7 @@ def create_notification_message(entry):
     return message_segments
 
 def send_notification(message_segments):
-    """Send notification via API using curl"""
+    """Send notification via API"""
     url = os.environ.get('QQ_BOT_URL')
     host = os.environ.get('QQ_BOT_HOST')
     group_id = os.environ.get('GROUP_ID')
@@ -152,36 +142,17 @@ def send_notification(message_segments):
         "message": message_segments
     }
     
-    # Convert payload to JSON string
-    payload_json = json.dumps(payload)
-    
-    # Use curl to send the request with SSL verification disabled
-    curl_cmd = [
-        'curl',
-        '-k',  # Disable SSL certificate verification
-        '-X', 'POST',
-        f'{url}/send_group_msg',
-        '-H', f'Authorization: Bearer {token}',
-        '-H', 'Content-Type: application/json',
-        '-H', f'Host: {host}',
-        '-d', payload_json,
-        '--max-time', '30'
-    ]
+    headers = {
+        "Authorization": f"Bearer {token}",
+        "Content-Type": "application/json",
+        "Host": f"{host}"
+    }
     
     try:
-        result = subprocess.run(curl_cmd, capture_output=True, text=True, timeout=35)
-        
-        if result.returncode == 0:
-            print(f"Notification sent successfully")
-            print(f"Response: {result.stdout}")
-            return True
-        else:
-            print(f"Error sending notification: curl returned code {result.returncode}")
-            print(f"stderr: {result.stderr}")
-            return False
-    except subprocess.TimeoutExpired:
-        print(f"Error sending notification: Request timeout")
-        return False
+        response = requests.post(f"{url}/send_group_msg", json=payload, headers=headers, timeout=30, verify=False)
+        response.raise_for_status()
+        print(f"Notification sent successfully: {response.status_code}")
+        return True
     except Exception as e:
         print(f"Error sending notification: {e}")
         return False
