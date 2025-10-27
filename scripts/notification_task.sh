@@ -30,9 +30,14 @@ import subprocess
 import base64
 import requests
 import urllib3
+import ssl
 
 # Disable SSL warnings when verify=False is used
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
+# Create a custom session with SSL verification disabled
+session = requests.Session()
+session.verify = False
 
 def get_git_diff():
     """Get the git diff for archive.json"""
@@ -84,7 +89,7 @@ def find_entries_by_external_link(archive_data, external_links):
 def download_image_as_base64(image_url):
     """Download image and convert to base64"""
     try:
-        response = requests.get(image_url, timeout=10)
+        response = session.get(image_url, timeout=10)
         response.raise_for_status()
         
         # Convert to base64
@@ -149,7 +154,7 @@ def send_notification(message_segments):
     }
     
     try:
-        response = requests.post(f"{url}/send_group_msg", json=payload, headers=headers, timeout=30, verify=False)
+        response = session.post(f"{url}/send_group_msg", json=payload, headers=headers, timeout=30)
         response.raise_for_status()
         print(f"Notification sent successfully: {response.status_code}")
         return True
