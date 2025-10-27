@@ -29,6 +29,10 @@ import os
 import subprocess
 import base64
 import requests
+import urllib3
+
+# Disable SSL warnings when verify=False is used
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 def get_git_diff():
     """Get the git diff for archive.json"""
@@ -145,7 +149,7 @@ def send_notification(message_segments):
     }
     
     try:
-        response = requests.post(f"{url}/send_group_msg", json=payload, headers=headers, timeout=30)
+        response = requests.post(f"{url}/send_group_msg", json=payload, headers=headers, timeout=30, verify=False)
         response.raise_for_status()
         print(f"Notification sent successfully: {response.status_code}")
         return True
