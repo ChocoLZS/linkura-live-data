@@ -145,7 +145,7 @@ def send_notification(message_segments):
     headers = {
         "Authorization": f"Bearer {token}",
         "Content-Type": "application/json",
-        "Host": host
+        "Host": f"{host}"
     }
     
     try:
