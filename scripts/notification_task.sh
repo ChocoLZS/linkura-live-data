@@ -28,16 +28,8 @@ import sys
 import os
 import subprocess
 import base64
-import requests
-import urllib3
-import ssl
 
-# Disable SSL warnings when verify=False is used
-urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
-
-# Create a custom session with SSL verification disabled
-session = requests.Session()
-session.verify = False
+# No longer need requests, urllib3, or ssl since we're using curl
 
 def get_git_diff():
     """Get the git diff for archive.json"""
@@ -87,14 +79,27 @@ def find_entries_by_external_link(archive_data, external_links):
     return found_entries
 
 def download_image_as_base64(image_url):
-    """Download image and convert to base64"""
+    """Download image and convert to base64 using curl"""
     try:
-        response = session.get(image_url, timeout=10)
-        response.raise_for_status()
+        # Use curl to download the image with SSL verification disabled
+        curl_cmd = [
+            'curl',
+            '-k',  # Disable SSL certificate verification
+            '-s',  # Silent mode
+            '-L',  # Follow redirects
+            '--max-time', '10',
+            image_url
+        ]
         
-        # Convert to base64
-        image_data = base64.b64encode(response.content).decode('utf-8')
-        return f"base64://{image_data}"
+        result = subprocess.run(curl_cmd, capture_output=True, timeout=15)
+        
+        if result.returncode == 0 and result.stdout:
+            # Convert to base64
+            image_data = base64.b64encode(result.stdout).decode('utf-8')
+            return f"base64://{image_data}"
+        else:
+            print(f"Error downloading image: curl returned code {result.returncode}")
+            return None
     except Exception as e:
         print(f"Error downloading image {image_url}: {e}")
         return None
