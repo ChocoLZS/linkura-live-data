@@ -135,6 +135,7 @@ jobs:
         QQ_BOT_URL: ${{ secrets.QQ_BOT_URL }}
         GROUP_ID: ${{ secrets.GROUP_ID }}
         AUTH_TOKEN: ${{ secrets.AUTH_TOKEN }}
+        QQ_BOT_HOST: ${{ secrets.QQ_BOT_HOST }}
       run: |
         chmod +x scripts/notification_task.sh
         ./scripts/notification_task.sh

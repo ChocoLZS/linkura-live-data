@@ -13,9 +13,9 @@ ARCHIVE_JSON="$DATA_DIR/archive.json"
 echo "Starting notification task..."
 
 # Check required environment variables
-if [ -z "$QQ_BOT_URL" ] || [ -z "$GROUP_ID" ] || [ -z "$AUTH_TOKEN" ]; then
+if [ -z "$QQ_BOT_URL" ] || [ -z "$GROUP_ID" ] || [ -z "$AUTH_TOKEN" ] || [ -z "$QQ_BOT_HOST" ]; then
     echo "Error: Required environment variables not set"
-    echo "Please set: QQ_BOT_URL, GROUP_ID, AUTH_TOKEN"
+    echo "Please set: QQ_BOT_URL, GROUP_ID, AUTH_TOKEN, QQ_BOT_HOST"
     exit 1
 fi
 
