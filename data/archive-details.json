@@ -1,4 +1,79 @@
 {
+  "5611ab68-a65d-468c-b61c-1e2d5be3a8b6": {
+    "archive_url": "/archive/alst/20251027202001-e08424d2-16bf-48f5-a441-1d05ad7acef5/811c9dc513e8d.md",
+    "chapters": [
+      {
+        "is_extra": false,
+        "name": "本編開始",
+        "play_time_second": 590
+      },
+      {
+        "is_extra": false,
+        "name": "本編再開",
+        "play_time_second": 1202
+      },
+      {
+        "is_extra": true,
+        "name": "With×MEETS AFTER 開場",
+        "play_time_second": 1740
+      },
+      {
+        "is_extra": true,
+        "name": "With×MEETS AFTER 開演",
+        "play_time_second": 1790
+      }
+    ],
+    "characters": [
+      {
+        "character_id": 1052,
+        "is_guest": false
+      },
+      {
+        "character_id": 1042,
+        "is_guest": false
+      },
+      {
+        "character_id": 1033,
+        "is_guest": false
+      }
+    ],
+    "content_code": 999,
+    "costume_ids": [
+      1001,
+      3012,
+      3019,
+      3026
+    ],
+    "current_play_time_second": 0,
+    "description": "ジャック オー田 ランタンです。\nトリックオアトリート。意味はわかりますでしょうか。\nお菓子をくれなきゃ・・・この配信の無事は保証しませんよ。という意味です。",
+    "enquetes": [],
+    "gift_pt_rankings": [],
+    "gift_star_reward_segments": [
+      10000,
+      30000,
+      60000,
+      100000
+    ],
+    "gift_stars_threshold_for_extra_admission": 1,
+    "has_extra": true,
+    "has_extra_admission": false,
+    "is_archive_published": true,
+    "is_horizontal": true,
+    "live_location_id": 3,
+    "live_start_time": "2025-10-27T11:30:00Z",
+    "timeline_ids": [],
+    "timelines": [],
+    "title": "トリックオアトリート！！！",
+    "total_gift_pt": "450,461,140",
+    "total_play_time_second_including_extra": 2399,
+    "total_play_time_second_without_extra": 1740,
+    "unixtime_live_rec_started": 1761564001,
+    "user_gift_pt_including_archive": 0,
+    "user_gift_pt_ranking": 0,
+    "user_gift_pt_without_archive": 0,
+    "user_icon_parts_info": "",
+    "viewer_count": 0
+  },
   "526b37eb-bc33-420c-8650-0796c72dff84": {
     "archive_url": "/archive/alst/20251025135000-70a3f0df-220b-4085-8e7b-1bbbaf84882e/811c9dc5a9640.md",
     "chapters": [
