@@ -239,54 +239,54 @@ jobs:
         
         echo "上传任务完成"
 
-  notification:
-    runs-on: ubuntu-latest
-    needs: check-res-version
-    # if: always()  # 无论是否有新版本都发送通知
-    if: false
+  # notification:
+  #   runs-on: ubuntu-latest
+  #   needs: check-res-version
+  #   # if: always()  # 无论是否有新版本都发送通知
+  #   if: false
     
-    steps:
-    # - name: Bypass Cloudflare for GitHub Action
-    #   uses: xiaotianxt/bypass-cloudflare-for-github-action@v1.1.1
-    #   with:
-    #     cf_zone_id: ${{ secrets.CF_ZONE_ID }}
-    #     cf_api_token: ${{ secrets.CF_API_TOKEN }}
-    - name: Send Uptime notification
-      run: |
-        # 构建消息内容
-        if [ "${{ needs.check-res-version.outputs.new_version }}" == "true" ]; then
-          UPDATE_TYPE="${{ needs.check-res-version.outputs.update_type }}"
-          CLIENT_VER="${{ needs.check-res-version.outputs.client_version }}"
-          RES_VER="${{ needs.check-res-version.outputs.res_version }}"
+  #   steps:
+  #   # - name: Bypass Cloudflare for GitHub Action
+  #   #   uses: xiaotianxt/bypass-cloudflare-for-github-action@v1.1.1
+  #   #   with:
+  #   #     cf_zone_id: ${{ secrets.CF_ZONE_ID }}
+  #   #     cf_api_token: ${{ secrets.CF_API_TOKEN }}
+  #   - name: Send Uptime notification
+  #     run: |
+  #       # 构建消息内容
+  #       if [ "${{ needs.check-res-version.outputs.new_version }}" == "true" ]; then
+  #         UPDATE_TYPE="${{ needs.check-res-version.outputs.update_type }}"
+  #         CLIENT_VER="${{ needs.check-res-version.outputs.client_version }}"
+  #         RES_VER="${{ needs.check-res-version.outputs.res_version }}"
           
-          case "$UPDATE_TYPE" in
-            "client+res")
-              MSG="检测到版本更新: 客户端v${CLIENT_VER} + 资源${RES_VER}"
-              ;;
-            "client")
-              MSG="检测到客户端版本更新: ${CLIENT_VER}"
-              ;;
-            "res")
-              MSG="检测到资源版本更新: ${RES_VER}"
-              ;;
-            *)
-              MSG="检测到版本更新"
-              ;;
-          esac
-          STATUS="up"
-        else
-          MSG="版本检查完成，无新版本"
-          STATUS="up"
-        fi
+  #         case "$UPDATE_TYPE" in
+  #           "client+res")
+  #             MSG="检测到版本更新: 客户端v${CLIENT_VER} + 资源${RES_VER}"
+  #             ;;
+  #           "client")
+  #             MSG="检测到客户端版本更新: ${CLIENT_VER}"
+  #             ;;
+  #           "res")
+  #             MSG="检测到资源版本更新: ${RES_VER}"
+  #             ;;
+  #           *)
+  #             MSG="检测到版本更新"
+  #             ;;
+  #         esac
+  #         STATUS="up"
+  #       else
+  #         MSG="版本检查完成，无新版本"
+  #         STATUS="up"
+  #       fi
         
-        # URL编码消息
-        ENCODED_MSG=$(echo "$MSG" | python3 -c "import sys, urllib.parse; print(urllib.parse.quote(sys.stdin.read().strip()))")
+  #       # URL编码消息
+  #       ENCODED_MSG=$(echo "$MSG" | python3 -c "import sys, urllib.parse; print(urllib.parse.quote(sys.stdin.read().strip()))")
         
-        # 构建完整的URL
-        UPTIME_URL="${{ secrets.UPTIME_URL_RES_CHECK }}?status=up&ping=&msg=${ENCODED_MSG}"
+  #       # 构建完整的URL
+  #       UPTIME_URL="${{ secrets.UPTIME_URL_RES_CHECK }}?status=up&ping=&msg=${ENCODED_MSG}"
         
-        echo "发送通知: $MSG"
-        echo "编码后的消息: $ENCODED_MSG"
+  #       echo "发送通知: $MSG"
+  #       echo "编码后的消息: $ENCODED_MSG"
         
-        # 发送请求
-        curl -f "$UPTIME_URL" || echo "Uptime通知发送失败"
+  #       # 发送请求
+  #       curl -f "$UPTIME_URL" || echo "Uptime通知发送失败"

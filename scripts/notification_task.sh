@@ -125,10 +125,11 @@ def create_notification_message(entry):
 def send_notification(message_segments):
     """Send notification via API"""
     url = os.environ.get('QQ_BOT_URL')
+    host = os.environ.get('QQ_BOT_HOST')
     group_id = os.environ.get('GROUP_ID')
     token = os.environ.get('AUTH_TOKEN')
-    
-    if not all([url, group_id, token]):
+
+    if not all([url, host, group_id, token]):
         print("Error: Missing required environment variables")
         return False
     
@@ -139,7 +140,8 @@ def send_notification(message_segments):
     
     headers = {
         "Authorization": f"Bearer {token}",
-        "Content-Type": "application/json"
+        "Content-Type": "application/json",
+        "Host": host
     }
     
     try:
