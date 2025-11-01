@@ -1,4 +1,176 @@
 {
+  "d225bb09-99fb-4100-ab55-c979b7e7b1df": {
+    "archive_url": "/archive/alst/20251031195004-2d9a5daa-a780-47b2-aec2-eb29193d4f1b/811c9dc57049f.md",
+    "chapters": [
+      {
+        "is_available": true,
+        "is_extra": false,
+        "name": "本編開始",
+        "play_time_second": 586
+      },
+      {
+        "is_available": true,
+        "is_extra": false,
+        "name": "本編再開",
+        "play_time_second": 3286
+      },
+      {
+        "is_available": true,
+        "is_extra": false,
+        "name": "Dream Believers（105期Ver.）",
+        "play_time_second": 3340
+      },
+      {
+        "is_available": true,
+        "is_extra": false,
+        "name": "MC1",
+        "play_time_second": 3670
+      },
+      {
+        "is_available": true,
+        "is_extra": false,
+        "name": "BLAST!!",
+        "play_time_second": 4126
+      },
+      {
+        "is_available": true,
+        "is_extra": false,
+        "name": "Retrofuture",
+        "play_time_second": 4347
+      },
+      {
+        "is_available": true,
+        "is_extra": false,
+        "name": "37.5℃のファンタジー",
+        "play_time_second": 4590
+      },
+      {
+        "is_available": true,
+        "is_extra": false,
+        "name": "アンペア",
+        "play_time_second": 4820
+      },
+      {
+        "is_available": true,
+        "is_extra": false,
+        "name": "MC2 前半",
+        "play_time_second": 5059
+      },
+      {
+        "is_available": true,
+        "is_extra": false,
+        "name": "ダンスバトル",
+        "play_time_second": 5286
+      },
+      {
+        "is_available": true,
+        "is_extra": false,
+        "name": "MC2 後半",
+        "play_time_second": 5399
+      },
+      {
+        "is_available": true,
+        "is_extra": false,
+        "name": "はじまりの羽音",
+        "play_time_second": 5745
+      },
+      {
+        "is_available": true,
+        "is_extra": false,
+        "name": "MC3",
+        "play_time_second": 6001
+      },
+      {
+        "is_available": false,
+        "is_extra": true,
+        "name": "Fes×LIVE AFTER 開場",
+        "play_time_second": 6416
+      },
+      {
+        "is_available": false,
+        "is_extra": true,
+        "name": "Fes×LIVE AFTER 開演",
+        "play_time_second": 6466
+      }
+    ],
+    "characters": [
+      {
+        "character_id": 1052,
+        "is_guest": false
+      },
+      {
+        "character_id": 1051,
+        "is_guest": false
+      },
+      {
+        "character_id": 1041,
+        "is_guest": false
+      },
+      {
+        "character_id": 1042,
+        "is_guest": false
+      },
+      {
+        "character_id": 1043,
+        "is_guest": false
+      },
+      {
+        "character_id": 1031,
+        "is_guest": false
+      },
+      {
+        "character_id": 1032,
+        "is_guest": false
+      },
+      {
+        "character_id": 1033,
+        "is_guest": false
+      }
+    ],
+    "content_code": 999,
+    "costume_ids": [
+      3001,
+      3026,
+      3032
+    ],
+    "current_camera_type": 1,
+    "current_play_time_second": 0,
+    "description": "出演者：\n■スリーズブーケ\n日野下 花帆（蓮ノ空女学院 3年）\n百生 吟子（蓮ノ空女学院 2年）\n\n■DOLLCHESTRA\n村野 さやか（蓮ノ空女学院 3年）\n徒町 小鈴（蓮ノ空女学院 2年）\n\n■みらくらぱーく！\n大沢 瑠璃乃（蓮ノ空女学院 3年）\n安養寺 姫芽（蓮ノ空女学院 2年）\n\n■Edel Note\n桂城 泉（蓮ノ空女学院 2年）\nセラス 柳田 リリエンフェルト（蓮ノ空女学院 1年）\n\nライブプロデュース：\n蓮ノ空女学院 スクールアイドルクラブ\n\nwith you…",
+    "gift_pt_rankings": [],
+    "has_extra_admission": false,
+    "live_location_id": 37,
+    "live_start_time": "2025-10-31T11:00:00Z",
+    "selectable_camera_types": [
+      1
+    ],
+    "ticket_rank": 1,
+    "timeline_ids": [
+      50048371,
+      50092371,
+      50052371,
+      50072371,
+      50032371,
+      31242371,
+      50158371,
+      31036371,
+      31036372,
+      31036373,
+      31036374,
+      31049371,
+      31049372,
+      31016371
+    ],
+    "timelines": [],
+    "title": "105期 Fes×LIVE -竜胆祭-",
+    "total_gift_pt": "228,878,440",
+    "total_play_time_second": 6416,
+    "unixtime_live_rec_started": 1761907804,
+    "user_gift_pt": 0,
+    "user_gift_pt_ranking": 0,
+    "user_icon_parts_info": "",
+    "video_url": "/archive/hls/20251031/index.m3u8",
+    "viewer_count": 0
+  },
   "5611ab68-a65d-468c-b61c-1e2d5be3a8b6": {
     "archive_url": "/archive/alst/20251027202001-e08424d2-16bf-48f5-a441-1d05ad7acef5/811c9dc513e8d.md",
     "chapters": [
