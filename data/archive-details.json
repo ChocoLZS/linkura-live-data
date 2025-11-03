@@ -1,4 +1,67 @@
 {
+  "248acebc-7f5f-4070-89b1-5ad1ae3e7f75": {
+    "archive_url": "/archive/alst/20251103205100-c2015e3f-ea8e-452c-9312-dabb285e21fa/811c9dc57e018.md",
+    "chapters": [
+      {
+        "is_extra": false,
+        "name": "本編開始",
+        "play_time_second": 531
+      },
+      {
+        "is_extra": true,
+        "name": "With×MEETS AFTER 開場",
+        "play_time_second": 1800
+      },
+      {
+        "is_extra": true,
+        "name": "With×MEETS AFTER 開演",
+        "play_time_second": 1851
+      }
+    ],
+    "characters": [
+      {
+        "character_id": 1052,
+        "is_guest": false
+      },
+      {
+        "character_id": 1043,
+        "is_guest": false
+      }
+    ],
+    "content_code": 999,
+    "costume_ids": [
+      1001
+    ],
+    "current_play_time_second": 0,
+    "description": "カゼノ 噂田 リリエンフェルトです。\n小耳に挟んだ情報によると、本日の配信は姫芽先輩のイメージについて調査するようです。\nみなさんの色眼鏡は果たして正しいのでしょうか？",
+    "enquetes": [],
+    "gift_pt_rankings": [],
+    "gift_star_reward_segments": [
+      10000,
+      30000,
+      60000,
+      100000
+    ],
+    "gift_stars_threshold_for_extra_admission": 1,
+    "has_extra": true,
+    "has_extra_admission": false,
+    "is_archive_published": true,
+    "is_horizontal": true,
+    "live_location_id": 34,
+    "live_start_time": "2025-11-03T12:00:00Z",
+    "timeline_ids": [],
+    "timelines": [],
+    "title": "姫芽先輩のイメージを語りましょう",
+    "total_gift_pt": "468,966,490",
+    "total_play_time_second_including_extra": 2400,
+    "total_play_time_second_without_extra": 1800,
+    "unixtime_live_rec_started": 1762170660,
+    "user_gift_pt_including_archive": 0,
+    "user_gift_pt_ranking": 0,
+    "user_gift_pt_without_archive": 0,
+    "user_icon_parts_info": "",
+    "viewer_count": 0
+  },
   "aa58a37d-5745-4699-858d-f9c960a6941a": {
     "archive_url": "/archive/alst/20251101205000-e6e6ca77-8b0e-407a-9cb2-a6d50e85e27e/811c9dc5e3b85.md",
     "chapters": [
