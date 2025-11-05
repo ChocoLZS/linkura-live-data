@@ -139,14 +139,32 @@ if [ $? -ne 0 ]; then
 fi
 
 # 提取版本号
-web_client_version=$(echo "$apple_html" | grep -o '\\"versionDisplay\\":\\"[0-9]\+\.[0-9]\+\.[0-9]\+\\"' | sed 's/.*\\"versionDisplay\\":\\"\([^\\]*\)\\".*/\1/' | head -1)
+web_client_version=$(echo "$apple_html" |\
+    # grep -o '\\"versionDisplay\\":\\"[0-9]\+\.[0-9]\+\.[0-9]\+\\"' |\
+    # sed 's/.*\\"versionDisplay\\":\\"\([^\\]*\)\\".*/\1/' |\
+    grep -o '"primarySubtitle":"[0-9]\+\.[0-9]\+\.[0-9]\+"' |\
+    sed 's/"primarySubtitle":"\([^"]*\)"/\1/' |\
+    head -1)
 
 if [ -z "$web_client_version" ]; then
     echo "错误: 无法从Apple网页提取客户端版本"
-    exit 1
-else
-    echo "从Apple网页获取到客户端版本: $web_client_version"
+    echo "尝试从google play 网页端获取..."
+    google_html=$(curl -s -H "User-Agent: $web_ua" "https://play.google.com/store/apps/details?id=com.oddno.lovelive&hl=en")
+    if [ $? -ne 0 ]; then
+        echo "错误: 无法访问Google Play网页"
+        exit 1
+    fi
+    web_client_version=$(echo "$google_html" |\
+        grep -o '\[\["[0-9]\+\.[0-9]\+\.[0-9]\+"\]\]' |\
+        sed -E 's/.*"([^"]+)".*/\1/' |\
+        head -1)
+    if [ -z "$web_client_version" ]; then
+        echo "错误: 无法从Google Play网页提取客户端版本"
+        exit 1
+    fi
 fi
+
+echo "获取到客户端版本: $web_client_version"
 
 # 2. 检查CSV文件中的最新版本
 echo "检查CSV文件中的最新版本..."
