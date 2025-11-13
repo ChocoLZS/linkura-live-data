@@ -13,7 +13,7 @@ ARCHIVE_DETAILS_JSON="$DATA_DIR/archive-details.json"
 TEMP_ARCHIVE="/tmp/archive.json"
 
 # Tool URL and configuration
-TOOL_URL="https://github.com/ChocoLZS/linkura-cli/releases/download/linkura-cli-v0.0.9/linkura-cli-x86_64-unknown-linux-musl.tar.gz"
+TOOL_URL="https://github.com/ChocoLZS/linkura-cli/releases/download/linkura-cli-v0.0.9/linkura-cli-x86_64-unknown-linux-musl"
 TOOL_NAME="linkura-cli"
 
 echo "Starting archive task..."
@@ -23,10 +23,8 @@ TEMP_DIR=$(mktemp -d)
 cd "$TEMP_DIR"
 
 echo "Downloading linkura-cli..."
-curl -L "$TOOL_URL" -o linkura-cli.tar.gz
+curl -L "$TOOL_URL" -o linkura-cli
 
-echo "Extracting linkura-cli..."
-tar -xzf linkura-cli.tar.gz
 
 # Make the tool executable
 chmod +x ./$TOOL_NAME
