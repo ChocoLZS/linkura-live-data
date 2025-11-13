@@ -13,7 +13,7 @@ ARCHIVE_DETAILS_JSON="$DATA_DIR/archive-details.json"
 TEMP_ARCHIVE="/tmp/archive.json"
 
 # Tool URL and configuration
-TOOL_URL="https://github.com/ChocoLZS/linkura-cli/releases/download/linkura-cli-v0.0.6/linkura-cli-x86_64-unknown-linux-musl.tar.gz"
+TOOL_URL="https://github.com/ChocoLZS/linkura-cli/releases/download/linkura-cli-v0.0.9/linkura-cli-x86_64-unknown-linux-musl.tar.gz"
 TOOL_NAME="linkura-cli"
 
 echo "Starting archive task..."
