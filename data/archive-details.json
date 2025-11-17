@@ -1,4 +1,61 @@
 {
+  "8cf239a6-ee24-4afa-bd80-4961aca9a279": {
+    "chapters": [
+      {
+        "is_extra": false,
+        "name": "本編開始",
+        "play_time_second": 708
+      }
+    ],
+    "characters": [
+      {
+        "character_id": 1041,
+        "is_guest": false
+      },
+      {
+        "character_id": 1042,
+        "is_guest": false
+      },
+      {
+        "character_id": 1043,
+        "is_guest": false
+      }
+    ],
+    "content_code": 999,
+    "costume_ids": [
+      1001
+    ],
+    "current_play_time_second": 0,
+    "description": "はろはろ〜姫芽だよ〜\n今日は録画回になります〜\nサムネイルを見たらわかる通り、今回は大変珍しいゲストが・・・Σ（ﾟдﾟ；）\n光栄(？)なことにインタビューしてきちゃいましたので、お楽しみに(°▽°)",
+    "enquetes": [],
+    "gift_pt_rankings": [],
+    "gift_star_reward_segments": [
+      10000,
+      30000,
+      60000,
+      100000
+    ],
+    "gift_stars_threshold_for_extra_admission": 0,
+    "has_extra": false,
+    "has_extra_admission": true,
+    "is_archive_published": true,
+    "is_horizontal": true,
+    "live_location_id": 3,
+    "live_start_time": "2025-11-17T11:30:00Z",
+    "timeline_ids": [],
+    "timelines": [],
+    "title": "インタビューしてきちゃいました〜",
+    "total_gift_pt": "409,166,690",
+    "total_play_time_second_including_extra": 1927,
+    "total_play_time_second_without_extra": 1927,
+    "unixtime_live_rec_started": 1763378304,
+    "user_gift_pt_including_archive": 0,
+    "user_gift_pt_ranking": 0,
+    "user_gift_pt_without_archive": 0,
+    "user_icon_parts_info": "",
+    "video_url": "/archive/hls/8cf239a6-ee24-4afa-bd80-4961aca9a279/2025-11-17T2018/hls/index.m3u8",
+    "viewer_count": 0
+  },
   "3f8e65d4-9d31-49a9-872a-aafbdf371649": {
     "archive_url": "/archive/alst/20251115135001-aeedfc1b-5082-40b0-bddb-3cb79f24d877/811c9dc5282f.md",
     "chapters": [
