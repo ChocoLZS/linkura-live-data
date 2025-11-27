@@ -1,4 +1,66 @@
 {
+  "3a62a915-7689-4c40-80ef-01d67e931e95": {
+    "archive_url": "/archive/alst/20251127202001-bda152e8-609b-4f6a-a990-4a3c53005d77/811c9dc548492.md",
+    "chapters": [
+      {
+        "is_extra": false,
+        "name": "本編開始",
+        "play_time_second": 590
+      },
+      {
+        "is_extra": true,
+        "name": "With×MEETS AFTER 開場",
+        "play_time_second": 1680
+      },
+      {
+        "is_extra": true,
+        "name": "With×MEETS AFTER 開演",
+        "play_time_second": 1730
+      }
+    ],
+    "characters": [
+      {
+        "character_id": 1052,
+        "is_guest": false
+      },
+      {
+        "character_id": 1051,
+        "is_guest": false
+      }
+    ],
+    "content_code": 999,
+    "costume_ids": [
+      1001
+    ],
+    "current_play_time_second": 0,
+    "description": "※セラス 柳田 リリエンフェルトは出演しませんが、獲得したWith Starは割り振ることができます。\n\nごきげんよう、桂城 泉だ。\n今日はセラスに代わって雑談配信をやらせてもらうことになった。\n容姿端麗な美少女の爆笑必至配信とはいかなくなってしまったが、ゆるく楽しんでくれるとありがたいよ。",
+    "enquetes": [],
+    "gift_pt_rankings": [],
+    "gift_star_reward_segments": [
+      10000,
+      30000,
+      60000,
+      100000
+    ],
+    "gift_stars_threshold_for_extra_admission": 1,
+    "has_extra": true,
+    "has_extra_admission": false,
+    "is_archive_published": true,
+    "live_location_id": 32,
+    "live_start_time": "2025-11-27T11:30:00Z",
+    "timeline_ids": [],
+    "timelines": [],
+    "title": "桂城 泉の雑談配信",
+    "total_gift_pt": "354,345,480",
+    "total_play_time_second_including_extra": 2340,
+    "total_play_time_second_without_extra": 1680,
+    "unixtime_live_rec_started": 1764242401,
+    "user_gift_pt_including_archive": 0,
+    "user_gift_pt_ranking": 0,
+    "user_gift_pt_without_archive": 0,
+    "user_icon_parts_info": "",
+    "viewer_count": 0
+  },
   "3505d16e-1cc9-4a28-b71c-15d159866aee": {
     "archive_url": "/archive/alst/20251124202000-0fb2c538-3500-498a-9368-f268dc27d1c3/811c9dc5ce345.md",
     "chapters": [
