@@ -1,4 +1,71 @@
 {
+  "83c5bb7d-2304-473f-8882-9e98b22282c7": {
+    "chapters": [
+      {
+        "is_extra": false,
+        "name": "本編開始",
+        "play_time_second": 710
+      },
+      {
+        "is_extra": true,
+        "name": "With×MEETS AFTER 開場",
+        "play_time_second": 2100
+      },
+      {
+        "is_extra": true,
+        "name": "With×MEETS AFTER 開演",
+        "play_time_second": 2150
+      }
+    ],
+    "characters": [
+      {
+        "character_id": 1042,
+        "is_guest": false
+      },
+      {
+        "character_id": 1031,
+        "is_guest": false
+      },
+      {
+        "character_id": 1033,
+        "is_guest": false
+      }
+    ],
+    "content_code": 999,
+    "costume_ids": [
+      1001
+    ],
+    "current_play_time_second": 0,
+    "description": "徒町です！\nついにさやか先輩を予測する日がやってきました・・・！\n徒町、正直、こう思います・・・\n逆に難しいかも、と・・・！",
+    "enquetes": [],
+    "gift_pt_rankings": [],
+    "gift_star_reward_segments": [
+      10000,
+      30000,
+      60000,
+      100000
+    ],
+    "gift_stars_threshold_for_extra_admission": 1,
+    "has_extra": true,
+    "has_extra_admission": false,
+    "is_archive_published": true,
+    "is_horizontal": true,
+    "live_location_id": 3,
+    "live_start_time": "2025-11-29T05:00:00Z",
+    "timeline_ids": [],
+    "timelines": [],
+    "title": "さやかちゃんこのあとなんて言う？",
+    "total_gift_pt": "341,016,390",
+    "total_play_time_second_including_extra": 2698,
+    "total_play_time_second_without_extra": 2100,
+    "unixtime_live_rec_started": 1764391704,
+    "user_gift_pt_including_archive": 0,
+    "user_gift_pt_ranking": 0,
+    "user_gift_pt_without_archive": 0,
+    "user_icon_parts_info": "",
+    "video_url": "/archive/hls/83c5bb7d-2304-473f-8882-9e98b22282c7/2025-11-29T1348/hls/index.m3u8",
+    "viewer_count": 0
+  },
   "3a62a915-7689-4c40-80ef-01d67e931e95": {
     "archive_url": "/archive/alst/20251127202001-bda152e8-609b-4f6a-a990-4a3c53005d77/811c9dc548492.md",
     "chapters": [
