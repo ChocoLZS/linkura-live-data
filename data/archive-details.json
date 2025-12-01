@@ -1,4 +1,84 @@
 {
+  "814e8a00-d4fa-4426-b883-3817981ef8ae": {
+    "archive_url": "/archive/alst/20251201202000-5370e658-ab9f-42cd-a2b4-2adf56606f70/811c9dc5aee49.md",
+    "chapters": [
+      {
+        "is_extra": false,
+        "name": "本編開始",
+        "play_time_second": 590
+      },
+      {
+        "is_extra": false,
+        "name": "本編再開",
+        "play_time_second": 1854
+      },
+      {
+        "is_extra": true,
+        "name": "With×MEETS AFTER 開場",
+        "play_time_second": 2520
+      },
+      {
+        "is_extra": true,
+        "name": "With×MEETS AFTER 開演",
+        "play_time_second": 2570
+      }
+    ],
+    "characters": [
+      {
+        "character_id": 1052,
+        "is_guest": false
+      },
+      {
+        "character_id": 1051,
+        "is_guest": false
+      },
+      {
+        "character_id": 1041,
+        "is_guest": false
+      },
+      {
+        "character_id": 1042,
+        "is_guest": false
+      },
+      {
+        "character_id": 1043,
+        "is_guest": false
+      }
+    ],
+    "content_code": 999,
+    "costume_ids": [
+      1001
+    ],
+    "current_play_time_second": 0,
+    "description": "セラス 柳田 リリエンフェルト(正式名称)です。\n本日は桂城 泉(正式名称)の誕生日です。\n出会った頃はまだよちよち歩きだったのに、時の流れとは早いものですね・・・。\nみなさん、泉が照れすぎて16歳に戻ってしまうくらい、お祝いしましょう。",
+    "enquetes": [],
+    "gift_pt_rankings": [],
+    "gift_star_reward_segments": [
+      10000,
+      30000,
+      60000,
+      100000
+    ],
+    "gift_stars_threshold_for_extra_admission": 1,
+    "has_extra": true,
+    "has_extra_admission": false,
+    "is_archive_published": true,
+    "is_horizontal": true,
+    "live_location_id": 3,
+    "live_start_time": "2025-12-01T11:30:00Z",
+    "timeline_ids": [],
+    "timelines": [],
+    "title": "桂城 泉 生誕祭 ~17歳編~",
+    "total_gift_pt": "694,569,530",
+    "total_play_time_second_including_extra": 3000,
+    "total_play_time_second_without_extra": 2520,
+    "unixtime_live_rec_started": 1764588000,
+    "user_gift_pt_including_archive": 0,
+    "user_gift_pt_ranking": 0,
+    "user_gift_pt_without_archive": 0,
+    "user_icon_parts_info": "",
+    "viewer_count": 0
+  },
   "83c5bb7d-2304-473f-8882-9e98b22282c7": {
     "chapters": [
       {
