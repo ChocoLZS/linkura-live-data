@@ -1,4 +1,61 @@
 {
+  "3be74430-dd91-46e7-a423-09f664a00132": {
+    "chapters": [
+      {
+        "is_extra": false,
+        "name": "本編開始",
+        "play_time_second": 709
+      }
+    ],
+    "characters": [
+      {
+        "character_id": 1052,
+        "is_guest": false
+      },
+      {
+        "character_id": 1051,
+        "is_guest": false
+      },
+      {
+        "character_id": 1031,
+        "is_guest": false
+      }
+    ],
+    "content_code": 999,
+    "costume_ids": [
+      1001
+    ],
+    "current_play_time_second": 0,
+    "description": "ごきげんよう、桂城 泉だ。\nみんな、先日は誕生日をたくさん祝ってくれてありがとう。\nさて、今日は録画配信になるんだが、内容に関しては・・・まぁ、見ればわかる、そんな感じかな。\n例に漏れずセラス提案の企画なんだ。よろしく頼むよ。",
+    "enquetes": [],
+    "gift_pt_rankings": [],
+    "gift_star_reward_segments": [
+      10000,
+      30000,
+      60000,
+      100000
+    ],
+    "gift_stars_threshold_for_extra_admission": 0,
+    "has_extra": false,
+    "has_extra_admission": true,
+    "is_archive_published": true,
+    "is_horizontal": true,
+    "live_location_id": 3,
+    "live_start_time": "2025-12-08T11:30:00Z",
+    "timeline_ids": [],
+    "timelines": [],
+    "title": "ファッションショーを開催します",
+    "total_gift_pt": "512,748,850",
+    "total_play_time_second_including_extra": 1918,
+    "total_play_time_second_without_extra": 1918,
+    "unixtime_live_rec_started": 1765192706,
+    "user_gift_pt_including_archive": 0,
+    "user_gift_pt_ranking": 0,
+    "user_gift_pt_without_archive": 0,
+    "user_icon_parts_info": "",
+    "video_url": "/archive/hls/3be74430-dd91-46e7-a423-09f664a00132/2025-12-08T2018/hls/index.m3u8",
+    "viewer_count": 0
+  },
   "814e8a00-d4fa-4426-b883-3817981ef8ae": {
     "archive_url": "/archive/alst/20251201202000-5370e658-ab9f-42cd-a2b4-2adf56606f70/811c9dc5aee49.md",
     "chapters": [
