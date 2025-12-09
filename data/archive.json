@@ -3658,8 +3658,8 @@
     "trailer_start_time": "2025-01-21T06:00:00Z",
     "video_url": "/archive/hls/20250126-2nd/index.m3u8",
     "version_compatibility": {
-      "rule": "== 2.4.30",
-      "message": "Recommend to use client version 2.4.30"
+      "rule": "== 3.0.0 || >= 2.4.30 && <= 3.0.10",
+      "message": "Recommend to use client version 3.0.10"
     }
   },
   {
@@ -3692,8 +3692,8 @@
     "trailer_start_time": "2025-01-21T06:00:00Z",
     "video_url": "/archive/hls/20250126-5th/index.m3u8",
     "version_compatibility": {
-      "rule": "== 2.4.30",
-      "message": "Recommend to use client version 2.4.30"
+      "rule": "== 3.0.0 || >= 2.4.30 && <= 3.0.10",
+      "message": "Recommend to use client version 3.0.10"
     }
   },
   {
