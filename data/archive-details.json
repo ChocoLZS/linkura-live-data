@@ -1,4 +1,67 @@
 {
+  "deab5504-37f2-4bb6-96e1-45394bdd7c77": {
+    "archive_url": "/archive/alst/20251213135000-2169bad7-390e-4e26-b4f0-54a2de4cfcf9/811c9dc59ecb8.md",
+    "chapters": [
+      {
+        "is_extra": false,
+        "name": "本編開始",
+        "play_time_second": 590
+      },
+      {
+        "is_extra": true,
+        "name": "With×MEETS AFTER 開場",
+        "play_time_second": 2160
+      },
+      {
+        "is_extra": true,
+        "name": "With×MEETS AFTER 開演",
+        "play_time_second": 2210
+      }
+    ],
+    "characters": [
+      {
+        "character_id": 1042,
+        "is_guest": false
+      },
+      {
+        "character_id": 1031,
+        "is_guest": false
+      }
+    ],
+    "content_code": 999,
+    "costume_ids": [
+      1001
+    ],
+    "current_play_time_second": 0,
+    "description": "徒町です！\n花帆先輩との雑談配信、リベンジです！ぱちぱち！\nみなさんからいただいたトークテーマ、大切に保存しておりました！\n改めてよろしくお願いします！",
+    "enquetes": [],
+    "gift_pt_rankings": [],
+    "gift_star_reward_segments": [
+      10000,
+      30000,
+      60000,
+      100000
+    ],
+    "gift_stars_threshold_for_extra_admission": 1,
+    "has_extra": true,
+    "has_extra_admission": false,
+    "is_archive_published": true,
+    "is_horizontal": true,
+    "live_location_id": 29,
+    "live_start_time": "2025-12-13T05:00:00Z",
+    "timeline_ids": [],
+    "timelines": [],
+    "title": "トークテーマ雑談！",
+    "total_gift_pt": "437,559,950",
+    "total_play_time_second_including_extra": 2880,
+    "total_play_time_second_without_extra": 2160,
+    "unixtime_live_rec_started": 1765601400,
+    "user_gift_pt_including_archive": 0,
+    "user_gift_pt_ranking": 0,
+    "user_gift_pt_without_archive": 0,
+    "user_icon_parts_info": "",
+    "viewer_count": 0
+  },
   "ae01e261-b283-4f52-9252-7d26ff3add43": {
     "archive_url": "/archive/alst/20251211202001-fc4d10e4-2ca4-46e0-9590-f1d66e19c943/811c9dc5316e5.md",
     "chapters": [
