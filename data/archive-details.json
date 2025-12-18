@@ -1,4 +1,67 @@
 {
+  "f48c2634-5a94-4d08-a02b-c1b159efb6a2": {
+    "archive_url": "/archive/alst/20251218201959-c82db1b5-b102-4181-835e-c468a8c6921a/811c9dc5e6c7b.md",
+    "chapters": [
+      {
+        "is_extra": false,
+        "name": "本編開始",
+        "play_time_second": 591
+      },
+      {
+        "is_extra": true,
+        "name": "With×MEETS AFTER 開場",
+        "play_time_second": 1800
+      },
+      {
+        "is_extra": true,
+        "name": "With×MEETS AFTER 開演",
+        "play_time_second": 1852
+      }
+    ],
+    "characters": [
+      {
+        "character_id": 1042,
+        "is_guest": false
+      },
+      {
+        "character_id": 1043,
+        "is_guest": false
+      }
+    ],
+    "content_code": 999,
+    "costume_ids": [
+      1001
+    ],
+    "current_play_time_second": 0,
+    "description": "徒町です！\n今日は姫芽ちゃんと二人で雑談配信！\n特に何もプランは無いのですが、いくらでも喋れてしまいそうな気がします！",
+    "enquetes": [],
+    "gift_pt_rankings": [],
+    "gift_star_reward_segments": [
+      10000,
+      30000,
+      60000,
+      100000
+    ],
+    "gift_stars_threshold_for_extra_admission": 1,
+    "has_extra": true,
+    "has_extra_admission": false,
+    "is_archive_published": true,
+    "is_horizontal": true,
+    "live_location_id": 28,
+    "live_start_time": "2025-12-18T11:30:00Z",
+    "timeline_ids": [],
+    "timelines": [],
+    "title": "小鈴と姫芽で雑談！",
+    "total_gift_pt": "447,397,890",
+    "total_play_time_second_including_extra": 2400,
+    "total_play_time_second_without_extra": 1800,
+    "unixtime_live_rec_started": 1766056799,
+    "user_gift_pt_including_archive": 0,
+    "user_gift_pt_ranking": 0,
+    "user_gift_pt_without_archive": 0,
+    "user_icon_parts_info": "",
+    "viewer_count": 0
+  },
   "deab5504-37f2-4bb6-96e1-45394bdd7c77": {
     "archive_url": "/archive/alst/20251213135000-2169bad7-390e-4e26-b4f0-54a2de4cfcf9/811c9dc59ecb8.md",
     "chapters": [
