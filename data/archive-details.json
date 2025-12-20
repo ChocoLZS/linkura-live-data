@@ -1,4 +1,212 @@
 {
+  "bd646a2d-ec5d-4017-aef4-20431e7fcc94": {
+    "archive_url": "/archive/alst/20251220135000-3fb459aa-662d-4d12-b120-aa0f41093e8b/811c9dc5bea17.md",
+    "chapters": [
+      {
+        "is_extra": false,
+        "name": "本編開始",
+        "play_time_second": 591
+      },
+      {
+        "is_extra": true,
+        "name": "With×MEETS AFTER 開場",
+        "play_time_second": 2100
+      },
+      {
+        "is_extra": true,
+        "name": "With×MEETS AFTER 開演",
+        "play_time_second": 2150
+      }
+    ],
+    "characters": [
+      {
+        "character_id": 1043,
+        "is_guest": false
+      },
+      {
+        "character_id": 1033,
+        "is_guest": false
+      }
+    ],
+    "content_code": 999,
+    "costume_ids": [
+      2008
+    ],
+    "current_play_time_second": 0,
+    "description": "はろはろ〜姫芽だよ〜\nあの企画がリベンジ編として帰ってきました〜( ´∀｀)\n前回は負けちゃいましたが、今回こそは勝利を掴んでみせますよ〜( *｀ω´)b",
+    "enquetes": [
+      {
+        "enquete_id": "f168f647-5597-4941-a44a-5bebb4d5b1e9",
+        "options": [
+          {
+            "is_correct": null,
+            "is_max_rate": false,
+            "option_id": "b23c1205-2377-46d5-8010-14c52aa92ebf",
+            "option_letter": "A",
+            "rate": 3,
+            "text": "はい"
+          },
+          {
+            "is_correct": null,
+            "is_max_rate": true,
+            "option_id": "4f6bd7f2-e65b-49d9-8b75-c7fae1666aec",
+            "option_letter": "B",
+            "rate": 97,
+            "text": "いいえ"
+          }
+        ],
+        "question": "裁縫セットを持ち歩いている人！",
+        "selected_option_id": null,
+        "status": 4
+      },
+      {
+        "enquete_id": "295f3c79-2c40-4cad-8643-ae05a4d5624f",
+        "options": [
+          {
+            "is_correct": null,
+            "is_max_rate": false,
+            "option_id": "3bc7fc55-835e-4797-aee3-9837d1279a90",
+            "option_letter": "A",
+            "rate": 3,
+            "text": "はい"
+          },
+          {
+            "is_correct": null,
+            "is_max_rate": true,
+            "option_id": "09570cf5-3c3f-4759-90ff-821e9be3b8ca",
+            "option_letter": "B",
+            "rate": 97,
+            "text": "いいえ"
+          }
+        ],
+        "question": "ギターの色が瑠璃ピンクっぽい人！",
+        "selected_option_id": null,
+        "status": 4
+      },
+      {
+        "enquete_id": "ef4be35d-279d-48ca-ac84-0b2d54001244",
+        "options": [
+          {
+            "is_correct": null,
+            "is_max_rate": true,
+            "option_id": "ba7dc834-723c-403b-836a-72ab320dd7ed",
+            "option_letter": "A",
+            "rate": 91,
+            "text": "はい"
+          },
+          {
+            "is_correct": null,
+            "is_max_rate": false,
+            "option_id": "ca68d9d8-7860-4434-81f4-28d526f7102e",
+            "option_letter": "B",
+            "rate": 9,
+            "text": "いいえ"
+          }
+        ],
+        "question": "パソコンを持ってる人！",
+        "selected_option_id": null,
+        "status": 4
+      },
+      {
+        "enquete_id": "0db005f8-bdd2-4b26-89bb-3b018eb54600",
+        "options": [
+          {
+            "is_correct": null,
+            "is_max_rate": true,
+            "option_id": "113bd1bd-2ce5-46f0-8179-bc0fde1c1e17",
+            "option_letter": "A",
+            "rate": 92,
+            "text": "はい"
+          },
+          {
+            "is_correct": null,
+            "is_max_rate": false,
+            "option_id": "0daea234-0a6b-4b01-8f2d-184fc1a2aff2",
+            "option_letter": "B",
+            "rate": 8,
+            "text": "いいえ"
+          }
+        ],
+        "question": "今日、何か食べた人！",
+        "selected_option_id": null,
+        "status": 4
+      },
+      {
+        "enquete_id": "84f7f3ca-9706-41ab-95ad-eca3b7ff8d13",
+        "options": [
+          {
+            "is_correct": null,
+            "is_max_rate": true,
+            "option_id": "023afc9f-b721-46cf-aa14-3f4b0e783a40",
+            "option_letter": "A",
+            "rate": 80,
+            "text": "はい"
+          },
+          {
+            "is_correct": null,
+            "is_max_rate": false,
+            "option_id": "adcc20e2-1808-4bab-af5d-d1c2ddd00ed4",
+            "option_letter": "B",
+            "rate": 20,
+            "text": "いいえ"
+          }
+        ],
+        "question": "パンよりごはん派の人！",
+        "selected_option_id": null,
+        "status": 4
+      },
+      {
+        "enquete_id": "8b70a3ac-b5db-4f1f-a441-1e29dc7eb929",
+        "options": [
+          {
+            "is_correct": null,
+            "is_max_rate": false,
+            "option_id": "f368f656-b607-492a-b7a1-fdf111539545",
+            "option_letter": "A",
+            "rate": 37,
+            "text": "はい"
+          },
+          {
+            "is_correct": null,
+            "is_max_rate": true,
+            "option_id": "9fadbb15-9e84-4723-a157-c495bef0c095",
+            "option_letter": "B",
+            "rate": 63,
+            "text": "いいえ"
+          }
+        ],
+        "question": "今、半袖を着てる人！",
+        "selected_option_id": null,
+        "status": 4
+      }
+    ],
+    "gift_pt_rankings": [],
+    "gift_star_reward_segments": [
+      10000,
+      30000,
+      60000,
+      100000
+    ],
+    "gift_stars_threshold_for_extra_admission": 1,
+    "has_extra": true,
+    "has_extra_admission": false,
+    "is_archive_published": true,
+    "is_horizontal": true,
+    "live_location_id": 28,
+    "live_start_time": "2025-12-20T05:00:00Z",
+    "timeline_ids": [],
+    "timelines": [],
+    "title": "アンケート対決リベンジ！",
+    "total_gift_pt": "437,473,520",
+    "total_play_time_second_including_extra": 2700,
+    "total_play_time_second_without_extra": 2100,
+    "unixtime_live_rec_started": 1766206200,
+    "user_gift_pt_including_archive": 0,
+    "user_gift_pt_ranking": 0,
+    "user_gift_pt_without_archive": 0,
+    "user_icon_parts_info": "",
+    "viewer_count": 0
+  },
   "f48c2634-5a94-4d08-a02b-c1b159efb6a2": {
     "archive_url": "/archive/alst/20251218201959-c82db1b5-b102-4181-835e-c468a8c6921a/811c9dc5e6c7b.md",
     "chapters": [
