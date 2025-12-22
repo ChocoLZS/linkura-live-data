@@ -254,42 +254,31 @@ jobs:
         CLIENT_VER="${{ needs.check-res-version.outputs.client_version }}"
         RES_VER="${{ needs.check-res-version.outputs.res_version }}"
         
-        # 构建消息内容
+        # 构建消息内容（使用 %0A 作为换行符）
         case "$UPDATE_TYPE" in
           "client+res")
-            MSG="🎉 *Linkura 版本更新*
-
-🔄 客户端版本: \`${CLIENT_VER}\`
-📦 资源版本: \`${RES_VER}\`
-
-✅ 已自动提交更新到仓库"
+            MSG="🎉 Linkura 版本更新%0A%0A🔄 客户端版本: ${CLIENT_VER}%0A📦 资源版本: ${RES_VER}%0A%0A✅ 已自动提交更新到仓库"
             ;;
           "client")
-            MSG="🎉 *Linkura 客户端更新*
-
-🔄 新版本: \`${CLIENT_VER}\`
-
-✅ 已自动提交更新到仓库"
+            MSG="🎉 Linkura 客户端更新%0A%0A🔄 新版本: ${CLIENT_VER}%0A%0A✅ 已自动提交更新到仓库"
             ;;
           "res")
-            MSG="🎉 *Linkura 资源更新*
-
-📦 新版本: \`${RES_VER}\`
-
-✅ 已自动提交更新到仓库"
+            MSG="🎉 Linkura 资源更新%0A%0A📦 新版本: ${RES_VER}%0A%0A✅ 已自动提交更新到仓库"
             ;;
           *)
-            MSG="🎉 *Linkura 检测到版本更新*
-
-✅ 已自动提交更新到仓库"
+            MSG="🎉 Linkura 检测到版本更新%0A%0A✅ 已自动提交更新到仓库"
             ;;
         esac
         
         echo "发送 Telegram 通知..."
         
         # 发送 Telegram 消息
-        curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+        HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
           -d "chat_id=${TELEGRAM_CHAT_ID}" \
-          -d "text=${MSG}" \
-          -d "parse_mode=Markdown" \
-          -o /dev/null -w "%{http_code}" | grep -q "200" && echo "✅ Telegram 通知发送成功" || echo "❌ Telegram 通知发送失败"
+          -d "text=${MSG}")
+        
+        if [ "$HTTP_CODE" = "200" ]; then
+          echo "✅ Telegram 通知发送成功"
+        else
+          echo "❌ Telegram 通知发送失败 (HTTP: $HTTP_CODE)"
+        fi
