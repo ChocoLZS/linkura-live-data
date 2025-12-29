@@ -1,6 +1,36 @@
 [
   {
     "archive_video_size_in_byte": 1,
+    "archives_id": "af23d18c-ba54-41cd-b69e-af391744a6e9",
+    "character_list": [],
+    "close_time": "2025-12-29T09:00:00Z",
+    "description": "出演者：\n■スリーズブーケ\n日野下 花帆（蓮ノ空女学院 3年）\n百生 吟子（蓮ノ空女学院 2年）\n\n■DOLLCHESTRA\n村野 さやか（蓮ノ空女学院 3年）\n徒町 小鈴（蓮ノ空女学院 2年）\n\n■みらくらぱーく！\n大沢 瑠璃乃（蓮ノ空女学院 3年）\n安養寺 姫芽（蓮ノ空女学院 2年）\n\n■Edel Note\n桂城 泉（蓮ノ空女学院 2年）\nセラス 柳田 リリエンフェルト（蓮ノ空女学院 1年）\n\nライブプロデュース：\n蓮ノ空女学院 スクールアイドルクラブ\n\nwith you…",
+    "earned_star_count": 0,
+    "end_time": "2999-01-01T00:00:00Z",
+    "external_link": "/archive/alst/20251228195000-5f0cc1ec-e91e-4287-9263-0327686c0b07/811c9dc5a5f86.md",
+    "gift_stars_threshold_for_extra_admission": 0,
+    "has_extra": true,
+    "has_extra_admission": false,
+    "is_extra_started": true,
+    "is_publish_video_url": true,
+    "is_scheduled_start_time_visible": false,
+    "live_end_time": "2025-12-28T12:00:03.665Z",
+    "live_id": "af23d18c-ba54-41cd-b69e-af391744a6e9",
+    "live_start_time": "2025-12-28T10:50:00.619Z",
+    "live_type": 1,
+    "name": "105期 Fes×LIVE 〜The Buds after Snowmelt〜",
+    "open_time": "2025-12-27T06:00:00Z",
+    "start_time": "2025-12-29T09:15:00Z",
+    "thumbnail_image_url": "https://assets.link-like-lovelive.app/feslive/thumbnail_image/01c322bc-ab14-48c0-b517-ad706fbf055d.jpg",
+    "ticket_list": [],
+    "ticket_rank": 1,
+    "total_playing_time_second": 3278,
+    "trailer_end_time": "2025-12-28T10:50:00.619Z",
+    "trailer_start_time": "2025-12-22T11:40:00Z",
+    "video_url": "/archive/hls/20251228/index.m3u8"
+  },
+  {
+    "archive_video_size_in_byte": 1,
     "archives_id": "69c4eb48-d166-4dbc-8e13-0040885f79e3",
     "character_list": [],
     "close_time": "2025-12-25T12:03:00.814Z",
@@ -542,7 +572,6 @@
       "rule": "== 4.8.0 || >= 4.8.0 && <= 4.9.5",
       "message": "Client version needs to be between 4.8.0 and 4.9.5"
     }
-    
   },
   {
     "archive_video_size_in_byte": 1,

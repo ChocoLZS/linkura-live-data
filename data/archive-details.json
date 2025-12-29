@@ -1,4 +1,149 @@
 {
+  "af23d18c-ba54-41cd-b69e-af391744a6e9": {
+    "archive_url": "/archive/alst/20251228195000-5f0cc1ec-e91e-4287-9263-0327686c0b07/811c9dc5a5f86.md",
+    "chapters": [
+      {
+        "is_available": true,
+        "is_extra": false,
+        "name": "本編開始",
+        "play_time_second": 590
+      },
+      {
+        "is_available": true,
+        "is_extra": false,
+        "name": "Overture",
+        "play_time_second": 648
+      },
+      {
+        "is_available": true,
+        "is_extra": false,
+        "name": "乙女詞華集",
+        "play_time_second": 769
+      },
+      {
+        "is_available": true,
+        "is_extra": false,
+        "name": "バイタルサイン",
+        "play_time_second": 1031
+      },
+      {
+        "is_available": true,
+        "is_extra": false,
+        "name": "ガランドFlash",
+        "play_time_second": 1270
+      },
+      {
+        "is_available": true,
+        "is_extra": false,
+        "name": "シアター生き様",
+        "play_time_second": 1501
+      },
+      {
+        "is_available": true,
+        "is_extra": false,
+        "name": "MC1",
+        "play_time_second": 1737
+      },
+      {
+        "is_available": true,
+        "is_extra": false,
+        "name": "雪舞う空と二秒の永遠",
+        "play_time_second": 2505
+      },
+      {
+        "is_available": true,
+        "is_extra": false,
+        "name": "MC2",
+        "play_time_second": 2834
+      },
+      {
+        "is_available": false,
+        "is_extra": true,
+        "name": "Fes×LIVE AFTER 開場",
+        "play_time_second": 3278
+      },
+      {
+        "is_available": false,
+        "is_extra": true,
+        "name": "Fes×LIVE AFTER 開演",
+        "play_time_second": 3350
+      }
+    ],
+    "characters": [
+      {
+        "character_id": 1052,
+        "is_guest": false
+      },
+      {
+        "character_id": 1051,
+        "is_guest": false
+      },
+      {
+        "character_id": 1041,
+        "is_guest": false
+      },
+      {
+        "character_id": 1042,
+        "is_guest": false
+      },
+      {
+        "character_id": 1043,
+        "is_guest": false
+      },
+      {
+        "character_id": 1031,
+        "is_guest": false
+      },
+      {
+        "character_id": 1032,
+        "is_guest": false
+      },
+      {
+        "character_id": 1033,
+        "is_guest": false
+      }
+    ],
+    "content_code": 999,
+    "costume_ids": [
+      3030
+    ],
+    "current_camera_type": 1,
+    "current_play_time_second": 0,
+    "description": "出演者：\n■スリーズブーケ\n日野下 花帆（蓮ノ空女学院 3年）\n百生 吟子（蓮ノ空女学院 2年）\n\n■DOLLCHESTRA\n村野 さやか（蓮ノ空女学院 3年）\n徒町 小鈴（蓮ノ空女学院 2年）\n\n■みらくらぱーく！\n大沢 瑠璃乃（蓮ノ空女学院 3年）\n安養寺 姫芽（蓮ノ空女学院 2年）\n\n■Edel Note\n桂城 泉（蓮ノ空女学院 2年）\nセラス 柳田 リリエンフェルト（蓮ノ空女学院 1年）\n\nライブプロデュース：\n蓮ノ空女学院 スクールアイドルクラブ\n\nwith you…",
+    "gift_pt_rankings": [],
+    "has_extra_admission": false,
+    "live_location_id": 38,
+    "live_start_time": "2025-12-28T11:00:00Z",
+    "selectable_camera_types": [
+      1
+    ],
+    "ticket_rank": 1,
+    "timeline_ids": [
+      31098381,
+      50162381,
+      50182381,
+      50172381,
+      50192381,
+      50208381,
+      31036381,
+      31036382,
+      31036383,
+      31036384,
+      31049381,
+      31049382,
+      31016381
+    ],
+    "timelines": [],
+    "title": "105期 Fes×LIVE 〜The Buds after Snowmelt〜",
+    "total_gift_pt": "306,171,060",
+    "total_play_time_second": 3278,
+    "unixtime_live_rec_started": 1766919000,
+    "user_gift_pt": 0,
+    "user_gift_pt_ranking": 0,
+    "user_icon_parts_info": "",
+    "video_url": "/archive/hls/20251228/index.m3u8",
+    "viewer_count": 0
+  },
   "69c4eb48-d166-4dbc-8e13-0040885f79e3": {
     "chapters": [
       {
