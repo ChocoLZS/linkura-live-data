@@ -1,4 +1,108 @@
 {
+  "b27cb687-78fc-44dd-b569-c9c54adafa70": {
+    "archive_url": "/archive/alst/20260105202000-7052d350-1c94-4d83-8996-dfeb5f547c59/811c9dc5ebf76.md",
+    "chapters": [
+      {
+        "is_extra": false,
+        "name": "本編開始",
+        "play_time_second": 590
+      },
+      {
+        "is_extra": true,
+        "name": "With×MEETS AFTER 開場",
+        "play_time_second": 2040
+      },
+      {
+        "is_extra": true,
+        "name": "With×MEETS AFTER 開演",
+        "play_time_second": 2090
+      }
+    ],
+    "characters": [
+      {
+        "character_id": 1052,
+        "is_guest": false
+      },
+      {
+        "character_id": 1041,
+        "is_guest": false
+      }
+    ],
+    "content_code": 999,
+    "costume_ids": [
+      1001
+    ],
+    "current_play_time_second": 0,
+    "description": "百生吟子です。\nみなさん、新年あけましておめでとうございます。\nセラスいわく、「一番お正月が似合うから」という理由で一緒に配信することになりました。\nどういう・・・？",
+    "enquetes": [
+      {
+        "enquete_id": "3c67e2e0-b6ab-4981-bd49-c128331f1995",
+        "options": [
+          {
+            "is_correct": null,
+            "is_max_rate": false,
+            "option_id": "13b1f84e-1950-4ad9-acb4-ada3b6d2ca4e",
+            "option_letter": "A",
+            "rate": 24,
+            "text": "黄金に輝くおみくじ"
+          },
+          {
+            "is_correct": null,
+            "is_max_rate": false,
+            "option_id": "6af4f31b-a97c-4a9c-b866-408ab42c8d09",
+            "option_letter": "B",
+            "rate": 10,
+            "text": "巨大なおみくじ"
+          },
+          {
+            "is_correct": null,
+            "is_max_rate": false,
+            "option_id": "17b36442-3156-4b33-b1c0-405d9365f8eb",
+            "option_letter": "C",
+            "rate": 18,
+            "text": "やたらとデコられたおみくじ"
+          },
+          {
+            "is_correct": null,
+            "is_max_rate": true,
+            "option_id": "bbb557bd-1b0e-486d-b951-08716263e915",
+            "option_letter": "D",
+            "rate": 48,
+            "text": "いい香りのするおみくじ"
+          }
+        ],
+        "question": "おみくじを選んでね！",
+        "selected_option_id": null,
+        "status": 4
+      }
+    ],
+    "gift_pt_rankings": [],
+    "gift_star_reward_segments": [
+      10000,
+      30000,
+      60000,
+      100000
+    ],
+    "gift_stars_threshold_for_extra_admission": 1,
+    "has_extra": true,
+    "has_extra_admission": false,
+    "is_archive_published": true,
+    "is_horizontal": true,
+    "live_location_id": 3,
+    "live_start_time": "2026-01-05T11:30:00Z",
+    "timeline_ids": [],
+    "timelines": [],
+    "title": "新年のご挨拶(占い付き)",
+    "total_gift_pt": "562,860,630",
+    "total_play_time_second_including_extra": 2639,
+    "total_play_time_second_without_extra": 2040,
+    "unixtime_live_rec_started": 1767612000,
+    "user_gift_pt_including_archive": 0,
+    "user_gift_pt_ranking": 0,
+    "user_gift_pt_without_archive": 0,
+    "user_icon_parts_info": "",
+    "viewer_count": 0
+  },
   "d72a8d9e-085a-4222-a44e-f3c9fd122d2d": {
     "archive_url": "/archive/alst/20251229202000-f8fcd06e-dfa5-4a8d-8b41-fa31c138ca1d/811c9dc5ace3c.md",
     "chapters": [
