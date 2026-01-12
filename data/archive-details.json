@@ -1,4 +1,71 @@
 {
+  "ad5deb6a-5e1f-4630-bd39-ad1244e553e8": {
+    "archive_url": "/archive/alst/20260112202001-cb7fe6ba-7ac9-4d61-8b89-b6c8361e6656/811c9dc51982d.md",
+    "chapters": [
+      {
+        "is_extra": false,
+        "name": "本編開始",
+        "play_time_second": 591
+      },
+      {
+        "is_extra": true,
+        "name": "With×MEETS AFTER 開場",
+        "play_time_second": 1800
+      },
+      {
+        "is_extra": true,
+        "name": "With×MEETS AFTER 開演",
+        "play_time_second": 1850
+      }
+    ],
+    "characters": [
+      {
+        "character_id": 1041,
+        "is_guest": false
+      },
+      {
+        "character_id": 1043,
+        "is_guest": false
+      },
+      {
+        "character_id": 1031,
+        "is_guest": false
+      }
+    ],
+    "content_code": 999,
+    "costume_ids": [
+      1001
+    ],
+    "current_play_time_second": 0,
+    "description": "はろはろ〜姫芽です〜\n帰ってきた！水平思考クイズのお時間ですよ〜( ´∀｀)\n今日はアタシが出題者を務めまして、かほせんぱいと吟子ちゃんに不可解な状況を紐解いてもらおうと思います〜(=ﾟωﾟ)ﾉ",
+    "enquetes": [],
+    "gift_pt_rankings": [],
+    "gift_star_reward_segments": [
+      10000,
+      30000,
+      60000,
+      100000
+    ],
+    "gift_stars_threshold_for_extra_admission": 1,
+    "has_extra": true,
+    "has_extra_admission": false,
+    "is_archive_published": true,
+    "is_horizontal": true,
+    "live_location_id": 6,
+    "live_start_time": "2026-01-12T11:30:00Z",
+    "timeline_ids": [],
+    "timelines": [],
+    "title": "帰ってきた！水平思考クイズ！",
+    "total_gift_pt": "577,116,960",
+    "total_play_time_second_including_extra": 2459,
+    "total_play_time_second_without_extra": 1800,
+    "unixtime_live_rec_started": 1768216801,
+    "user_gift_pt_including_archive": 0,
+    "user_gift_pt_ranking": 0,
+    "user_gift_pt_without_archive": 0,
+    "user_icon_parts_info": "",
+    "viewer_count": 0
+  },
   "2bce9268-dd41-4000-8c78-34bb2a30ae27": {
     "archive_url": "/archive/alst/20260110135001-049f47d3-5529-45d9-bcf8-ee7b79e649fe/811c9dc569bde.md",
     "chapters": [
