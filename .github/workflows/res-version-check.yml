@@ -42,7 +42,7 @@ jobs:
         OLD_RES_VERSION=""
         OLD_CLIENT_VERSION=""
         if [ -f "../data/res_version.txt" ]; then
-          OLD_RES_VERSION=$(head -n 1 ../data/res_version.txt | cut -d'@' -f1)
+          OLD_RES_VERSION=$(head -n 1 ../data/res_version.txt)
         fi
         if [ -f "../others/linkura-googleplay-apk.csv" ]; then
           OLD_CLIENT_VERSION=$(head -2 ../others/linkura-googleplay-apk.csv | tail -1 | cut -d',' -f2)
@@ -53,7 +53,7 @@ jobs:
           echo "new_version=true" >> $GITHUB_OUTPUT
           
           # 获取更新后的版本信息
-          NEW_RES_VERSION=$(head -n 1 ../data/res_version.txt | cut -d'@' -f1)
+          NEW_RES_VERSION=$(head -n 1 ../data/res_version.txt)
           NEW_CLIENT_VERSION=$(head -2 ../others/linkura-googleplay-apk.csv | tail -1 | cut -d',' -f2)
           
           # 确定更新类型
@@ -239,46 +239,78 @@ jobs:
         
         echo "上传任务完成"
 
-  telegram-notification:
+  notification:
     runs-on: ubuntu-latest
     needs: check-res-version
     if: ${{ success() && needs.check-res-version.outputs.new_version == 'true' }}
     
     steps:
-    - name: Send Telegram notification
+    - name: Send notification
       env:
         TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        QQ_BOT_URL: ${{ secrets.QQ_BOT_URL }}
+        QQ_BOT_HOST: ${{ secrets.QQ_BOT_HOST }}
+        GROUP_ID: ${{ secrets.GROUP_ID }}
+        AUTH_TOKEN: ${{ secrets.AUTH_TOKEN }}
       run: |
         UPDATE_TYPE="${{ needs.check-res-version.outputs.update_type }}"
         CLIENT_VER="${{ needs.check-res-version.outputs.client_version }}"
         RES_VER="${{ needs.check-res-version.outputs.res_version }}"
+        OLD_CLIENT_VER="${{ needs.check-res-version.outputs.old_client_version }}"
+        OLD_RES_VER="${{ needs.check-res-version.outputs.old_res_version }}"
         
-        # 构建消息内容（使用 %0A 作为换行符）
+        # 构建统一的消息内容
         case "$UPDATE_TYPE" in
           "client+res")
-            MSG="🎉 Linkura 版本更新%0A%0A🔄 客户端版本: ${CLIENT_VER}%0A📦 资源版本: ${RES_VER}%0A%0A✅ 已自动提交更新到仓库"
+            # Telegram 消息格式（使用 %0A 作为换行符）
+            TG_MSG="🎉 Linkura 更新%0A%0A🔄 客户端: ${OLD_CLIENT_VER} → ${CLIENT_VER}%0A📦 资源: ${OLD_RES_VER} → ${RES_VER}"
+            # QQ 消息格式（使用 \n）
+            QQ_MSG="🎉 Linkura 更新\n\n🔄 客户端: ${OLD_CLIENT_VER} → ${CLIENT_VER}\n📦 资源: ${OLD_RES_VER} → ${RES_VER}"
             ;;
           "client")
-            MSG="🎉 Linkura 客户端更新%0A%0A🔄 新版本: ${CLIENT_VER}%0A%0A✅ 已自动提交更新到仓库"
+            TG_MSG="🎉 Linkura 更新%0A%0A🔄 客户端: ${OLD_CLIENT_VER} → ${CLIENT_VER}%0A📦 资源: ${RES_VER}"
+            QQ_MSG="🎉 Linkura 更新\n\n🔄 客户端: ${OLD_CLIENT_VER} → ${CLIENT_VER}\n📦 资源: ${RES_VER}"
             ;;
           "res")
-            MSG="🎉 Linkura 资源更新%0A%0A📦 新版本: ${RES_VER}%0A%0A✅ 已自动提交更新到仓库"
+            TG_MSG="🎉 Linkura 更新%0A%0A🔄 客户端: ${CLIENT_VER}%0A📦 资源: ${OLD_RES_VER} → ${RES_VER}"
+            QQ_MSG="🎉 Linkura 更新\n\n🔄 客户端: ${CLIENT_VER}\n📦 资源: ${OLD_RES_VER} → ${RES_VER}"
             ;;
           *)
-            MSG="🎉 Linkura 检测到版本更新%0A%0A✅ 已自动提交更新到仓库"
+            TG_MSG="🎉 Linkura 更新%0A%0A✅ 检测到版本更新"
+            QQ_MSG="🎉 Linkura 更新\n\n✅ 检测到版本更新"
             ;;
         esac
         
         echo "发送 Telegram 通知..."
         
         # 发送 Telegram 消息
-        HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+        TG_HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
           -d "chat_id=${TELEGRAM_CHAT_ID}" \
-          -d "text=${MSG}")
+          -d "text=${TG_MSG}")
         
-        if [ "$HTTP_CODE" = "200" ]; then
+        if [ "$TG_HTTP_CODE" = "200" ]; then
           echo "✅ Telegram 通知发送成功"
         else
-          echo "❌ Telegram 通知发送失败 (HTTP: $HTTP_CODE)"
+          echo "❌ Telegram 通知发送失败 (HTTP: $TG_HTTP_CODE)"
+        fi
+        
+        echo ""
+        echo "发送 QQ 通知..."
+        
+        # 发送 QQ 消息
+        if [ -n "$QQ_BOT_URL" ] && [ -n "$GROUP_ID" ] && [ -n "$AUTH_TOKEN" ] && [ -n "$QQ_BOT_HOST" ]; then
+          QQ_HTTP_CODE=$(curl -k -s -o /dev/null -w "%{http_code}" -X POST "${QQ_BOT_URL}/send_group_msg" \
+            -H "Authorization: Bearer ${AUTH_TOKEN}" \
+            -H "Content-Type: application/json" \
+            -H "Host: ${QQ_BOT_HOST}" \
+            -d "{\"group_id\":\"${GROUP_ID}\",\"message\":[{\"type\":\"text\",\"data\":{\"text\":\"${QQ_MSG}\"}}]}")
+          
+          if [ "$QQ_HTTP_CODE" = "200" ]; then
+            echo "✅ QQ 通知发送成功"
+          else
+            echo "❌ QQ 通知发送失败 (HTTP: $QQ_HTTP_CODE)"
+          fi
+        else
+          echo "⚠️ QQ 通知配置不完整，跳过 QQ 通知"
         fi
