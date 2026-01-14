@@ -1,4 +1,85 @@
 {
+  "17a5a73f-4723-4a21-a518-17f7a61be8b7": {
+    "chapters": [
+      {
+        "is_extra": false,
+        "name": "本編開始",
+        "play_time_second": 710
+      },
+      {
+        "is_extra": false,
+        "name": "本編再開1",
+        "play_time_second": 953
+      },
+      {
+        "is_extra": false,
+        "name": "本編再開2",
+        "play_time_second": 2193
+      },
+      {
+        "is_extra": true,
+        "name": "With×MEETS AFTER 開場",
+        "play_time_second": 2700
+      },
+      {
+        "is_extra": true,
+        "name": "With×MEETS AFTER 開演",
+        "play_time_second": 2750
+      }
+    ],
+    "characters": [
+      {
+        "character_id": 1042,
+        "is_guest": false
+      },
+      {
+        "character_id": 1031,
+        "is_guest": false
+      },
+      {
+        "character_id": 1032,
+        "is_guest": false
+      },
+      {
+        "character_id": 1033,
+        "is_guest": false
+      }
+    ],
+    "content_code": 999,
+    "costume_ids": [
+      1001
+    ],
+    "current_play_time_second": 0,
+    "description": "徒町です！\n今年もさやか先輩の誕生日がやってきましたー！ぱちぱち徒町！ぱちぱちさやか先輩！\n恒例のビデオメッセージと共に、み〜んなでさやか先輩をお祝いしましょう！",
+    "enquetes": [],
+    "gift_pt_rankings": [],
+    "gift_star_reward_segments": [
+      10000,
+      30000,
+      60000,
+      100000
+    ],
+    "gift_stars_threshold_for_extra_admission": 1,
+    "has_extra": true,
+    "has_extra_admission": false,
+    "is_archive_published": true,
+    "is_horizontal": true,
+    "live_location_id": 3,
+    "live_start_time": "2026-01-14T11:30:00Z",
+    "timeline_ids": [],
+    "timelines": [],
+    "title": "村野さやか生誕祭 ~18歳編~",
+    "total_gift_pt": "955,807,100",
+    "total_play_time_second_including_extra": 3358,
+    "total_play_time_second_without_extra": 2700,
+    "unixtime_live_rec_started": 1768389506,
+    "user_gift_pt_including_archive": 0,
+    "user_gift_pt_ranking": 0,
+    "user_gift_pt_without_archive": 0,
+    "user_icon_parts_info": "",
+    "video_url": "/archive/hls/17a5a73f-4723-4a21-a518-17f7a61be8b7/2026-01-14T2018/hls/index.m3u8",
+    "viewer_count": 0
+  },
   "ad5deb6a-5e1f-4630-bd39-ad1244e553e8": {
     "archive_url": "/archive/alst/20260112202001-cb7fe6ba-7ac9-4d61-8b89-b6c8361e6656/811c9dc51982d.md",
     "chapters": [
