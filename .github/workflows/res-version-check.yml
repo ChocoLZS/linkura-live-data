@@ -43,9 +43,11 @@ jobs:
         OLD_CLIENT_VERSION=""
         if [ -f "../data/res_version.txt" ]; then
           OLD_RES_VERSION=$(head -n 1 ../data/res_version.txt)
+          echo "脚本运行前 - OLD_RES_VERSION: [$OLD_RES_VERSION]"
         fi
         if [ -f "../others/linkura-googleplay-apk.csv" ]; then
           OLD_CLIENT_VERSION=$(head -2 ../others/linkura-googleplay-apk.csv | tail -1 | cut -d',' -f2)
+          echo "脚本运行前 - OLD_CLIENT_VERSION: [$OLD_CLIENT_VERSION]"
         fi
         
         # 运行版本检查脚本
@@ -260,21 +262,30 @@ jobs:
         OLD_CLIENT_VER="${{ needs.check-res-version.outputs.old_client_version }}"
         OLD_RES_VER="${{ needs.check-res-version.outputs.old_res_version }}"
         
+        # 构建版本显示文本（处理空值情况）
+        if [ -n "$OLD_CLIENT_VER" ]; then
+          CLIENT_DISPLAY_TG="🔄 客户端: ${OLD_CLIENT_VER} → ${CLIENT_VER}"
+          CLIENT_DISPLAY_QQ="🔄 客户端: ${OLD_CLIENT_VER} → ${CLIENT_VER}"
+        else
+          CLIENT_DISPLAY_TG="🔄 客户端: ${CLIENT_VER}"
+          CLIENT_DISPLAY_QQ="🔄 客户端: ${CLIENT_VER}"
+        fi
+        
+        if [ -n "$OLD_RES_VER" ]; then
+          RES_DISPLAY_TG="📦 资源: ${OLD_RES_VER} → ${RES_VER}"
+          RES_DISPLAY_QQ="📦 资源: ${OLD_RES_VER} → ${RES_VER}"
+        else
+          RES_DISPLAY_TG="📦 资源: ${RES_VER}"
+          RES_DISPLAY_QQ="📦 资源: ${RES_VER}"
+        fi
+        
         # 构建统一的消息内容
         case "$UPDATE_TYPE" in
-          "client+res")
+          "client+res"|"client"|"res")
             # Telegram 消息格式（使用 %0A 作为换行符）
-            TG_MSG="🎉 Linkura 更新%0A%0A🔄 客户端: ${OLD_CLIENT_VER} → ${CLIENT_VER}%0A📦 资源: ${OLD_RES_VER} → ${RES_VER}"
+            TG_MSG="🎉 Linkura 更新%0A%0A${CLIENT_DISPLAY_TG}%0A${RES_DISPLAY_TG}"
             # QQ 消息格式（使用 \n）
-            QQ_MSG="🎉 Linkura 更新\n\n🔄 客户端: ${OLD_CLIENT_VER} → ${CLIENT_VER}\n📦 资源: ${OLD_RES_VER} → ${RES_VER}"
-            ;;
-          "client")
-            TG_MSG="🎉 Linkura 更新%0A%0A🔄 客户端: ${OLD_CLIENT_VER} → ${CLIENT_VER}%0A📦 资源: ${RES_VER}"
-            QQ_MSG="🎉 Linkura 更新\n\n🔄 客户端: ${OLD_CLIENT_VER} → ${CLIENT_VER}\n📦 资源: ${RES_VER}"
-            ;;
-          "res")
-            TG_MSG="🎉 Linkura 更新%0A%0A🔄 客户端: ${CLIENT_VER}%0A📦 资源: ${OLD_RES_VER} → ${RES_VER}"
-            QQ_MSG="🎉 Linkura 更新\n\n🔄 客户端: ${CLIENT_VER}\n📦 资源: ${OLD_RES_VER} → ${RES_VER}"
+            QQ_MSG="🎉 Linkura 更新\n\n${CLIENT_DISPLAY_QQ}\n${RES_DISPLAY_QQ}"
             ;;
           *)
             TG_MSG="🎉 Linkura 更新%0A%0A✅ 检测到版本更新"
