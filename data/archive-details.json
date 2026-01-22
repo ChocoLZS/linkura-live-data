@@ -1,4 +1,96 @@
 {
+  "8ba1e2d8-2bbf-415d-ba2c-c046ee0b647d": {
+    "chapters": [
+      {
+        "is_available": true,
+        "is_extra": false,
+        "name": "本編開始",
+        "play_time_second": 1260
+      },
+      {
+        "is_available": true,
+        "is_extra": false,
+        "name": "Echoes Beyond",
+        "play_time_second": 1622
+      },
+      {
+        "is_available": true,
+        "is_extra": false,
+        "name": "Dream Believers",
+        "play_time_second": 1853
+      }
+    ],
+    "characters": [
+      {
+        "character_id": 1052,
+        "is_guest": false
+      },
+      {
+        "character_id": 1051,
+        "is_guest": false
+      },
+      {
+        "character_id": 1041,
+        "is_guest": false
+      },
+      {
+        "character_id": 1042,
+        "is_guest": false
+      },
+      {
+        "character_id": 1043,
+        "is_guest": false
+      },
+      {
+        "character_id": 1031,
+        "is_guest": false
+      },
+      {
+        "character_id": 1032,
+        "is_guest": false
+      },
+      {
+        "character_id": 1033,
+        "is_guest": false
+      },
+      {
+        "character_id": 1021,
+        "is_guest": false
+      },
+      {
+        "character_id": 1022,
+        "is_guest": false
+      },
+      {
+        "character_id": 1023,
+        "is_guest": false
+      }
+    ],
+    "content_code": 999,
+    "costume_ids": [],
+    "current_camera_type": 1,
+    "current_play_time_second": 0,
+    "description": "本配信のFes×LIVE プライズではFan Lv. 経験値は獲得できません。\n\n出演者：\n■蓮ノ空女学院 スクールアイドルクラブ\n日野下 花帆\n村野 さやか\n乙宗 梢\n夕霧 綴理\n大沢 瑠璃乃\n藤島 慈\n百生 吟子\n徒町 小鈴\n安養寺 姫芽\nセラス 柳田 リリエンフェルト\n桂城 泉\n\nライブプロデュース：\n蓮ノ空女学院 スクールアイドルクラブ\n\nwith you…",
+    "gift_pt_rankings": [],
+    "has_extra_admission": false,
+    "live_location_id": 0,
+    "live_start_time": "2026-01-21T10:55:00Z",
+    "selectable_camera_types": [
+      1
+    ],
+    "ticket_rank": 1,
+    "timeline_ids": [],
+    "timelines": [],
+    "title": "103-105th Fes×ReC：LIVE ～Road to Bloom～ CHAPTER:Beyond",
+    "total_gift_pt": "227,916,400",
+    "total_play_time_second": 2477,
+    "unixtime_live_rec_started": 1768992505,
+    "user_gift_pt": 0,
+    "user_gift_pt_ranking": 0,
+    "user_icon_parts_info": "",
+    "video_url": "/archive/hls/20260121/index.m3u8",
+    "viewer_count": 0
+  },
   "14ed2455-e165-4037-961a-fe50cd7f425c": {
     "archive_url": "/archive/alst/20260119202000-773c8128-d4e7-4bef-bb29-23f5616cce3d/811c9dc5ca79e.md",
     "chapters": [
