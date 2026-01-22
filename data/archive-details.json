@@ -1,4 +1,67 @@
 {
+  "600b91bf-92ff-42fb-899f-6228ef95c4e2": {
+    "archive_url": "/archive/alst/20260122205000-0f856ebf-9606-4ebd-beaf-bcbea7885b35/811c9dc5af388.md",
+    "chapters": [
+      {
+        "is_extra": false,
+        "name": "本編開始",
+        "play_time_second": 590
+      },
+      {
+        "is_extra": true,
+        "name": "With×MEETS AFTER 開場",
+        "play_time_second": 2940
+      },
+      {
+        "is_extra": true,
+        "name": "With×MEETS AFTER 開演",
+        "play_time_second": 2991
+      }
+    ],
+    "characters": [
+      {
+        "character_id": 1043,
+        "is_guest": false
+      },
+      {
+        "character_id": 1031,
+        "is_guest": false
+      }
+    ],
+    "content_code": 999,
+    "costume_ids": [
+      1001
+    ],
+    "current_play_time_second": 0,
+    "description": "花帆だよ♪\n今日はあたしと、姫芽ちゃん、二人合わせて「ひめかほ♡フォンデュ」のラジオをお送りしま〜す！\nかほめぐ♡じぇらーとでもラジオ配信したから、当然！ひめかほ♡フォンデュでもやるに決まってるよね！\nということは、いつもよりちょっと長くお話ししちゃうかも？",
+    "enquetes": [],
+    "gift_pt_rankings": [],
+    "gift_star_reward_segments": [
+      10000,
+      30000,
+      60000,
+      100000
+    ],
+    "gift_stars_threshold_for_extra_admission": 1,
+    "has_extra": true,
+    "has_extra_admission": false,
+    "is_archive_published": true,
+    "is_horizontal": true,
+    "live_location_id": 3,
+    "live_start_time": "2026-01-22T12:00:00Z",
+    "timeline_ids": [],
+    "timelines": [],
+    "title": "ひめかほ♡フォンデュ",
+    "total_gift_pt": "404,319,050",
+    "total_play_time_second_including_extra": 3960,
+    "total_play_time_second_without_extra": 2940,
+    "unixtime_live_rec_started": 1769082600,
+    "user_gift_pt_including_archive": 0,
+    "user_gift_pt_ranking": 0,
+    "user_gift_pt_without_archive": 0,
+    "user_icon_parts_info": "",
+    "viewer_count": 0
+  },
   "8ba1e2d8-2bbf-415d-ba2c-c046ee0b647d": {
     "chapters": [
       {
