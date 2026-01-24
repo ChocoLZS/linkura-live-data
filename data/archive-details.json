@@ -1,4 +1,75 @@
 {
+  "e0bd729a-90ea-4e82-ba4d-2eaf45d30ed0": {
+    "archive_url": "/archive/alst/20260124135000-9a348b23-4849-4201-8668-c00a3b16fa42/811c9dc5cf4eb.md",
+    "chapters": [
+      {
+        "is_extra": false,
+        "name": "本編開始",
+        "play_time_second": 657
+      },
+      {
+        "is_extra": true,
+        "name": "With×MEETS AFTER 開場",
+        "play_time_second": 2100
+      },
+      {
+        "is_extra": true,
+        "name": "With×MEETS AFTER 開演",
+        "play_time_second": 2150
+      }
+    ],
+    "characters": [
+      {
+        "character_id": 1052,
+        "is_guest": false
+      },
+      {
+        "character_id": 1042,
+        "is_guest": false
+      },
+      {
+        "character_id": 1032,
+        "is_guest": false
+      },
+      {
+        "character_id": 1033,
+        "is_guest": false
+      }
+    ],
+    "content_code": 999,
+    "costume_ids": [
+      1001
+    ],
+    "current_play_time_second": 0,
+    "description": "〜♪\nRuri&Toだよ〜♪\n今日はカラオケ蓮ノ空番外編、ハナウタ蓮ノ空〜♩\nたまにはこういうのもいいって、ルリ思う、ゆえにルリあり〜♫",
+    "enquetes": [],
+    "gift_pt_rankings": [],
+    "gift_star_reward_segments": [
+      10000,
+      30000,
+      60000,
+      100000
+    ],
+    "gift_stars_threshold_for_extra_admission": 1,
+    "has_extra": true,
+    "has_extra_admission": false,
+    "is_archive_published": true,
+    "is_horizontal": true,
+    "live_location_id": 3,
+    "live_start_time": "2026-01-24T05:00:00Z",
+    "timeline_ids": [],
+    "timelines": [],
+    "title": "Ruri&Toで\"ハナウタ\"蓮ノ空♪ ",
+    "total_gift_pt": "468,413,530",
+    "total_play_time_second_including_extra": 2700,
+    "total_play_time_second_without_extra": 2100,
+    "unixtime_live_rec_started": 1769230200,
+    "user_gift_pt_including_archive": 0,
+    "user_gift_pt_ranking": 0,
+    "user_gift_pt_without_archive": 0,
+    "user_icon_parts_info": "",
+    "viewer_count": 0
+  },
   "600b91bf-92ff-42fb-899f-6228ef95c4e2": {
     "archive_url": "/archive/alst/20260122205000-0f856ebf-9606-4ebd-beaf-bcbea7885b35/811c9dc5af388.md",
     "chapters": [
