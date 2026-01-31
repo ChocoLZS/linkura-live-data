@@ -1,4 +1,67 @@
 {
+  "32abe853-07d0-4f09-bd11-86a00543d135": {
+    "archive_url": "/archive/alst/20260131135001-affc4fbd-47ad-4d2d-8ff1-cc0459954757/811c9dc52451.md",
+    "chapters": [
+      {
+        "is_extra": false,
+        "name": "本編開始",
+        "play_time_second": 590
+      },
+      {
+        "is_extra": true,
+        "name": "With×MEETS AFTER 開場",
+        "play_time_second": 1740
+      },
+      {
+        "is_extra": true,
+        "name": "With×MEETS AFTER 開演",
+        "play_time_second": 1791
+      }
+    ],
+    "characters": [
+      {
+        "character_id": 1043,
+        "is_guest": false
+      },
+      {
+        "character_id": 1033,
+        "is_guest": false
+      }
+    ],
+    "content_code": 999,
+    "costume_ids": [
+      3019
+    ],
+    "current_play_time_second": 0,
+    "description": "はろはろ〜姫芽です〜\nカラオケ蓮ノ空ユニット編、今回はみらくらぱーく！なわけですが・・・\nルリちゃん先輩の歌声をそばで聴けるって、なんて素敵なことなんでしょう〜！？\nいやいやもちろんFes×LIVEなどなど、みらくらぱーく！に加入してからずっとそうではあるんですがカラオケ蓮ノ空って他のユニットの曲も歌うのでそれをルリちゃん先輩とやるって決まった時に改めて感じたと言いますか〜！！\n文字数〜！！\n心残りの無いようにめいっぱい楽しんで歌います(((o(*ﾟ▽ﾟ*)o)))",
+    "enquetes": [],
+    "gift_pt_rankings": [],
+    "gift_star_reward_segments": [
+      10000,
+      30000,
+      60000,
+      100000
+    ],
+    "gift_stars_threshold_for_extra_admission": 1,
+    "has_extra": true,
+    "has_extra_admission": false,
+    "is_archive_published": true,
+    "is_horizontal": true,
+    "live_location_id": 7,
+    "live_start_time": "2026-01-31T05:00:00Z",
+    "timeline_ids": [],
+    "timelines": [],
+    "title": "カラオケ蓮ノ空 みらくらぱーく！編！",
+    "total_gift_pt": "413,117,650",
+    "total_play_time_second_including_extra": 2340,
+    "total_play_time_second_without_extra": 1740,
+    "unixtime_live_rec_started": 1769835001,
+    "user_gift_pt_including_archive": 0,
+    "user_gift_pt_ranking": 0,
+    "user_gift_pt_without_archive": 0,
+    "user_icon_parts_info": "",
+    "viewer_count": 0
+  },
   "cad5ec9d-4907-4a96-a271-8dae6c2389e2": {
     "archive_url": "/archive/alst/20260129202000-49310a32-62d8-4772-b2c9-1dc8f1bac409/811c9dc5b70b5.md",
     "chapters": [
