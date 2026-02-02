@@ -1,4 +1,62 @@
 {
+  "476b7b4d-a64d-46dd-bfeb-9e31ca7832e2": {
+    "archive_url": "/archive/alst/20260202202000-e9f941a2-fd4d-40d2-bcb2-9fe8eadfd4db/811c9dc5e882e.md",
+    "chapters": [
+      {
+        "is_extra": false,
+        "name": "本編開始",
+        "play_time_second": 590
+      },
+      {
+        "is_extra": true,
+        "name": "With×MEETS AFTER 開場",
+        "play_time_second": 1680
+      },
+      {
+        "is_extra": true,
+        "name": "With×MEETS AFTER 開演",
+        "play_time_second": 1730
+      }
+    ],
+    "characters": [
+      {
+        "character_id": 1052,
+        "is_guest": false
+      }
+    ],
+    "content_code": 999,
+    "costume_ids": [
+      1001
+    ],
+    "current_play_time_second": 0,
+    "description": "セラス 柳田 シンプルイズベストです。\n雑談です。\nよろしくお願いします。",
+    "enquetes": [],
+    "gift_pt_rankings": [],
+    "gift_star_reward_segments": [
+      10000,
+      30000,
+      60000,
+      100000
+    ],
+    "gift_stars_threshold_for_extra_admission": 1,
+    "has_extra": true,
+    "has_extra_admission": false,
+    "is_archive_published": true,
+    "live_location_id": 34,
+    "live_start_time": "2026-02-02T11:30:00Z",
+    "timeline_ids": [],
+    "timelines": [],
+    "title": "雑談",
+    "total_gift_pt": "448,447,400",
+    "total_play_time_second_including_extra": 2340,
+    "total_play_time_second_without_extra": 1680,
+    "unixtime_live_rec_started": 1770031200,
+    "user_gift_pt_including_archive": 0,
+    "user_gift_pt_ranking": 0,
+    "user_gift_pt_without_archive": 0,
+    "user_icon_parts_info": "",
+    "viewer_count": 0
+  },
   "32abe853-07d0-4f09-bd11-86a00543d135": {
     "archive_url": "/archive/alst/20260131135001-affc4fbd-47ad-4d2d-8ff1-cc0459954757/811c9dc52451.md",
     "chapters": [
