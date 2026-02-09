@@ -1,4 +1,75 @@
 {
+  "a481fe4c-c279-4a02-b357-38fbec66005c": {
+    "archive_url": "/archive/alst/20260209202000-8317d802-3139-4fe3-ace1-5f54eefc10ef/811c9dc5d73a3.md",
+    "chapters": [
+      {
+        "is_extra": false,
+        "name": "本編開始",
+        "play_time_second": 591
+      },
+      {
+        "is_extra": true,
+        "name": "With×MEETS AFTER 開場",
+        "play_time_second": 1980
+      },
+      {
+        "is_extra": true,
+        "name": "With×MEETS AFTER 開演",
+        "play_time_second": 2031
+      }
+    ],
+    "characters": [
+      {
+        "character_id": 1051,
+        "is_guest": false
+      },
+      {
+        "character_id": 1041,
+        "is_guest": false
+      },
+      {
+        "character_id": 1043,
+        "is_guest": false
+      },
+      {
+        "character_id": 1031,
+        "is_guest": false
+      }
+    ],
+    "content_code": 999,
+    "costume_ids": [
+      1001
+    ],
+    "current_play_time_second": 0,
+    "description": "〜♪\nPRINCEε>ε>です〜♪\nハナウタ蓮ノ空の第二回がやってきましたよ～♫\nおねむちゃんな方は、聴きながら寝ちゃっても、いいですよ～♩",
+    "enquetes": [],
+    "gift_pt_rankings": [],
+    "gift_star_reward_segments": [
+      10000,
+      30000,
+      60000,
+      100000
+    ],
+    "gift_stars_threshold_for_extra_admission": 1,
+    "has_extra": true,
+    "has_extra_admission": false,
+    "is_archive_published": true,
+    "is_horizontal": true,
+    "live_location_id": 3,
+    "live_start_time": "2026-02-09T11:30:00Z",
+    "timeline_ids": [],
+    "timelines": [],
+    "title": "PRINCEε>ε>で\"ハナウタ\"蓮ノ空♫ ",
+    "total_gift_pt": "561,274,480",
+    "total_play_time_second_including_extra": 2580,
+    "total_play_time_second_without_extra": 1980,
+    "unixtime_live_rec_started": 1770636000,
+    "user_gift_pt_including_archive": 0,
+    "user_gift_pt_ranking": 0,
+    "user_gift_pt_without_archive": 0,
+    "user_icon_parts_info": "",
+    "viewer_count": 0
+  },
   "cc994d2a-88af-4307-86ac-a75592d1750c": {
     "archive_url": "/archive/alst/20260207135000-cd9f8b41-558b-41d9-a271-f897ed2eae2e/811c9dc5c19a4.md",
     "chapters": [
