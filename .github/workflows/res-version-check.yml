@@ -292,7 +292,9 @@ jobs:
         NEW_RES_DISPLAY="${RES_VER:-未知}"
 
         CLIENT_CHANGE_LINE="🔄 客户端: ${OLD_CLIENT_DISPLAY} → ${NEW_CLIENT_DISPLAY}"
-        RES_CHANGE_LINE="📦 资源: ${OLD_RES_DISPLAY} → ${NEW_RES_DISPLAY}"
+        CLIENT_CURRENT_LINE="🔄 客户端版本: ${NEW_CLIENT_DISPLAY}"
+        RES_CURRENT_LINE="📦 资源版本: ${NEW_RES_DISPLAY}"
+        RES_CHANGE_LINE="📦 资源版本: ${OLD_RES_DISPLAY} → ${NEW_RES_DISPLAY}"
 
         # 根据更新类型构建消息：仅展示实际发生变化的项
         case "$UPDATE_TYPE" in
@@ -301,12 +303,12 @@ jobs:
             QQ_MSG="🎉 Linkura 更新\n\n${CLIENT_CHANGE_LINE}\n${RES_CHANGE_LINE}"
             ;;
           "client")
-            TG_MSG="🎉 Linkura 更新%0A%0A${CLIENT_CHANGE_LINE}"
-            QQ_MSG="🎉 Linkura 更新\n\n${CLIENT_CHANGE_LINE}"
+            TG_MSG="🎉 Linkura 更新%0A%0A${CLIENT_CHANGE_LINE}%0A${RES_CURRENT_LINE}"
+            QQ_MSG="🎉 Linkura 更新\n\n${CLIENT_CHANGE_LINE}\n${RES_CURRENT_LINE}"
             ;;
           "res")
-            TG_MSG="🎉 Linkura 更新%0A%0A${RES_CHANGE_LINE}"
-            QQ_MSG="🎉 Linkura 更新\n\n${RES_CHANGE_LINE}"
+            TG_MSG="🎉 Linkura 更新%0A%0A${CLIENT_CURRENT_LINE}%0A${RES_CHANGE_LINE}"
+            QQ_MSG="🎉 Linkura 更新\n\n${CLIENT_CURRENT_LINE}\n${RES_CHANGE_LINE}"
             ;;
           *)
             TG_MSG="🎉 Linkura 更新%0A%0A✅ 检测到版本更新"
