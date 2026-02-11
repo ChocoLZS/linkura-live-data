@@ -5,6 +5,15 @@ permissions:
 
 on:
   workflow_dispatch:  # 允许手动触发
+    inputs:
+      dry_run:
+        description: 'Dry run mode (skip commit/upload/notification)'
+        required: false
+        default: 'false'
+        type: choice
+        options:
+          - 'false'
+          - 'true'
 
 jobs:
   check-res-version:
@@ -14,6 +23,8 @@ jobs:
       update_type: ${{ steps.version-check.outputs.update_type }}
       client_version: ${{ steps.version-check.outputs.client_version }}
       res_version: ${{ steps.version-check.outputs.res_version }}
+      old_client_version: ${{ steps.version-check.outputs.old_client_version }}
+      old_res_version: ${{ steps.version-check.outputs.old_res_version }}
     
     steps:
     - name: Checkout repository
@@ -87,7 +98,7 @@ jobs:
         fi
     
     - name: Configure Git
-      if: steps.version-check.outputs.new_version == 'true'
+      if: steps.version-check.outputs.new_version == 'true' && github.event.inputs.dry_run != 'true'
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
@@ -127,7 +138,7 @@ jobs:
         echo "生成的提交信息: ${MSG}"
 
     - name: Commit and push changes
-      if: steps.version-check.outputs.new_version == 'true'
+      if: steps.version-check.outputs.new_version == 'true' && github.event.inputs.dry_run != 'true'
       uses: EndBug/add-and-commit@v9
       with:
         default_author: github_actions
@@ -136,6 +147,14 @@ jobs:
           - data/res_version.txt
           - others/linkura-googleplay-apk.csv
           - data/client-res.json
+
+    - name: Dry run summary
+      if: steps.version-check.outputs.new_version == 'true' && github.event.inputs.dry_run == 'true'
+      run: |
+        echo "🧪 **Dry Run 模式**" >> $GITHUB_STEP_SUMMARY
+        echo "本次不会提交代码、不会上传 R2、不会发送真实通知。" >> $GITHUB_STEP_SUMMARY
+        echo "预期提交信息: \`${{ steps.commit-msg.outputs.commit_message }}\`" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
     
     - name: Create summary
       run: |
@@ -178,7 +197,11 @@ jobs:
               echo "✅ 检测到版本更新" >> $GITHUB_STEP_SUMMARY
               ;;
           esac
-          echo "📝 已提交更新到仓库" >> $GITHUB_STEP_SUMMARY
+          if [ "${{ github.event.inputs.dry_run }}" == "true" ]; then
+            echo "🧪 Dry Run：未提交仓库变更（仅预览）" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "📝 已提交更新到仓库" >> $GITHUB_STEP_SUMMARY
+          fi
         else
           echo "ℹ️ **没有检测到版本更新**" >> $GITHUB_STEP_SUMMARY
         fi
@@ -186,7 +209,7 @@ jobs:
   auto-upload:
     runs-on: ubuntu-latest
     needs: check-res-version
-    if: ${{ success() && needs.check-res-version.outputs.new_version == 'true' }}
+    if: ${{ success() && needs.check-res-version.outputs.new_version == 'true' && github.event.inputs.dry_run != 'true' }}
     
     steps:
     - name: Checkout repository
@@ -262,36 +285,45 @@ jobs:
         OLD_CLIENT_VER="${{ needs.check-res-version.outputs.old_client_version }}"
         OLD_RES_VER="${{ needs.check-res-version.outputs.old_res_version }}"
         
-        # 构建版本显示文本（处理空值情况）
-        if [ -n "$OLD_CLIENT_VER" ]; then
-          CLIENT_DISPLAY_TG="🔄 客户端: ${OLD_CLIENT_VER} → ${CLIENT_VER}"
-          CLIENT_DISPLAY_QQ="🔄 客户端: ${OLD_CLIENT_VER} → ${CLIENT_VER}"
-        else
-          CLIENT_DISPLAY_TG="🔄 客户端: ${CLIENT_VER}"
-          CLIENT_DISPLAY_QQ="🔄 客户端: ${CLIENT_VER}"
-        fi
-        
-        if [ -n "$OLD_RES_VER" ]; then
-          RES_DISPLAY_TG="📦 资源: ${OLD_RES_VER} → ${RES_VER}"
-          RES_DISPLAY_QQ="📦 资源: ${OLD_RES_VER} → ${RES_VER}"
-        else
-          RES_DISPLAY_TG="📦 资源: ${RES_VER}"
-          RES_DISPLAY_QQ="📦 资源: ${RES_VER}"
-        fi
-        
-        # 构建统一的消息内容
+        # 构建变化显示文本
+        OLD_CLIENT_DISPLAY="${OLD_CLIENT_VER:-未知}"
+        NEW_CLIENT_DISPLAY="${CLIENT_VER:-未知}"
+        OLD_RES_DISPLAY="${OLD_RES_VER:-未知}"
+        NEW_RES_DISPLAY="${RES_VER:-未知}"
+
+        CLIENT_CHANGE_LINE="🔄 客户端: ${OLD_CLIENT_DISPLAY} → ${NEW_CLIENT_DISPLAY}"
+        RES_CHANGE_LINE="📦 资源: ${OLD_RES_DISPLAY} → ${NEW_RES_DISPLAY}"
+
+        # 根据更新类型构建消息：仅展示实际发生变化的项
         case "$UPDATE_TYPE" in
-          "client+res"|"client"|"res")
-            # Telegram 消息格式（使用 %0A 作为换行符）
-            TG_MSG="🎉 Linkura 更新%0A%0A${CLIENT_DISPLAY_TG}%0A${RES_DISPLAY_TG}"
-            # QQ 消息格式（使用 \n）
-            QQ_MSG="🎉 Linkura 更新\n\n${CLIENT_DISPLAY_QQ}\n${RES_DISPLAY_QQ}"
+          "client+res")
+            TG_MSG="🎉 Linkura 更新%0A%0A${CLIENT_CHANGE_LINE}%0A${RES_CHANGE_LINE}"
+            QQ_MSG="🎉 Linkura 更新\n\n${CLIENT_CHANGE_LINE}\n${RES_CHANGE_LINE}"
+            ;;
+          "client")
+            TG_MSG="🎉 Linkura 更新%0A%0A${CLIENT_CHANGE_LINE}"
+            QQ_MSG="🎉 Linkura 更新\n\n${CLIENT_CHANGE_LINE}"
+            ;;
+          "res")
+            TG_MSG="🎉 Linkura 更新%0A%0A${RES_CHANGE_LINE}"
+            QQ_MSG="🎉 Linkura 更新\n\n${RES_CHANGE_LINE}"
             ;;
           *)
             TG_MSG="🎉 Linkura 更新%0A%0A✅ 检测到版本更新"
             QQ_MSG="🎉 Linkura 更新\n\n✅ 检测到版本更新"
             ;;
         esac
+
+        if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+          TG_PREVIEW="${TG_MSG//%0A/$'\n'}"
+          echo "🧪 Dry Run 模式：跳过真实通知发送"
+          echo "Telegram 消息预览:"
+          printf "%b\n" "$TG_PREVIEW"
+          echo ""
+          echo "QQ 消息预览:"
+          printf "%b\n" "$QQ_MSG"
+          exit 0
+        fi
         
         echo "发送 Telegram 通知..."
         
