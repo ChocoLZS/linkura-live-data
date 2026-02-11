@@ -52,6 +52,7 @@ jobs:
         # 获取更新前的状态
         OLD_RES_VERSION=""
         OLD_CLIENT_VERSION=""
+        OLD_CLIENT_RES_HASH=""
         if [ -f "../data/res_version.txt" ]; then
           OLD_RES_VERSION=$(head -n 1 ../data/res_version.txt)
           echo "脚本运行前 - OLD_RES_VERSION: [$OLD_RES_VERSION]"
@@ -59,6 +60,10 @@ jobs:
         if [ -f "../others/linkura-googleplay-apk.csv" ]; then
           OLD_CLIENT_VERSION=$(head -2 ../others/linkura-googleplay-apk.csv | tail -1 | cut -d',' -f2)
           echo "脚本运行前 - OLD_CLIENT_VERSION: [$OLD_CLIENT_VERSION]"
+        fi
+        if [ -f "../data/client-res.json" ]; then
+          OLD_CLIENT_RES_HASH=$(sha256sum ../data/client-res.json | awk '{print $1}')
+          echo "脚本运行前 - OLD_CLIENT_RES_HASH: [$OLD_CLIENT_RES_HASH]"
         fi
         
         # 运行版本检查脚本
@@ -68,6 +73,11 @@ jobs:
           # 获取更新后的版本信息
           NEW_RES_VERSION=$(head -n 1 ../data/res_version.txt)
           NEW_CLIENT_VERSION=$(head -2 ../others/linkura-googleplay-apk.csv | tail -1 | cut -d',' -f2)
+          NEW_CLIENT_RES_HASH=""
+          if [ -f "../data/client-res.json" ]; then
+            NEW_CLIENT_RES_HASH=$(sha256sum ../data/client-res.json | awk '{print $1}')
+            echo "脚本运行后 - NEW_CLIENT_RES_HASH: [$NEW_CLIENT_RES_HASH]"
+          fi
           
           # 确定更新类型
           UPDATE_TYPE=""
@@ -81,6 +91,9 @@ jobs:
           elif [ "$OLD_RES_VERSION" != "$NEW_RES_VERSION" ]; then
             UPDATE_TYPE="res"
             echo "检测到资源版本更新: $OLD_RES_VERSION -> $NEW_RES_VERSION"
+          elif [ "$OLD_CLIENT_RES_HASH" != "$NEW_CLIENT_RES_HASH" ]; then
+            UPDATE_TYPE="client-res"
+            echo "检测到 client-res.json 修复或变更"
           else
             UPDATE_TYPE="unknown"
           fi
@@ -128,6 +141,9 @@ jobs:
             ;;
           "res")
             MSG="feat: update resource version ${OLD_RES_VER} -> ${RES_VER} (${DATETIME})"
+            ;;
+          "client-res")
+            MSG="fix: repair client-res mapping (${DATETIME})"
             ;;
           *)
             MSG="feat: version update (${DATETIME})"
@@ -192,6 +208,9 @@ jobs:
               ;;
             "res")
               echo "📦 资源: ${OLD_RES_VER} → ${RES_VER}" >> $GITHUB_STEP_SUMMARY
+              ;;
+            "client-res")
+              echo "🛠️ client-res.json: 映射已修复" >> $GITHUB_STEP_SUMMARY
               ;;
             *)
               echo "✅ 检测到版本更新" >> $GITHUB_STEP_SUMMARY
@@ -293,6 +312,7 @@ jobs:
 
         CLIENT_CHANGE_LINE="🔄 客户端: ${OLD_CLIENT_DISPLAY} → ${NEW_CLIENT_DISPLAY}"
         RES_CHANGE_LINE="📦 资源: ${OLD_RES_DISPLAY} → ${NEW_RES_DISPLAY}"
+        CLIENT_RES_FIX_LINE="🛠️ client-res.json: 映射已修复"
 
         # 根据更新类型构建消息：仅展示实际发生变化的项
         case "$UPDATE_TYPE" in
@@ -307,6 +327,10 @@ jobs:
           "res")
             TG_MSG="🎉 Linkura 更新%0A%0A${RES_CHANGE_LINE}"
             QQ_MSG="🎉 Linkura 更新\n\n${RES_CHANGE_LINE}"
+            ;;
+          "client-res")
+            TG_MSG="🎉 Linkura 更新%0A%0A${CLIENT_RES_FIX_LINE}"
+            QQ_MSG="🎉 Linkura 更新\n\n${CLIENT_RES_FIX_LINE}"
             ;;
           *)
             TG_MSG="🎉 Linkura 更新%0A%0A✅ 检测到版本更新"
