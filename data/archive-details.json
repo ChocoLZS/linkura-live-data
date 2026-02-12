@@ -1,4 +1,172 @@
 {
+  "8b202ff4-934e-4956-b103-3e8f3d6a22c6": {
+    "archive_url": "/archive/alst/20260212202000-eb09b984-6f02-46d3-9bf2-e6cc6c2c8429/811c9dc5d935d.md",
+    "chapters": [
+      {
+        "is_extra": false,
+        "name": "本編開始",
+        "play_time_second": 590
+      },
+      {
+        "is_extra": true,
+        "name": "With×MEETS AFTER 開場",
+        "play_time_second": 2040
+      },
+      {
+        "is_extra": true,
+        "name": "With×MEETS AFTER 開演",
+        "play_time_second": 2091
+      }
+    ],
+    "characters": [
+      {
+        "character_id": 1051,
+        "is_guest": false
+      },
+      {
+        "character_id": 1041,
+        "is_guest": false
+      },
+      {
+        "character_id": 1042,
+        "is_guest": false
+      },
+      {
+        "character_id": 1043,
+        "is_guest": false
+      }
+    ],
+    "content_code": 999,
+    "costume_ids": [
+      1001
+    ],
+    "current_play_time_second": 0,
+    "description": "徒町です！\nふっふっふ・・・。\nさやか先輩が、あの時、あの場所で、何をしたのか、みなさんは知っていますか？\n徒町は知っています！\n今日はそんなクイズをお届けです！",
+    "enquetes": [
+      {
+        "enquete_id": "5fe36ee3-48a1-4492-a6af-26aa316d6833",
+        "options": [
+          {
+            "is_correct": true,
+            "is_max_rate": true,
+            "option_id": "e9a17b24-e16b-46e0-be3e-5f97ea382d37",
+            "option_letter": "A",
+            "rate": 70,
+            "text": "〇"
+          },
+          {
+            "is_correct": false,
+            "is_max_rate": false,
+            "option_id": "0587f676-79b4-4a25-96ac-25ef87663f64",
+            "option_letter": "B",
+            "rate": 30,
+            "text": "×"
+          }
+        ],
+        "question": "【第1問】〇か×か選んでね！",
+        "selected_option_id": null,
+        "status": 4
+      },
+      {
+        "enquete_id": "7f35d56c-95f4-40b2-9a38-e403f0ad3265",
+        "options": [
+          {
+            "is_correct": false,
+            "is_max_rate": false,
+            "option_id": "81f72f57-cb7a-4f49-90ca-76ed706dc2a6",
+            "option_letter": "A",
+            "rate": 35,
+            "text": "〇"
+          },
+          {
+            "is_correct": true,
+            "is_max_rate": true,
+            "option_id": "92b4979a-5a09-4c49-843b-a93f4890ed64",
+            "option_letter": "B",
+            "rate": 65,
+            "text": "×"
+          }
+        ],
+        "question": "【第2問】〇か×か選んでね！",
+        "selected_option_id": null,
+        "status": 4
+      },
+      {
+        "enquete_id": "1f90f3f4-001d-4598-9bf9-2b50e42a3604",
+        "options": [
+          {
+            "is_correct": false,
+            "is_max_rate": false,
+            "option_id": "d19c2f72-0820-4718-bc57-3c7fd1acc5c3",
+            "option_letter": "A",
+            "rate": 31,
+            "text": "〇"
+          },
+          {
+            "is_correct": true,
+            "is_max_rate": true,
+            "option_id": "e8a06fe4-3f5f-4a0b-b417-4597d239159f",
+            "option_letter": "B",
+            "rate": 69,
+            "text": "×"
+          }
+        ],
+        "question": "【第3問】〇か×か選んでね！",
+        "selected_option_id": null,
+        "status": 4
+      },
+      {
+        "enquete_id": "757e2124-1951-428a-ad4e-dee88fb6362e",
+        "options": [
+          {
+            "is_correct": false,
+            "is_max_rate": true,
+            "option_id": "8dc06d44-e444-4ae8-b21d-e6e17f47fed6",
+            "option_letter": "A",
+            "rate": 63,
+            "text": "〇"
+          },
+          {
+            "is_correct": true,
+            "is_max_rate": false,
+            "option_id": "90814faf-c243-40c6-bd7b-103c4fec5fcb",
+            "option_letter": "B",
+            "rate": 37,
+            "text": "×"
+          }
+        ],
+        "question": "【第4問】〇か×か選んでね！",
+        "selected_option_id": null,
+        "status": 4
+      }
+    ],
+    "gift_pt_rankings": [],
+    "gift_star_reward_segments": [
+      10000,
+      30000,
+      60000,
+      100000
+    ],
+    "gift_stars_threshold_for_extra_admission": 1,
+    "has_extra": true,
+    "has_extra_admission": false,
+    "is_archive_published": true,
+    "is_horizontal": true,
+    "live_location_id": 3,
+    "live_start_time": "2026-02-12T11:30:00Z",
+    "timeline_ids": [],
+    "timelines": [],
+    "title": "第一回相方◯×クイズ！",
+    "total_gift_pt": "560,239,400",
+    "total_play_time_second_including_extra": 2640,
+    "total_play_time_second_without_extra": 2040,
+    "unixtime_live_rec_started": 1770895200,
+    "user_gift_pt_including_archive": 0,
+    "user_gift_pt_ranking": 0,
+    "user_gift_pt_without_archive": 0,
+    "user_icon_parts_info": "",
+    "viewer_count": 0
+  },
   "a481fe4c-c279-4a02-b357-38fbec66005c": {
     "archive_url": "/archive/alst/20260209202000-8317d802-3139-4fe3-ace1-5f54eefc10ef/811c9dc5d73a3.md",
     "chapters": [
