@@ -1,4 +1,62 @@
 {
+  "8e781f0e-ad12-420d-9c35-9062481d5d18": {
+    "archive_url": "/archive/alst/20260214135000-673bd767-651e-4d4e-ab84-ec1c48bd2d2a/811c9dc574037.md",
+    "chapters": [
+      {
+        "is_extra": false,
+        "name": "本編開始",
+        "play_time_second": 591
+      },
+      {
+        "is_extra": true,
+        "name": "With×MEETS AFTER 開場",
+        "play_time_second": 2160
+      },
+      {
+        "is_extra": true,
+        "name": "With×MEETS AFTER 開演",
+        "play_time_second": 2211
+      }
+    ],
+    "characters": [
+      {
+        "character_id": 1031,
+        "is_guest": false
+      }
+    ],
+    "content_code": 999,
+    "costume_ids": [
+      1001
+    ],
+    "current_play_time_second": 0,
+    "description": "花帆だよ♪\nタイトルの通り、今日は日野下図書館を開催？します！\nみんなにおすすめしたい本がまだまだいっぱい、い～っぱいあるから、よかったら見に来てね！",
+    "enquetes": [],
+    "gift_pt_rankings": [],
+    "gift_star_reward_segments": [
+      10000,
+      30000,
+      60000,
+      100000
+    ],
+    "gift_stars_threshold_for_extra_admission": 1,
+    "has_extra": true,
+    "has_extra_admission": false,
+    "is_archive_published": true,
+    "live_location_id": 6,
+    "live_start_time": "2026-02-14T05:00:00Z",
+    "timeline_ids": [],
+    "timelines": [],
+    "title": "日野下図書館の時間だよ♪",
+    "total_gift_pt": "377,551,550",
+    "total_play_time_second_including_extra": 2700,
+    "total_play_time_second_without_extra": 2160,
+    "unixtime_live_rec_started": 1771044600,
+    "user_gift_pt_including_archive": 0,
+    "user_gift_pt_ranking": 0,
+    "user_gift_pt_without_archive": 0,
+    "user_icon_parts_info": "",
+    "viewer_count": 0
+  },
   "8b202ff4-934e-4956-b103-3e8f3d6a22c6": {
     "archive_url": "/archive/alst/20260212202000-eb09b984-6f02-46d3-9bf2-e6cc6c2c8429/811c9dc5d935d.md",
     "chapters": [
