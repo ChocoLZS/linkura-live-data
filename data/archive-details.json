@@ -1,4 +1,62 @@
 {
+  "e465a71b-e064-4766-a679-43d5a1e78d2d": {
+    "chapters": [
+      {
+        "is_extra": false,
+        "name": "本編開始",
+        "play_time_second": 709
+      },
+      {
+        "is_extra": true,
+        "name": "With×MEETS AFTER 開場",
+        "play_time_second": 1980
+      },
+      {
+        "is_extra": true,
+        "name": "With×MEETS AFTER 開演",
+        "play_time_second": 2029
+      }
+    ],
+    "characters": [
+      {
+        "character_id": 1031,
+        "is_guest": false
+      }
+    ],
+    "content_code": 999,
+    "costume_ids": [
+      1001
+    ],
+    "current_play_time_second": 0,
+    "description": "花帆だよ♪\n雑談配信の予定だったんだけど、みんなに伝えたいことができたから、With×MEETSの時間を使ってお話しさせてもらおうと思ったんだ。\nみんな、聞いて！",
+    "enquetes": [],
+    "gift_pt_rankings": [],
+    "gift_star_reward_segments": [
+      10000,
+      30000,
+      60000,
+      100000
+    ],
+    "gift_stars_threshold_for_extra_admission": 1,
+    "has_extra": true,
+    "has_extra_admission": false,
+    "is_archive_published": true,
+    "live_location_id": 3,
+    "live_start_time": "2026-02-19T11:30:00Z",
+    "timeline_ids": [],
+    "timelines": [],
+    "title": "伝えたいことがあるんだ！",
+    "total_gift_pt": "370,917,540",
+    "total_play_time_second_including_extra": 2637,
+    "total_play_time_second_without_extra": 1980,
+    "unixtime_live_rec_started": 1771499906,
+    "user_gift_pt_including_archive": 0,
+    "user_gift_pt_ranking": 0,
+    "user_gift_pt_without_archive": 0,
+    "user_icon_parts_info": "",
+    "video_url": "/archive/hls/e465a71b-e064-4766-a679-43d5a1e78d2d/2026-02-19T2018/hls/index.m3u8",
+    "viewer_count": 0
+  },
   "e5cf7814-d108-4185-9b98-db5913df6817": {
     "archive_url": "/archive/alst/20260216202001-12974cf3-7001-428c-881e-56661bded0d6/811c9dc5dc56.md",
     "chapters": [
