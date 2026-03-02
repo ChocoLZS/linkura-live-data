@@ -1,4 +1,79 @@
 {
+  "7723d28b-7d4a-41ca-bdbe-f3e287abee77": {
+    "archive_url": "/archive/alst/20260301205001-c73f7a23-5e30-4bc7-9ffc-6a3514ab2efe/811c9dc5340c5.md",
+    "chapters": [
+      {
+        "is_extra": false,
+        "name": "本編開始",
+        "play_time_second": 591
+      },
+      {
+        "is_extra": true,
+        "name": "With×MEETS AFTER 開場",
+        "play_time_second": 2160
+      },
+      {
+        "is_extra": true,
+        "name": "With×MEETS AFTER 開演",
+        "play_time_second": 2210
+      }
+    ],
+    "characters": [
+      {
+        "character_id": 1051,
+        "is_guest": false
+      },
+      {
+        "character_id": 1041,
+        "is_guest": false
+      },
+      {
+        "character_id": 1042,
+        "is_guest": false
+      },
+      {
+        "character_id": 1043,
+        "is_guest": false
+      },
+      {
+        "character_id": 1032,
+        "is_guest": false
+      }
+    ],
+    "content_code": 999,
+    "costume_ids": [
+      1001
+    ],
+    "current_play_time_second": 0,
+    "description": "村野さやかです\n小鈴さんももう17歳なんですね\n自分も通った道ですが、なんだか感慨深く感じます\nこの配信が小鈴さんにとって特別なものになりますように",
+    "enquetes": [],
+    "gift_pt_rankings": [],
+    "gift_star_reward_segments": [
+      10000,
+      30000,
+      60000,
+      100000
+    ],
+    "gift_stars_threshold_for_extra_admission": 1,
+    "has_extra": true,
+    "has_extra_admission": false,
+    "is_archive_published": true,
+    "is_horizontal": true,
+    "live_location_id": 3,
+    "live_start_time": "2026-03-01T12:00:00Z",
+    "timeline_ids": [],
+    "timelines": [],
+    "title": "徒町小鈴生誕祭 ~17歳編~",
+    "total_gift_pt": "612,709,710",
+    "total_play_time_second_including_extra": 2700,
+    "total_play_time_second_without_extra": 2160,
+    "unixtime_live_rec_started": 1772365801,
+    "user_gift_pt_including_archive": 0,
+    "user_gift_pt_ranking": 0,
+    "user_gift_pt_without_archive": 0,
+    "user_icon_parts_info": "",
+    "viewer_count": 0
+  },
   "a9caf7f5-a45e-4aaa-adcf-1ec5a9f7a54c": {
     "archive_url": "/archive/alst/20260226202000-f3579f95-272d-448a-9287-bae7a1b8fc46/811c9dc57cde1.md",
     "chapters": [
