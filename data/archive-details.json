@@ -1,4 +1,73 @@
 {
+  "9da49067-c7f1-4639-aa80-a9e134f14f74": {
+    "chapters": [
+      {
+        "is_extra": false,
+        "name": "本編開始",
+        "play_time_second": 50
+      },
+      {
+        "is_extra": true,
+        "name": "With×MEETS AFTER 開場",
+        "play_time_second": 1500
+      },
+      {
+        "is_extra": true,
+        "name": "With×MEETS AFTER 開演",
+        "play_time_second": 1550
+      }
+    ],
+    "characters": [
+      {
+        "character_id": 1031,
+        "is_guest": false
+      },
+      {
+        "character_id": 1032,
+        "is_guest": false
+      },
+      {
+        "character_id": 1033,
+        "is_guest": false
+      }
+    ],
+    "content_code": 999,
+    "costume_ids": [
+      1001,
+      1002,
+      3027
+    ],
+    "current_play_time_second": 0,
+    "description": "大沢瑠璃乃だよ☆\n「見納めの会」ってみんな覚えてるかな？\n大三角の三人もやってたから、良かったらアーカイブを見てみてね～！\nというわけで、ルリたちもやっちゃいます！",
+    "enquetes": [],
+    "gift_pt_rankings": [],
+    "gift_star_reward_segments": [
+      10000,
+      30000,
+      60000,
+      100000
+    ],
+    "gift_stars_threshold_for_extra_admission": 1,
+    "has_extra": true,
+    "has_extra_admission": false,
+    "is_archive_published": true,
+    "is_horizontal": true,
+    "live_location_id": 3,
+    "live_start_time": "2026-03-05T11:30:00Z",
+    "timeline_ids": [],
+    "timelines": [],
+    "title": "三連華で見納めの会！",
+    "total_gift_pt": "693,463,010",
+    "total_play_time_second_including_extra": 1980,
+    "total_play_time_second_without_extra": 1500,
+    "unixtime_live_rec_started": 1772710140,
+    "user_gift_pt_including_archive": 0,
+    "user_gift_pt_ranking": 0,
+    "user_gift_pt_without_archive": 0,
+    "user_icon_parts_info": "",
+    "video_url": "/archive/hls/20260305/index.m3u8",
+    "viewer_count": 0
+  },
   "7723d28b-7d4a-41ca-bdbe-f3e287abee77": {
     "archive_url": "/archive/alst/20260301205001-c73f7a23-5e30-4bc7-9ffc-6a3514ab2efe/811c9dc5340c5.md",
     "chapters": [
