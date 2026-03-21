@@ -1,4 +1,67 @@
 {
+  "f7faa614-e103-44c1-a9d0-23fbcac38fc5": {
+    "archive_url": "/archive/alst/20260321135001-339018ba-a256-42f5-a844-544bd9f99cde/811c9dc5c83c.md",
+    "chapters": [
+      {
+        "is_extra": false,
+        "name": "本編開始",
+        "play_time_second": 590
+      },
+      {
+        "is_extra": true,
+        "name": "With×MEETS AFTER 開場",
+        "play_time_second": 1920
+      },
+      {
+        "is_extra": true,
+        "name": "With×MEETS AFTER 開演",
+        "play_time_second": 1970
+      }
+    ],
+    "characters": [
+      {
+        "character_id": 1052,
+        "is_guest": false
+      },
+      {
+        "character_id": 1051,
+        "is_guest": false
+      }
+    ],
+    "content_code": 999,
+    "costume_ids": [
+      1001
+    ],
+    "current_play_time_second": 0,
+    "description": "ごきげんよう、桂城 泉だ。\n仰々しいタイトルだが、普段のテンション感で配信する予定だから安心してくれ。\n少し未来の話をさせてもらおうと思ってる。\n今日もよろしく、セラス。",
+    "enquetes": [],
+    "gift_pt_rankings": [],
+    "gift_star_reward_segments": [
+      10000,
+      30000,
+      60000,
+      100000
+    ],
+    "gift_stars_threshold_for_extra_admission": 1,
+    "has_extra": true,
+    "has_extra_admission": false,
+    "is_archive_published": true,
+    "is_horizontal": true,
+    "live_location_id": 34,
+    "live_start_time": "2026-03-21T05:00:00Z",
+    "timeline_ids": [],
+    "timelines": [],
+    "title": "Edel Noteについてお知らせがございます",
+    "total_gift_pt": "604,484,010",
+    "total_play_time_second_including_extra": 2639,
+    "total_play_time_second_without_extra": 1920,
+    "unixtime_live_rec_started": 1774068601,
+    "user_gift_pt_including_archive": 0,
+    "user_gift_pt_ranking": 0,
+    "user_gift_pt_without_archive": 0,
+    "user_icon_parts_info": "",
+    "viewer_count": 0
+  },
   "5bf40a7b-8259-4f1e-9dcc-b9fb20663ffd": {
     "archive_url": "/archive/alst/20260319202000-cf1317d9-56f2-4d8c-b8da-30a6e3e592e4/811c9dc5dccd2.md",
     "chapters": [
