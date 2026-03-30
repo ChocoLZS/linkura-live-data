@@ -15,6 +15,7 @@ web_ua="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTM
 
 # 文件路径
 res_version_file="../data/res_version.txt"
+res_ios_version_file="../data/res_ios_version.txt"
 csv_file="../others/linkura-googleplay-apk.csv"
 client_res_file="../data/client-res.json"
 client_ios_res_file="../data/client-ios-res.json"
@@ -324,16 +325,27 @@ new_ios_res_version=$(echo "$ios_response_headers" | grep -i "x-res-version:" | 
 if [ -n "$new_ios_res_version" ]; then
     echo "获取到iOS资源版本: $new_ios_res_version"
     
-    # 检查iOS资源版本是否需要更新（与Android版本比较）
-    if [ "$new_ios_res_version" != "$new_res_version" ]; then
-        echo "检测到iOS资源版本与Android不同: $new_ios_res_version"
-        has_new_ios_res_version=true
-    else
-        # 即使与Android版本相同，也需要检查是否是新版本
-        if [ "$has_new_res_version" = true ]; then
+    # 检查iOS资源版本是否需要更新
+    if [ -f "$res_ios_version_file" ]; then
+        current_ios_res_version=$(head -1 "$res_ios_version_file")
+        if [ "$new_ios_res_version" != "$current_ios_res_version" ]; then
+            echo "检测到新的iOS资源版本: $new_ios_res_version"
             has_new_ios_res_version=true
+            
+            # 更新iOS资源版本文件
+            echo "更新iOS资源版本文件..."
+            temp_file=$(mktemp)
+            echo "$new_ios_res_version" > "$temp_file"
+            cat "$res_ios_version_file" >> "$temp_file"
+            mv "$temp_file" "$res_ios_version_file"
+            echo "iOS资源版本文件已更新"
+        else
+            echo "iOS资源版本无变化: $new_ios_res_version"
         fi
-        echo "iOS资源版本: $new_ios_res_version"
+    else
+        echo "创建新的iOS资源版本文件..."
+        echo "$new_ios_res_version" > "$res_ios_version_file"
+        has_new_ios_res_version=true
     fi
 else
     echo "警告: 未能获取到iOS资源版本"
