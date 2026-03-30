@@ -17,12 +17,14 @@ web_ua="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTM
 res_version_file="../data/res_version.txt"
 csv_file="../others/linkura-googleplay-apk.csv"
 client_res_file="../data/client-res.json"
+client_ios_res_file="../data/client-ios-res.json"
 
 # 创建data目录（如果不存在）
 mkdir -p "../data"
 
 # 标记变更
 has_new_res_version=false
+has_new_ios_res_version=false
 has_new_client_version=false
 
 # 函数定义
@@ -128,6 +130,67 @@ print('client-res.json已更新')
     echo "client-res.json增量更新完成"
 }
 
+update_client_ios_res_json() {
+    echo "增量更新client-ios-res.json..."
+    
+    python -c "
+import json
+import os
+from pathlib import Path
+
+# 参数
+client_version = '$web_client_version'
+res_version = '$new_ios_res_version'
+client_updated = '$has_new_client_version' == 'true'
+res_updated = '$has_new_ios_res_version' == 'true'
+
+print(f'更新参数(iOS): 客户端={client_version}({client_updated}), 资源={res_version}({res_updated})')
+
+# 文件路径
+client_ios_res_file = Path('../data/client-ios-res.json')
+
+# 加载现有数据
+if client_ios_res_file.exists():
+    try:
+        with open(client_ios_res_file, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+    except Exception as e:
+        print(f'警告: 加载client-ios-res.json失败: {e}')
+        data = {}
+else:
+    data = {}
+
+# 如果是新的客户端版本，创建新的映射条目
+if client_updated:
+    print(f'添加新客户端版本(iOS): {client_version}')
+    new_data = {client_version: []}
+    new_data.update(data)
+    data = new_data
+
+# 如果是新的资源版本，添加到对应的客户端版本
+if res_updated and res_version:
+    print(f'添加资源版本(iOS) {res_version} 到客户端版本 {client_version}')
+    
+    if client_version not in data:
+        data[client_version] = []
+    
+    if res_version not in data[client_version]:
+        data[client_version].append(res_version)
+        print(f'资源版本(iOS) {res_version} 已添加到 {client_version}')
+    else:
+        print(f'资源版本(iOS) {res_version} 已存在于 {client_version}')
+
+# 保存更新后的数据
+client_ios_res_file.parent.mkdir(exist_ok=True)
+with open(client_ios_res_file, 'w', encoding='utf-8') as f:
+    json.dump(data, f, indent=2, ensure_ascii=False)
+
+print('client-ios-res.json已更新')
+"
+    
+    echo "client-ios-res.json增量更新完成"
+}
+
 echo "=== 版本检测开始 ==="
 
 # 1. 获取Apple网页上的客户端版本
@@ -192,7 +255,7 @@ fi
 echo "使用客户端版本 $web_client_version 获取资源版本..."
 old_res_version="R2503000"  # 默认旧版本用于请求
 
-# 执行curl请求并捕获响应头
+# 执行curl请求（Android）并捕获响应头
 response_headers=$(curl -s -D - "$endpoint" \
      -H "content-type: application/json" \
      -H "x-client-version: $web_client_version" \
@@ -202,7 +265,7 @@ response_headers=$(curl -s -D - "$endpoint" \
      -d '{"device_specific_id":"","player_id":"","version":1}')
 
 if [ $? -ne 0 ]; then
-    echo "错误: API请求失败"
+    echo "错误: Android API请求失败"
     exit 1
 fi
 
@@ -210,13 +273,13 @@ fi
 new_res_version=$(echo "$response_headers" | grep -i "x-res-version:" | sed 's/.*x-res-version: *//i' | tr -d '\r\n')
 
 if [ -n "$new_res_version" ]; then
-    echo "获取到资源版本: $new_res_version"
+    echo "获取到Android资源版本: $new_res_version"
     
     # 4. 检查资源版本是否需要更新
     if [ -f "$res_version_file" ]; then
         current_res_version=$(head -1 "$res_version_file")
         if [ "$new_res_version" != "$current_res_version" ]; then
-            echo "检测到新的资源版本: $new_res_version"
+            echo "检测到新的Android资源版本: $new_res_version"
             has_new_res_version=true
             
             # 更新资源版本文件
@@ -229,7 +292,7 @@ if [ -n "$new_res_version" ]; then
             mv "$temp_file" "$res_version_file"
             echo "资源版本文件已更新"
         else
-            echo "资源版本无变化: $new_res_version"
+            echo "Android资源版本无变化: $new_res_version"
         fi
     else
         echo "创建新的资源版本文件..."
@@ -237,7 +300,43 @@ if [ -n "$new_res_version" ]; then
         has_new_res_version=true
     fi
 else
-    echo "警告: 未能获取到资源版本"
+    echo "警告: 未能获取到Android资源版本"
+fi
+
+# 执行curl请求（iOS）并捕获响应头
+echo "使用客户端版本 $web_client_version 获取iOS资源版本..."
+ios_response_headers=$(curl -s -D - "$endpoint" \
+     -H "content-type: application/json" \
+     -H "x-client-version: $web_client_version" \
+     -H "user-agent: inspix-ios/$web_client_version" \
+     -H "x-res-version: $old_res_version" \
+     -H "x-device-type: ios" \
+     -d '{"device_specific_id":"","player_id":"","version":1}')
+
+if [ $? -ne 0 ]; then
+    echo "错误: iOS API请求失败"
+    exit 1
+fi
+
+# 提取iOS资源版本
+new_ios_res_version=$(echo "$ios_response_headers" | grep -i "x-res-version:" | sed 's/.*x-res-version: *//i' | tr -d '\r\n')
+
+if [ -n "$new_ios_res_version" ]; then
+    echo "获取到iOS资源版本: $new_ios_res_version"
+    
+    # 检查iOS资源版本是否需要更新（与Android版本比较）
+    if [ "$new_ios_res_version" != "$new_res_version" ]; then
+        echo "检测到iOS资源版本与Android不同: $new_ios_res_version"
+        has_new_ios_res_version=true
+    else
+        # 即使与Android版本相同，也需要检查是否是新版本
+        if [ "$has_new_res_version" = true ]; then
+            has_new_ios_res_version=true
+        fi
+        echo "iOS资源版本: $new_ios_res_version"
+    fi
+else
+    echo "警告: 未能获取到iOS资源版本"
 fi
 
 # 5. 更新client-res.json（如果有任何变化）
@@ -247,16 +346,26 @@ if [ "$has_new_client_version" = true ] || [ "$has_new_res_version" = true ]; th
     update_client_res_json
 fi
 
+# 5b. 更新client-ios-res.json（如果有任何变化）
+if [ "$has_new_client_version" = true ] || [ "$has_new_ios_res_version" = true ]; then
+    echo ""
+    echo "更新client-ios-res.json..."
+    update_client_ios_res_json
+fi
+
 # 6. 总结和设置退出码
 echo ""
 echo "=== 版本检测完成 ==="
 echo "客户端版本: $web_client_version $([ "$has_new_client_version" = true ] && echo "(已更新)" || echo "(无变化)")"
 if [ -n "$new_res_version" ]; then
-    echo "资源版本: $new_res_version $([ "$has_new_res_version" = true ] && echo "(已更新)" || echo "(无变化)")"
+    echo "Android资源版本: $new_res_version $([ "$has_new_res_version" = true ] && echo "(已更新)" || echo "(无变化)")"
+fi
+if [ -n "$new_ios_res_version" ]; then
+    echo "iOS资源版本: $new_ios_res_version $([ "$has_new_ios_res_version" = true ] && echo "(已更新)" || echo "(无变化)")"
 fi
 
 # 根据是否有更新设置退出码
-if [ "$has_new_client_version" = true ] || [ "$has_new_res_version" = true ]; then
+if [ "$has_new_client_version" = true ] || [ "$has_new_res_version" = true ] || [ "$has_new_ios_res_version" = true ]; then
     echo "检测到更新，退出码: 0"
     exit 0
 else
