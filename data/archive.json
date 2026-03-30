@@ -12,7 +12,7 @@
     "has_extra": true,
     "has_extra_admission": false,
     "is_extra_started": true,
-    "is_publish_video_url": false,
+    "is_publish_video_url": true,
     "is_scheduled_start_time_visible": false,
     "live_end_time": "2026-03-28T12:10:01.168Z",
     "live_id": "cb5b6ce0-0fcb-4fd2-8550-8c6628734e43",
@@ -24,10 +24,10 @@
     "thumbnail_image_url": "https://assets.link-like-lovelive.app/with_meets/thumbnail_image/f9cd2880-941d-4cf5-b8e7-b764b532bc86.jpg",
     "ticket_list": [],
     "ticket_rank": 0,
-    "total_playing_time_second": 3000,
+    "total_playing_time_second": 2400,
     "trailer_end_time": "2026-03-28T11:20:00.88Z",
     "trailer_start_time": "2026-03-23T11:40:00Z",
-    "video_url": ""
+    "video_url": "/archive/hls/20260328/index.m3u8"
   },
   {
     "archive_video_size_in_byte": 1,
