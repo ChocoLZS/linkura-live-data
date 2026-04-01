@@ -1,4 +1,182 @@
 {
+  "8ccceeea-2c46-4ecd-a57d-703376ac5c81": {
+    "archive_url": "/archive/alst/20260330195000-020484da-05ff-4d39-9bc7-2f278ad094ca/811c9dc58c4ab.md",
+    "chapters": [
+      {
+        "is_available": true,
+        "is_extra": false,
+        "name": "本編開始",
+        "play_time_second": 590
+      },
+      {
+        "is_available": true,
+        "is_extra": false,
+        "name": "EdelinieN",
+        "play_time_second": 717
+      },
+      {
+        "is_available": true,
+        "is_extra": false,
+        "name": "Bloom Garden Party 開会",
+        "play_time_second": 932
+      },
+      {
+        "is_available": true,
+        "is_extra": false,
+        "name": "トモダチになれる場所（B.G.P. Ver）",
+        "play_time_second": 1045
+      },
+      {
+        "is_available": true,
+        "is_extra": false,
+        "name": "アイシイ（B.G.P. Ver）",
+        "play_time_second": 1354
+      },
+      {
+        "is_available": true,
+        "is_extra": false,
+        "name": "不思議と君とライブラリー（B.G.P. Ver）",
+        "play_time_second": 1601
+      },
+      {
+        "is_available": true,
+        "is_extra": false,
+        "name": "MC1",
+        "play_time_second": 1867
+      },
+      {
+        "is_available": true,
+        "is_extra": false,
+        "name": "今、過去、未来の三原色",
+        "play_time_second": 2871
+      },
+      {
+        "is_available": true,
+        "is_extra": false,
+        "name": "MC2",
+        "play_time_second": 3143
+      },
+      {
+        "is_available": false,
+        "is_extra": true,
+        "name": "Fes×LIVE AFTER 開場",
+        "play_time_second": 3780
+      },
+      {
+        "is_available": false,
+        "is_extra": true,
+        "name": "Fes×LIVE AFTER 開演",
+        "play_time_second": 3910
+      },
+      {
+        "is_available": false,
+        "is_extra": true,
+        "name": "Dream Believers（B.G.P. Ver）",
+        "play_time_second": 3957
+      },
+      {
+        "is_available": false,
+        "is_extra": true,
+        "name": "MC3",
+        "play_time_second": 4280
+      }
+    ],
+    "characters": [
+      {
+        "character_id": 1052,
+        "is_guest": false
+      },
+      {
+        "character_id": 1051,
+        "is_guest": false
+      },
+      {
+        "character_id": 1041,
+        "is_guest": false
+      },
+      {
+        "character_id": 1042,
+        "is_guest": false
+      },
+      {
+        "character_id": 1043,
+        "is_guest": false
+      },
+      {
+        "character_id": 1031,
+        "is_guest": false
+      },
+      {
+        "character_id": 1032,
+        "is_guest": false
+      },
+      {
+        "character_id": 1033,
+        "is_guest": false
+      },
+      {
+        "character_id": 1021,
+        "is_guest": false
+      },
+      {
+        "character_id": 1022,
+        "is_guest": false
+      },
+      {
+        "character_id": 1023,
+        "is_guest": false
+      }
+    ],
+    "content_code": 999,
+    "costume_ids": [
+      3001,
+      3033
+    ],
+    "current_camera_type": 1,
+    "current_play_time_second": 0,
+    "description": "出演者：\n■蓮ノ空女学院 スクールアイドルクラブ\n日野下 花帆\n村野 さやか\n乙宗 梢\n夕霧 綴理\n大沢 瑠璃乃\n藤島 慈\n百生 吟子\n徒町 小鈴\n安養寺 姫芽\nセラス 柳田 リリエンフェルト\n桂城 泉\n\nライブプロデュース：\n蓮ノ空女学院 スクールアイドルクラブ\n\nwith you…",
+    "gift_pt_rankings": [],
+    "has_extra_admission": false,
+    "live_location_id": 39,
+    "live_start_time": "2026-03-30T11:00:00Z",
+    "selectable_camera_types": [
+      1
+    ],
+    "ticket_rank": 1,
+    "timeline_ids": [
+      31098391,
+      50212391,
+      50223391,
+      50233391,
+      50243391,
+      50259391,
+      50269391,
+      31149391,
+      31039391,
+      31039392,
+      31039393,
+      31039394,
+      31039395,
+      31039396,
+      31039397,
+      31039398,
+      31036391,
+      31036392,
+      31016391,
+      31049391,
+      31049392
+    ],
+    "timelines": [],
+    "title": "Bloom Garden Party Fes×LIVE STAGE",
+    "total_gift_pt": "1,359,325,800",
+    "total_play_time_second": 3780,
+    "unixtime_live_rec_started": 1774867800,
+    "user_gift_pt": 0,
+    "user_gift_pt_ranking": 0,
+    "user_icon_parts_info": "",
+    "video_url": "/archive/hls/20260330/index.m3u8",
+    "viewer_count": 0
+  },
   "cb5b6ce0-0fcb-4fd2-8550-8c6628734e43": {
     "archive_url": "/archive/alst/20260328202000-08df9d8f-e861-4469-a472-ee858949a22a/811c9dc5e5963.md",
     "chapters": [
