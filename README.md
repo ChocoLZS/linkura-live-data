@@ -15,7 +15,7 @@ If you have earlier data and are willing to share, please feel free to [Pull Req
 
 - 2024-10-28 - 2025-03-07: [@yyflll](https://github.com/DYY-Studio)
 - 2023-10-28 - 2025-03-30: Case@[研学部](https://yearbook.hasu-link.club/)
-- Earlier ios res version: [@hasu-tools](https://github.com/kirara-research/hasu-tools)
+- Earlier ios res version: [@summertriangle-dev gh: summertriangle-dev](https://github.com/kirara-research/hasu-tools)
 
 
 - [link-like-diff](https://github.com/vertesan/link-like-diff)
