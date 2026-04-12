@@ -4,15 +4,70 @@
     "R2604002@fq0+5vXAbWwZkr1+OpPYXpCOYA=="
   ],
   "5.0.0": [
-    "R2604000@jPn4V93eSLybN/5qVHd+KsCoXg==",
-    "R2604000@R+hlUkEbaR3sjzZwg+vfpcCOYA=="
+    "R2604000@R+hlUkEbaR3sjzZwg+vfpcCOYA==",
+    "R2604000@jPn4V93eSLybN/5qVHd+KsCoXg=="
   ],
   "4.12.0": [
     "R2603250@c0Lqv7IJoznZicoo31TpwtC6Xg==",
     "R2603300@DaaIpKgHhq5YiGoX39simrDkXw=="
   ],
+  "4.11.5": [
+    "R2603100@Izp6lqj3fu/Yoakj6h4/eICGXQ==",
+    "R2603150@AFHQIubis3KM2G2AeLRLDuCQXQ==",
+    "R2603200@UetSb4OdquIIsvflWpy3X+DUXQ=="
+  ],
+  "4.11.1": [
+    "R2602202@ZWIS8sx6KALmPPVDkc6nrpD3Ww==",
+    "R2602250@v4vQCuVED8899PQAtT+gPKD5Ww==",
+    "R2602300@PBDzrOGniPvhXMOYQ7D0ncC5XA==",
+    "R2603000@BM4baT6W9Yv2GCHLtiw6uYDYXA==",
+    "R2603001@isduTGoofKyzDwDr4ZuNkIDYXA=="
+  ],
+  "4.11.0": [
+    "R2602200@LJsnlDujnwRMvEts1Cz9E7D7Ww==",
+    "R2602201@hd7bOPdcXSJsx/Hnzzvy17D7Ww==",
+    "R2602202@l0mtGG2rRXTmPPVDkc6nrpD3Ww=="
+  ],
+  "4.10.6": [
+    "R2602100@KP/mlSVZQYiLY8llC/CDJNDcWg==",
+    "R2602150@BlsysdBGhcP0xlDoHRFS+6CcWw==",
+    "R2602160@0rTULvBPphryDd8mD9mf6aC9Ww==",
+    "R2602161@JbTBvlrO0+sfiO5fKXCi6KC9Ww==",
+    "R2602170@BonwtUjQxL7W5AVUWHvJXfDDWw=="
+  ],
+  "4.10.5": [
+    "R2602000@YXeKi2wAGzhMM1QuVUtjCMC0Wg=="
+  ],
+  "4.10.2": [
+    "R2601000@q23dqUfOAvQhmf4BbnMf2oDYWA==",
+    "R2601050@1y6u4keLyPLurYycNwHK7JDpWA==",
+    "R2601100@vb07gNOzAHn9oV9FPHpbEpCYWQ==",
+    "R2601130@K19Dlf62/csQ43kcmGGs5eCqWQ==",
+    "R2601150@brA4jspyOUp7NVnl/arqq7CtWQ==",
+    "R2601170@9/uq0lzexY6QtWDSsT1iO7C6WQ==",
+    "R2601200@Q/38qsGpcMT6+tKwelTCg+DpWQ==",
+    "R2601300@bYi01G8bcN5qR20G1h0Z9ZCVWg=="
+  ],
+  "4.10.0": [
+    "R2512250@E/P6vBeE89BlTc/6luH1zPDEVw==",
+    "R2512270@gscxUyKV5b00UHX9lhhvkoDpVw==",
+    "R2512300@DIzYz9Tu8TTudxfGHbSrWaCgWA=="
+  ],
+  "4.9.5": [
+    "R2512100@C79sN4PHSvcrbbAba0OgPqDqVg==",
+    "R2512150@B/LxtbVqHoKwFEIlmfjWUID8Vg==",
+    "R2512170@Ka38H5zRYEBYArHdtcashqCPVw==",
+    "R2512200@UZqqOfBdK2dUy3uHYPfmsODAVw=="
+  ],
   "4.9.1": [
-    "R2511250@JMlthGKUl/QPHQB5dJO1CpDEVQ=="
+    "R2511250@JMlthGKUl/QPHQB5dJO1CpDEVQ==",
+    "R2511300@uJMMSol4Tqrty74TJiIKQsD3VQ==",
+    "R2511301@pOBT8BMwETg/JMR33qP80sD3VQ==",
+    "R2511350@/wFsaVZpxuF90Nn8hvo6yYCIVg==",
+    "R2512000@HxIBt8hqIELVscLNGXviFdCIVg==",
+    "R2512001@7MF1RmyjV+2eMaWQOLJX/dCIVg==",
+    "R2512030@6vPCkI1g0IMlKeOlXcQfYKCWVg==",
+    "R2512050@LkVySl08lq14J3CdHXeAO9CWVg=="
   ],
   "4.9.0": [
     "R2511170@87gjpA6XApQhaROQkJ7qnKDoVA==",
