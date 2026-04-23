@@ -1,0 +1,354 @@
+{
+    "bc8d535f-968b-49e9-b4f1-18979c0666d9": {
+        "timelines": [],
+        "gift_pt_rankings": [],
+        "live_location_id": 0,
+        "costume_ids": [],
+        "timeline_ids": [],
+        "video_url": "https://assets.link-like-lovelive.app/archive/hls/20260416/index.m3u8",
+        "chapters": [
+            {
+                "name": "本編開始",
+                "play_time_second": null,
+                "is_extra": false
+            },
+            {
+                "name": "With×STATION PLUS",
+                "play_time_second": 1903,
+                "is_extra": false
+            }
+        ],
+        "has_extra": false,
+        "gift_star_reward_segments": [
+            10000,
+            30000,
+            60000,
+            100000
+        ],
+        "gift_stars_threshold_for_extra_admission": 0,
+        "has_extra_admission": false,
+        "current_play_time_second": 0,
+        "total_play_time_second_without_extra": 0,
+        "total_play_time_second_including_extra": 0,
+        "start_time": "2026-04-16T12:00:00Z",
+        "title": "クイズ！これどんな魔法！？",
+        "description": "ｷｭｲﾝ!!瑠璃乃だよ☆\n今回はそれぞれオリジナルの魔法を持ってきました！\n「名前だけ」伝えるから、どんな魔法か予想してみてね～！",
+        "content_code": 0,
+        "viewer_count": 0,
+        "user_icon_parts_info": "",
+        "user_gift_pt": 0,
+        "user_gift_pt_ranking": 0,
+        "total_gift_pt": "0",
+        "characters": [
+            {
+                "character_id": 1031,
+                "is_guest": false,
+                "member_exp_per_next": 0.1,
+                "member_fan_level": 1,
+                "order": 6,
+                "season_exp_per_next": 0,
+                "season_fan_level": 1
+            },
+            {
+                "character_id": 1032,
+                "is_guest": false,
+                "member_exp_per_next": 0.9444444,
+                "member_fan_level": 3,
+                "order": 7,
+                "season_exp_per_next": 0,
+                "season_fan_level": 1
+            },
+            {
+                "character_id": 1033,
+                "is_guest": false,
+                "member_exp_per_next": 0.1,
+                "member_fan_level": 1,
+                "order": 8,
+                "season_exp_per_next": 0,
+                "season_fan_level": 1
+            }
+        ],
+        "is_archive_published": true,
+        "is_horizontal": true,
+        "cover_image_url": "https://assets.link-like-lovelive.app/with_meets/cover_image/3851d79e-4326-42b1-88e3-4fdcc4b2be11.jpg",
+        "bgm_acb_path": null,
+        "emoji_list": [],
+        "membership_list": [],
+        "user_profile": {
+            "name": "n",
+            "icon_parts_info": ""
+        },
+        "max_season_fan_level": 10,
+        "has_admission": true,
+        "enquetes": [],
+        "bgmAcbPath": ""
+    },
+    "0a24839e-6cc4-41af-83ef-4277e87f736f": {
+        "timelines": [],
+        "gift_pt_rankings": [],
+        "live_location_id": 0,
+        "costume_ids": [],
+        "timeline_ids": [],
+        "video_url": "https://assets.link-like-lovelive.app/archive/hls/20260413/index.m3u8",
+        "chapters": [
+            {
+                "name": "本編開始",
+                "play_time_second": null,
+                "is_extra": false
+            },
+            {
+                "name": "With×STATION PLUS",
+                "play_time_second": 666,
+                "is_extra": false
+            }
+        ],
+        "has_extra": false,
+        "gift_star_reward_segments": [
+            10000,
+            30000,
+            60000,
+            100000
+        ],
+        "gift_stars_threshold_for_extra_admission": 0,
+        "has_extra_admission": false,
+        "current_play_time_second": 0,
+        "total_play_time_second_without_extra": 0,
+        "total_play_time_second_including_extra": 0,
+        "start_time": "2026-04-13T11:30:00Z",
+        "title": "ソロでのセリフ読みに挑戦するよ",
+        "description": "ごきげんよう、桂城 泉だ。\nタイトルの通り、今回はセリフを読みをやらせてもらう。\nどうやら、熱望の声が多かったみたいでね、ありがたいよ。\n気に入ったら、また見てくれ。",
+        "content_code": 0,
+        "viewer_count": 0,
+        "user_icon_parts_info": "",
+        "user_gift_pt": 0,
+        "user_gift_pt_ranking": 0,
+        "total_gift_pt": "0",
+        "characters": [
+            {
+                "character_id": 1051,
+                "is_guest": false,
+                "member_exp_per_next": 0.1,
+                "member_fan_level": 1,
+                "order": 2,
+                "season_exp_per_next": 0,
+                "season_fan_level": 1
+            }
+        ],
+        "is_archive_published": true,
+        "is_horizontal": false,
+        "cover_image_url": "https://assets.link-like-lovelive.app/with_meets/cover_image/66fcb8d9-5463-41f4-988d-e53a8021b805.jpg",
+        "bgm_acb_path": null,
+        "emoji_list": [],
+        "membership_list": [],
+        "user_profile": {
+            "name": "n",
+            "icon_parts_info": ""
+        },
+        "max_season_fan_level": 10,
+        "has_admission": true,
+        "enquetes": [],
+        "bgmAcbPath": ""
+    },
+    "5193544d-cf77-4dfa-8071-db73c9d81cc1": {
+        "timelines": [],
+        "gift_pt_rankings": [],
+        "live_location_id": 0,
+        "costume_ids": [],
+        "timeline_ids": [],
+        "video_url": " https://assets.link-like-lovelive.app/archive/hls/20260409/index.m3u8",
+        "chapters": [
+            {
+                "name": "本編開始",
+                "play_time_second": null,
+                "is_extra": false
+            },
+            {
+                "name": "With×STATION PLUS",
+                "play_time_second": 818,
+                "is_extra": false
+            }
+        ],
+        "has_extra": false,
+        "gift_star_reward_segments": [
+            10000,
+            30000,
+            60000,
+            100000
+        ],
+        "gift_stars_threshold_for_extra_admission": 0,
+        "has_extra_admission": false,
+        "current_play_time_second": 0,
+        "total_play_time_second_without_extra": 0,
+        "total_play_time_second_including_extra": 0,
+        "start_time": "2026-04-09T12:00:00Z",
+        "title": "プロデュースされるみたいです。",
+        "description": "百生吟子です。\n本日の企画は、セラスプロデュースということで・・・\n収録の時まで台本を知らなかったんです。\nなので、不可抗力というか・・・。\nそんな感じです。",
+        "content_code": 0,
+        "viewer_count": 0,
+        "user_icon_parts_info": "",
+        "user_gift_pt": 0,
+        "user_gift_pt_ranking": 0,
+        "total_gift_pt": "0",
+        "characters": [
+            {
+                "character_id": 1041,
+                "is_guest": false,
+                "member_exp_per_next": 0.1,
+                "member_fan_level": 1,
+                "order": 3,
+                "season_exp_per_next": 0,
+                "season_fan_level": 1
+            }
+        ],
+        "is_archive_published": true,
+        "is_horizontal": false,
+        "cover_image_url": "https://assets.link-like-lovelive.app/with_meets/cover_image/c6df763f-c1d7-426b-857d-8a5c6955c2b8.jpg",
+        "bgm_acb_path": null,
+        "emoji_list": [],
+        "membership_list": [],
+        "user_profile": {
+            "name": "n",
+            "icon_parts_info": ""
+        },
+        "max_season_fan_level": 10,
+        "has_admission": true,
+        "enquetes": [],
+        "bgmAcbPath": ""
+    },
+    "45b0b615-eef5-44ec-afd4-b480a35203ec": {
+        "timelines": [],
+        "gift_pt_rankings": [],
+        "live_location_id": 0,
+        "costume_ids": [],
+        "timeline_ids": [],
+        "video_url": "https://assets.link-like-lovelive.app/archive/hls/20260406/index.m3u8",
+        "chapters": [
+            {
+                "name": "本編開始",
+                "play_time_second": null,
+                "is_extra": false
+            },
+            {
+                "name": "With×STATION PLUS",
+                "play_time_second": 1172,
+                "is_extra": false
+            }
+        ],
+        "has_extra": false,
+        "gift_star_reward_segments": [
+            10000,
+            30000,
+            60000,
+            100000
+        ],
+        "gift_stars_threshold_for_extra_admission": 0,
+        "has_extra_admission": false,
+        "current_play_time_second": 0,
+        "total_play_time_second_without_extra": 0,
+        "total_play_time_second_including_extra": 0,
+        "start_time": "2026-04-06T11:30:00Z",
+        "title": "姫芽と泉でカラオケ蓮ノ空シャッフル編",
+        "description": "ごきげんよう、桂城 泉だ。\nカラオケ蓮ノ空、シャッフル編の時間がやってきた。\n組み合わせはくじで決めたんだが、姫芽ちゃんとご一緒できるとはね。\nお楽しみいただけたら幸いだよ。",
+        "content_code": 0,
+        "viewer_count": 0,
+        "user_icon_parts_info": "",
+        "user_gift_pt": 0,
+        "user_gift_pt_ranking": 0,
+        "total_gift_pt": "0",
+        "characters": [
+            {
+                "character_id": 1043,
+                "is_guest": false,
+                "member_exp_per_next": 0.1,
+                "member_fan_level": 1,
+                "order": 5,
+                "season_exp_per_next": 0,
+                "season_fan_level": 1
+            },
+            {
+                "character_id": 1051,
+                "is_guest": false,
+                "member_exp_per_next": 0.1,
+                "member_fan_level": 1,
+                "order": 2,
+                "season_exp_per_next": 0,
+                "season_fan_level": 1
+            }
+        ],
+        "is_archive_published": true,
+        "is_horizontal": true,
+        "cover_image_url": "https://assets.link-like-lovelive.app/with_meets/cover_image/0caefe56-26a2-4732-a0e3-db6d06ea6ee4.jpg",
+        "bgm_acb_path": null,
+        "emoji_list": [],
+        "membership_list": [],
+        "user_profile": {
+            "name": "n",
+            "icon_parts_info": ""
+        },
+        "max_season_fan_level": 10,
+        "has_admission": true,
+        "enquetes": [],
+        "bgmAcbPath": ""
+    },
+    "a0f9b7b0-dd28-4657-9f1d-e84d9d473d9f": {
+        "timelines": [],
+        "gift_pt_rankings": [],
+        "live_location_id": 0,
+        "costume_ids": [],
+        "timeline_ids": [],
+        "video_url": "https://assets.link-like-lovelive.app/archive/hls/20260402/index.m3u8",
+        "chapters": [
+            {
+                "name": "本編開始",
+                "play_time_second": null,
+                "is_extra": false
+            }
+        ],
+        "has_extra": false,
+        "gift_star_reward_segments": [
+            10000,
+            30000,
+            60000,
+            100000
+        ],
+        "gift_stars_threshold_for_extra_admission": 0,
+        "has_extra_admission": false,
+        "current_play_time_second": 0,
+        "total_play_time_second_without_extra": 0,
+        "total_play_time_second_including_extra": 0,
+        "start_time": "2026-04-06T11:30:00Z",
+        "title": "「With×STATION」についてお知らせします！",
+        "description": "花帆だよ♪\n今回は「With×STATION」について説明します！\nいつもと違って短いけど、よろしくね！",
+        "content_code": 0,
+        "viewer_count": 0,
+        "user_icon_parts_info": "",
+        "user_gift_pt": 0,
+        "user_gift_pt_ranking": 0,
+        "total_gift_pt": "0",
+        "characters": [
+            {
+                "character_id": 1031,
+                "is_guest": false,
+                "member_exp_per_next": 0.1,
+                "member_fan_level": 1,
+                "order": 6,
+                "season_exp_per_next": 0,
+                "season_fan_level": 1
+            }
+        ],
+        "is_archive_published": true,
+        "is_horizontal": true,
+        "cover_image_url": "https://assets.link-like-lovelive.app/with_meets/cover_image/c02e027e-7c66-4106-991c-376b5e46453c.jpg",
+        "bgm_acb_path": null,
+        "emoji_list": [],
+        "membership_list": [],
+        "user_profile": {
+            "name": "n",
+            "icon_parts_info": ""
+        },
+        "max_season_fan_level": 10,
+        "has_admission": true,
+        "enquetes": [],
+        "bgmAcbPath": ""
+    }
+}

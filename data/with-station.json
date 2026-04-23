@@ -1,0 +1,171 @@
+[
+    {
+        "live_type": 3,
+        "live_id": "bc8d535f-968b-49e9-b4f1-18979c0666d9",
+        "status": 1,
+        "name": "クイズ！これどんな魔法！？",
+        "description": "ｷｭｲﾝ!!瑠璃乃だよ☆\n今回はそれぞれオリジナルの魔法を持ってきました！\n「名前だけ」伝えるから、どんな魔法か予想してみてね～！",
+        "ticket_list": [],
+        "trailer_start_time": "2026-04-13T11:30:00Z",
+        "trailer_end_time": "2999-01-01T00:00:00Z",
+        "start_time": "2026-04-16T12:00:00Z",
+        "end_time": "2999-01-01T00:00:00Z",
+        "interaction_start_time": "2026-04-16T12:00:00Z",
+        "interaction_end_time": "2999-01-01T00:00:00Z",
+        "external_link": "",
+        "thumbnail_image_url": "https://assets.link-like-lovelive.app/with_station/thumbnail_image/9decd2e9-2d98-487c-a5e1-c01dcfca83c8.jpg",
+        "ticket_rank": 1,
+        "character_list": [
+            {
+                "character_id": 1031
+            },
+            {
+                "character_id": 1032
+            },
+            {
+                "character_id": 1033
+            }
+        ],
+        "total_playing_time_second": 2366,
+        "is_publish_video_url": false,
+        "is_extra_started": false,
+        "has_extra": false,
+        "has_extra_admission": false,
+        "earned_star_count": 1,
+        "gift_stars_threshold_for_extra_admission": 0,
+        "video_url": "",
+        "archive_video_size_in_byte": 0,
+        "is_scheduled_start_time_visible": false
+    },
+    {
+        "live_type": 3,
+        "live_id": "0a24839e-6cc4-41af-83ef-4277e87f736f",
+        "status": 1,
+        "name": "ソロでのセリフ読みに挑戦するよ",
+        "description": "ごきげんよう、桂城 泉だ。\nタイトルの通り、今回はセリフを読みをやらせてもらう。\nどうやら、熱望の声が多かったみたいでね、ありがたいよ。\n気に入ったら、また見てくれ。",
+        "ticket_list": [],
+        "trailer_start_time": "2026-04-09T12:00:00Z",
+        "trailer_end_time": "2999-01-01T00:00:00Z",
+        "start_time": "2026-04-13T11:30:00Z",
+        "end_time": "2999-01-01T00:00:00Z",
+        "interaction_start_time": "2026-04-13T11:30:00Z",
+        "interaction_end_time": "2999-01-01T00:00:00Z",
+        "external_link": "",
+        "thumbnail_image_url": "https://assets.link-like-lovelive.app/with_station/thumbnail_image/8be7e2d4-6673-4d49-af14-9f211e2e2e37.jpg",
+        "ticket_rank": 1,
+        "character_list": [
+            {
+                "character_id": 1051
+            }
+        ],
+        "total_playing_time_second": 904,
+        "is_publish_video_url": false,
+        "is_extra_started": false,
+        "has_extra": false,
+        "has_extra_admission": false,
+        "earned_star_count": 0,
+        "gift_stars_threshold_for_extra_admission": 0,
+        "video_url": "",
+        "archive_video_size_in_byte": 0,
+        "is_scheduled_start_time_visible": false
+    },
+    {
+        "live_type": 3,
+        "live_id": "5193544d-cf77-4dfa-8071-db73c9d81cc1",
+        "status": 1,
+        "name": "プロデュースされるみたいです。",
+        "description": "百生吟子です。\n本日の企画は、セラスプロデュースということで・・・\n収録の時まで台本を知らなかったんです。\nなので、不可抗力というか・・・。\nそんな感じです。",
+        "ticket_list": [],
+        "trailer_start_time": "2026-04-06T11:30:00Z",
+        "trailer_end_time": "2999-01-01T00:00:00Z",
+        "start_time": "2026-04-09T12:00:00Z",
+        "end_time": "2999-01-01T00:00:00Z",
+        "interaction_start_time": "2026-04-09T12:00:00Z",
+        "interaction_end_time": "2999-01-01T00:00:00Z",
+        "external_link": "",
+        "thumbnail_image_url": "https://assets.link-like-lovelive.app/with_station/thumbnail_image/dbf6884f-e743-4b32-9dc4-3c9e23018d08.jpg",
+        "ticket_rank": 1,
+        "character_list": [
+            {
+                "character_id": 1041
+            }
+        ],
+        "total_playing_time_second": 1027,
+        "is_publish_video_url": false,
+        "is_extra_started": false,
+        "has_extra": false,
+        "has_extra_admission": false,
+        "earned_star_count": 0,
+        "gift_stars_threshold_for_extra_admission": 0,
+        "video_url": "",
+        "archive_video_size_in_byte": 0,
+        "is_scheduled_start_time_visible": false
+    },
+    {
+        "live_type": 3,
+        "live_id": "45b0b615-eef5-44ec-afd4-b480a35203ec",
+        "status": 1,
+        "name": "姫芽と泉でカラオケ蓮ノ空シャッフル編",
+        "description": "ごきげんよう、桂城 泉だ。\nカラオケ蓮ノ空、シャッフル編の時間がやってきた。\n組み合わせはくじで決めたんだが、姫芽ちゃんとご一緒できるとはね。\nお楽しみいただけたら幸いだよ。",
+        "ticket_list": [],
+        "trailer_start_time": "2026-04-06T11:30:00Z",
+        "trailer_end_time": "2999-01-01T00:00:00Z",
+        "start_time": "2026-04-06T11:30:00Z",
+        "end_time": "2999-01-01T00:00:00Z",
+        "interaction_start_time": "2026-04-06T11:30:00Z",
+        "interaction_end_time": "2999-01-01T00:00:00Z",
+        "external_link": "",
+        "thumbnail_image_url": "https://assets.link-like-lovelive.app/with_station/thumbnail_image/5ee8a154-ce69-475c-b384-ad1978eee0e2.jpg",
+        "ticket_rank": 1,
+        "character_list": [
+            {
+                "character_id": 1043
+            },
+            {
+                "character_id": 1051
+            }
+        ],
+        "total_playing_time_second": 1423,
+        "is_publish_video_url": false,
+        "is_extra_started": false,
+        "has_extra": false,
+        "has_extra_admission": false,
+        "earned_star_count": 0,
+        "gift_stars_threshold_for_extra_admission": 0,
+        "video_url": "",
+        "archive_video_size_in_byte": 0,
+        "is_scheduled_start_time_visible": false
+    },
+    {
+        "live_type": 3,
+        "live_id": "a0f9b7b0-dd28-4657-9f1d-e84d9d473d9f",
+        "status": 1,
+        "name": "「With×STATION」についてお知らせします！",
+        "description": "花帆だよ♪\n今回は「With×STATION」について説明します！\nいつもと違って短いけど、よろしくね！",
+        "ticket_list": [],
+        "trailer_start_time": "2026-04-06T11:30:00Z",
+        "trailer_end_time": "2999-01-01T00:00:00Z",
+        "start_time": "2026-04-06T11:30:00Z",
+        "end_time": "2999-01-01T00:00:00Z",
+        "interaction_start_time": "2026-04-06T11:30:00Z",
+        "interaction_end_time": "2999-01-01T00:00:00Z",
+        "external_link": "",
+        "thumbnail_image_url": "https://assets.link-like-lovelive.app/with_station/thumbnail_image/3b80b53b-9c60-433e-8826-3d630c3a1826.jpg",
+        "ticket_rank": 1,
+        "character_list": [
+            {
+                "character_id": 1031
+            }
+        ],
+        "total_playing_time_second": 113,
+        "is_publish_video_url": false,
+        "is_extra_started": false,
+        "has_extra": false,
+        "has_extra_admission": false,
+        "earned_star_count": 0,
+        "gift_stars_threshold_for_extra_admission": 0,
+        "video_url": "",
+        "archive_video_size_in_byte": 0,
+        "is_scheduled_start_time_visible": false
+    }
+]
