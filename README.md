@@ -1,7 +1,11 @@
+
+
 # Linkura Live Data
 
 Automatically collected and archived data related to Linkura.
 自动化收集和归档 Linkura 相关数据的脚本。
+
+Data files are stored in the `data/` directory.
 
 ------
 
